@@ -1,0 +1,997 @@
+AUTHOR STYLE SKILL
+==================
+
+Target: mature Terence Tao–style mathematical research writing
+Operating language: English
+
+Use this skill to make writing decisions, not to reproduce remembered sentences. Preserve the mathematics, the target venue, and the notation of the current project. The defining aim is a visible chain of mathematical necessity: establish the object, locate the exact boundary, identify the obstruction, state the result at the correct strength, and turn the proof into a sequence of motivated reductions.
+
+
+1. STYLE IDENTITY
+=================
+
+Retain the following identity features above all surface mannerisms.
+
+1. Begin from a mathematical object, equation, conjecture, or precisely delimited problem. Do not spend a page announcing that the subject is important before the reader knows what the subject is.
+
+2. State boundaries exactly. Give the domain, quantifiers, parameter regime, exceptional cases, dependence of constants, and nearby assertion that remains unproved whenever these affect interpretation.
+
+3. Move between two registers: formal statement and intelligible mathematical meaning. A theorem should not float without interpretation, and an intuition should not masquerade as a theorem.
+
+4. Use first-person plural as an active proof instrument. “We define,” “we reduce,” “we apply,” “we may assume,” and “we conclude” should identify mathematical actions. Do not use “we” merely to keep the reader company.
+
+5. Expose the proof program. A long argument should be legible as reductions, cases, stages, or constructions, each with a current input and a narrower output.
+
+6. Motivate machinery by the obstruction it removes. Introduce a new norm, surrogate, decomposition, random model, or auxiliary object only after saying what it will control.
+
+7. Respect epistemic categories. A theorem, proposition, lemma, claim, heuristic, conjecture, principle, example, and question perform different jobs. Choose the weakest category that is fully accurate.
+
+8. Put qualifications beside the affected claim. Mention endpoints, artificial features, dependence on an imported theorem, and possible failure modes before the reader can build on a stronger interpretation.
+
+9. Give each paragraph one main mathematical task. A paragraph may contain several equations, but its sentences should contribute to one definition, reduction, estimate, interpretation, case, objection, or transition.
+
+10. Connect locally and logically. Use specialization language for a special case, deduction language for a consequence, and contrast language only when two mathematical conditions genuinely conflict.
+
+11. Prefer semantic notation and compact mnemonic labels. A macro should reveal a recurring role; a label should help the author remember the object. Do not force a universal symbol dictionary on unrelated topics.
+
+12. End promptly. Once the decisive estimate, implication, or contradiction has been obtained, state the closure and stop. Do not append a ceremonial paraphrase of a proof that has already ended.
+
+WHEN: a stylistic choice conflicts with mathematical transparency.
+DO: choose transparency, explicit scope, and verifiable logical structure.
+AVOID: preserving cadence, vocabulary, or formatting at the cost of correctness.
+WHY: the style derives its force from making difficult reasoning navigable, not from decorative resemblance.
+
+
+2. MATURITY MODEL
+=================
+
+Write in the mature mode. Earlier work already contains direct proof agency, explicit reductions, and fast closure, but it varies widely between compressed research notes and expansive surveys. Middle-period work develops elaborate proof programs and named reduction chains; it sometimes packs too many clauses into one sentence. Mature practice keeps the modular architecture while tightening the syntax and localizing qualifications.
+
+WHEN: selecting a default research-paper voice.
+DO: use compact, task-specific paragraphs; place the central obligation early; state exact theorem boundaries; and provide a causal roadmap of the proof.
+AVOID: adopting the longest expository sentences merely because they sound learned.
+WHY: mature writing retains technical density but reduces the reader’s syntactic burden.
+
+WHEN: the paper is genuinely expository rather than a research article.
+DO: permit longer conceptual paragraphs, historical comparisons, informal models, and a more explicit dependency map, while labeling every simplification.
+AVOID: transferring expository imprecision into a theorem proof.
+WHY: genre changes the amount of explanation, not the obligation to separate formal truth from heuristic guidance.
+
+WHEN: a sentence contains a condition, a reduction, an aside, and a conclusion.
+DO: retain the condition and reduction together if they are inseparable, then place the conclusion in a short landing sentence.
+AVOID: nesting every caveat inside the main claim.
+WHY: the mature rhythm often lets one sentence set the mechanism and the next sentence register its exact consequence.
+
+WHEN: tempted to open with “the purpose of this paper” or repeatedly with “now consider.”
+DO: state the result, current task, or object directly.
+AVOID: generic process narration.
+WHY: modern practice uses discourse space for mathematical information.
+
+WHEN: an earlier source convention conflicts with the current project’s TeX standard.
+DO: follow the project standard while retaining semantic macros, theorem distinctions, and clear equation narrative.
+AVOID: imitating legacy document drivers or raw display syntax as an authorial signature.
+WHY: mature style is a decision system, not an archaeological template.
+
+
+3. GLOBAL WRITING PRINCIPLES
+============================
+
+Principle A — Establish before discussing.
+
+WHEN: introducing a problem.
+DO: give the object, operative equation or property, and the convention needed to read the first claim. Then explain history or significance.
+AVOID: abstract motivation whose nouns have not yet been defined.
+WHY: the reader can judge relevance only after the mathematical target is visible.
+
+Principle B — Make the boundary carry the novelty.
+
+WHEN: presenting a contribution.
+DO: state the best-known boundary or natural conjectural boundary, then identify the exact range, hypothesis, or conclusion changed by the new result.
+AVOID: claiming a broad “advance” without saying what moved.
+WHY: mathematical novelty is usually a change in a precise boundary.
+
+Principle C — Explain the obstruction, not merely the gap.
+
+WHEN: prior work falls short.
+DO: identify the estimate, symmetry, compactness failure, information loss, endpoint, or construction barrier responsible.
+AVOID: “few studies have addressed” rhetoric.
+WHY: a technical obstruction prepares both the theorem and its method.
+
+Principle D — State, interpret, qualify.
+
+WHEN: a formal result is hard to parse on first reading.
+DO: give the exact statement, a plain-language or special-case interpretation, and any essential qualification.
+AVOID: replacing the statement with intuition or repeating the same formula in prose.
+WHY: the two registers serve different readers and different checks.
+
+Principle E — Turn proof into a program.
+
+WHEN: a proof requires more than one conceptual transformation.
+DO: name the stages, state the invariant or output of each, and show how the output becomes the next input.
+AVOID: a chronology of computations with no declared destination.
+WHY: the reader should always know what remains to be proved.
+
+Principle F — Pay for notation.
+
+WHEN: introducing a symbol or macro.
+DO: use it repeatedly or let it expose a meaningful distinction.
+AVOID: one-use names that force memory without reducing complexity.
+WHY: notation is worthwhile only if it compresses a recurring idea or clarifies structure.
+
+Principle G — Calibrate locally.
+
+WHEN: part of an argument is heuristic, conditional, numerical, or cited.
+DO: mark that status at the sentence or proposition where it enters.
+AVOID: one global disclaimer that leaves later claims ambiguous.
+WHY: downstream deductions depend on knowing the status of each input.
+
+Principle H — Use examples diagnostically.
+
+WHEN: an abstraction has a non-obvious scope.
+DO: choose an example that tests a boundary, demonstrates a mechanism, or shows why a nearby assertion fails.
+AVOID: examples that merely decorate a definition.
+WHY: a strong example performs proof-oriented explanatory work.
+
+Principle I — Close on the mathematical event.
+
+WHEN: the last required implication has been established.
+DO: identify the theorem, claim, case, or contradiction thereby completed.
+AVOID: a second ending that summarizes every stage.
+WHY: prompt closure preserves momentum and confidence.
+
+
+4. MATHEMATICAL NOTATION
+========================
+
+Build a local symbol grammar rather than copying a fixed symbol list.
+
+WHEN: the project has standard notation for number systems, probability, expectation, variance, support, distance, sign, real/imaginary parts, or other recurring operators.
+DO: define short semantic macros once and use them consistently, for example macros whose names correspond to the concept rather than its font.
+AVOID: repeatedly typing visual constructions or assigning the same macro name to different concepts.
+WHY: semantic macros make source code readable and permit global changes.
+
+WHEN: a symbol occurs only once or twice.
+DO: consider writing the concept in prose or substituting the defining expression.
+AVOID: expanding the reader’s symbol inventory without a later payoff.
+WHY: the main constraint is cognitive load, not line length.
+
+WHEN: distinguishing random objects from deterministic values is central.
+DO: choose a visible morphology—often bold versus ordinary, or upper-case versus lower-case—and declare it near the first random model.
+AVOID: changing morphology across sections or importing this distinction into a paper that does not need it.
+WHY: symbol shape should encode a stable mathematical role.
+
+WHEN: using hats, tildes, bars, primes, stars, or subscripts.
+DO: assign each decoration one local operation or relation, such as Fourier transform, approximation, normalization, modification, dual object, or base case, and record the choice if it is not standard.
+AVOID: using the same decoration for unrelated operations.
+WHY: a predictable morphology allows the reader to infer relationships among objects.
+
+WHEN: several indices are needed.
+DO: give them stable domains and jobs; state the range on first use; order indices according to structural nesting.
+AVOID: reusing an index for a scale in one paragraph and an enumerator in the next.
+WHY: multi-index notation fails when roles, not formulas, are ambiguous.
+
+WHEN: a definition is local to one proof step.
+DO: introduce it immediately before the step, using “let,” “write,” “set,” or “define,” and include the domain or type when it is not obvious.
+AVOID: placing every local symbol in a remote master list.
+WHY: staged definitions keep the current proof state self-contained.
+
+WHEN: notation is global and will appear across many sections.
+DO: gather the stable conventions in a notation or preliminaries section, then restate only unusual local roles.
+AVOID: forcing the reader to reconstruct a global convention from scattered uses.
+WHY: global and local notation require different placement policies.
+
+WHEN: choosing `:=`, `\coloneqq`, or a prose definition.
+DO: follow the host project’s convention consistently; prefer `\coloneqq` when the project uses modern mathtools notation, and use prose when the type or interpretation matters more than the assignment symbol.
+AVOID: mixing assignment forms merely to imitate different source periods.
+WHY: consistency is more authorial than any single glyph.
+
+WHEN: an equation introduces several objects.
+DO: stage the construction: define the ambient object, display the relation, then define subordinate terms in a “where” clause or in separate short lines.
+AVOID: placing four unexplained symbols into one display and decoding them much later.
+WHY: symbol introduction should follow mathematical dependency.
+
+WHEN: a special case gives the correct mental model.
+DO: state the general definition first if later proof needs it, then immediately specialize and explain the special case.
+AVOID: allowing the example to blur the quantifiers of the general definition.
+WHY: generality and intuition are both retained without conflation.
+
+
+5. PROSE–MATH INTERFACE
+=======================
+
+Treat every display as part of a sentence-level argument.
+
+WHEN: placing a display.
+DO: prepare it with its function: definition, desired estimate, consequence of a lemma, decomposition, equivalent formulation, or remaining obligation.
+AVOID: an unexplained formula after a paragraph break.
+WHY: the reader should know how to read the display before parsing it.
+
+WHEN: the display defines an object.
+DO: identify the object’s domain and role in prose; give the formula; then define secondary terms and state the property that will be used.
+AVOID: a formula followed only by “where the notation is obvious.”
+WHY: operational meaning matters more than visual familiarity.
+
+WHEN: the display is a derived inequality.
+DO: name the inputs just before it—such as a cited proposition, Hölder’s inequality, a symmetry, or an induction hypothesis—and state the immediate consequence after it.
+AVOID: leaving the reader to infer which of many preceding facts produced the line.
+WHY: proof verification depends on visible provenance.
+
+WHEN: a display completes the grammar of a sentence.
+DO: punctuate it according to the sentence and the project’s convention.
+AVOID: enforcing a universal punctuation rule independently of grammar.
+WHY: mathematical displays in this style have mixed surface punctuation, but their logical integration should be unambiguous.
+
+WHEN: a multiline derivation contains conceptually different steps.
+DO: align genuine transformations and annotate the change of reason when necessary; split the derivation if the governing idea changes.
+AVOID: using alignment merely to fit a long formula on the page.
+WHY: layout should reveal the proof structure.
+
+WHEN: an equation is more compact than its meaning.
+DO: follow it with one sentence stating what has been gained—boundedness, concentration, periodicity, a contradiction, a reduction to a finite set, or another usable property.
+AVOID: paraphrasing every symbol mechanically.
+WHY: interpretation should expose consequence, not duplicate syntax.
+
+WHEN: an estimate is standard but pivotal.
+DO: name the standard result and record the substitution or parameter choice that makes it applicable.
+AVOID: calling it “obvious” when the match of hypotheses is the real work.
+WHY: a one-line applicability check is more useful than an ease judgment.
+
+WHEN: several displayed claims are used only as a bundle.
+DO: state the bundle’s purpose before the displays and combine them explicitly afterward.
+AVOID: a stack of estimates without an assembly sentence.
+WHY: the prose must reveal why the individual bounds suffice together.
+
+
+6. MATHEMATICAL NARRATIVE
+=========================
+
+The preferred narrative is not necessarily Definition → Lemma → Theorem in a rigid order. It is Problem → Boundary → Obstruction → Device → Reduction chain → Decisive implication.
+
+WHEN: beginning a technical development.
+DO: identify the current target and the obstruction that prevents a direct proof.
+AVOID: opening with machinery whose relevance appears several pages later.
+WHY: the reader needs a reason to store technical detail.
+
+WHEN: a new auxiliary object is proposed.
+DO: say which interaction, scale, exceptional set, algebraic constraint, or loss it isolates. Then define it and prove only the properties needed.
+AVOID: advertising the object as “natural” without showing its function.
+WHY: usefulness is a stronger motivation than aesthetic assertion.
+
+WHEN: a theorem depends on a chain of reductions.
+DO: formulate each reduction as an implication with an explicit input and output. At each stage, say what feature has been gained and what difficulty remains.
+AVOID: presenting reductions as a sequence of unrelated section topics.
+WHY: the proof should be reconstructible as a dependency graph.
+
+WHEN: the argument has cases.
+DO: state why the cases are exhaustive, handle the structurally simpler case first if it establishes reusable notation, and indicate what changes in subsequent cases.
+AVOID: saying “similarly” when a different obstruction or estimate is required.
+WHY: case structure should reduce repetition without hiding differences.
+
+WHEN: using a contradiction.
+DO: state the negated target precisely, derive an object or sequence with the required bad property, and mark the exact line incompatible with an established bound or structural theorem.
+AVOID: a vague closing “which is impossible.”
+WHY: the contradiction is the mathematical event that completes the chain.
+
+WHEN: using a heuristic model.
+DO: describe the model, identify the dependence or simplification it ignores, derive the predicted behavior, and state whether a later proposition is an analogue, partial confirmation, or replacement.
+AVOID: letting heuristic probability language leak into a deterministic theorem.
+WHY: heuristics guide discovery and exposition but do not supply proof.
+
+WHEN: using an imported theorem.
+DO: state the exact form required, cite it, verify nonstandard hypotheses, and separate the imported conclusion from the new deduction.
+AVOID: creating the impression that the imported theorem is proved locally or that a stronger version is needed.
+WHY: intellectual and logical dependencies should be equally visible.
+
+WHEN: the final step is assembly.
+DO: name the established components, substitute them into the target expression or implication, and identify the theorem now proved.
+AVOID: adding a broad retrospective discussion inside the proof.
+WHY: the narrative should terminate at its decisive operation.
+
+
+7. VOCABULARY RULES
+===================
+
+Choose vocabulary by logical function and evidence strength.
+
+WHEN: announcing a proved main result.
+DO: use direct verbs such as “prove,” “establish,” “obtain,” or “show,” and attach the exact object of the verb.
+AVOID: “explore,” “investigate,” or “provide insights into” when a theorem is actually proved.
+WHY: the verb should reveal the deliverable.
+
+WHEN: stating a local consequence.
+DO: use “thus,” “hence,” “therefore,” or “we conclude” only when the dependency is immediate and identifiable.
+AVOID: placing deduction markers at the start of sentences that merely continue exposition.
+WHY: frequent markers remain informative only if their function is stable.
+
+WHEN: specializing a general result.
+DO: use “in particular” and name the specialization.
+AVOID: using it as a synonym for “notably.”
+WHY: specialization is a mathematical operation.
+
+WHEN: adding a second independent reason or result.
+DO: use “moreover” or a direct topic sentence if the addition changes the proof state.
+AVOID: piling on connectives for cadence.
+WHY: explicit additions should have structural weight.
+
+WHEN: introducing a genuine conflict, limitation, or alternative.
+DO: state the conflicting conditions directly; use “however,” “nevertheless,” or “on the other hand” sparingly.
+AVOID: generic paragraph-initial contrast where no proposition is reversed.
+WHY: exact contrast is stronger than atmospheric contrast.
+
+WHEN: a statement is plausible but unproved.
+DO: use “suggests,” “is consistent with,” “one may expect,” “heuristically,” “plausibly,” or an explicit conditional.
+AVOID: “shows,” “demonstrates,” or unqualified present tense.
+WHY: lexical strength must track proof status.
+
+WHEN: reporting a cited fact.
+DO: say that a named or cited result establishes the fact, then distinguish the deduction made here.
+AVOID: using “we prove” for inherited material.
+WHY: citation and contribution boundaries must remain clear.
+
+WHEN: a step is short.
+DO: state the reason in a compact clause: “by convexity,” “from the induction hypothesis,” or “after summing over the scales.”
+AVOID: “clearly,” “obviously,” or “it is easy to see” without the reason.
+WHY: the reason costs little and is more robust than an evaluation of difficulty.
+
+WHEN: describing a method.
+DO: prefer operative verbs—reduce, localize, average, decompose, encode, iterate, regularize, rescale, compare, rationalize, or transfer—when accurate.
+AVOID: generic verbs such as “utilize” or “leverage.”
+WHY: operative vocabulary exposes mechanism.
+
+WHEN: referring to the current text.
+DO: use “this paper,” “this section,” or “the following lemma” only to locate an actual dependency.
+AVOID: repeated metadiscourse about what the paper is about to do.
+WHY: mathematical forward motion should dominate document narration.
+
+
+8. SENTENCE ARCHITECTURE
+========================
+
+Default to sentences of moderate length with one main assertion. Use complex syntax when mathematical dependency requires it, not to sound formal.
+
+Architecture A — Condition → consequence.
+
+WHEN: a conclusion depends on a parameter range or hypothesis.
+DO: put the condition first if it determines how the sentence should be read, then give the consequence in the main clause.
+AVOID: postponing a decisive exception to the end.
+WHY: the reader evaluates a mathematical claim relative to its domain.
+
+Architecture B — Known boundary → unresolved case → new result.
+
+WHEN: locating novelty.
+DO: use two or three sentences: known range; precise remaining range or obstruction; theorem contribution.
+AVOID: compressing all literature, limitation, and novelty into one sentence.
+WHY: the new boundary should receive main-clause emphasis.
+
+Architecture C — Reduction → usefulness → new target.
+
+WHEN: replacing the original problem.
+DO: state the reduction, say what troublesome feature it removes, then name the residual claim.
+AVOID: a bare “it suffices to prove” when the significance of the new target is not evident.
+WHY: readers need both logical validity and strategic meaning.
+
+Architecture D — Long setup → short landing.
+
+WHEN: several hypotheses or imported estimates must be assembled.
+DO: allow one controlled setup sentence, then use a short sentence for the decisive conclusion.
+AVOID: burying the result in the final subordinate clause.
+WHY: a clear landing resets attention after technical load.
+
+Architecture E — Claim → reason → scope.
+
+WHEN: a concise assertion may be overread.
+DO: state the claim directly, give the governing reason, then delimit its scope in a separate clause or sentence.
+AVOID: hedging the opening so heavily that the claim disappears.
+WHY: qualification should refine a visible claim, not replace it.
+
+Architecture F — Formal statement → plain interpretation.
+
+WHEN: a theorem’s quantifiers conceal its practical meaning.
+DO: follow it with one sentence describing the behavior, special case, or obstruction in ordinary mathematical language.
+AVOID: repeating notation word for word.
+WHY: interpretation should change representation, not duplicate content.
+
+Architecture G — Competing routes → selected route.
+
+WHEN: more than one proof strategy is natural.
+DO: state what each route would require, identify the barrier to the rejected route, and announce the usable mechanism.
+AVOID: dismissing alternatives as merely difficult.
+WHY: the selection becomes an explanation of the proof’s design.
+
+Control rules:
+
+WHEN: a sentence exceeds roughly forty words.
+DO: check whether it contains more than one rhetorical move; split at the move boundary unless shared hypotheses require unity.
+AVOID: mechanical shortening that repeats a long condition in every sentence.
+WHY: rhythm should support dependency, not obey a numerical cap.
+
+WHEN: using parentheses or a footnote.
+DO: reserve them for a genuine side condition, attribution, variant, or nonessential technical qualification.
+AVOID: placing the main theorem boundary in an aside.
+WHY: information placement signals importance.
+
+
+9. RHETORICAL MOVE ALGORITHMS
+=============================
+
+Algorithm 1 — Main research problem.
+
+WHEN: opening a paper about a recognized problem.
+DO: execute Object → canonical question → known boundary → exact obstruction → new theorem → interpretation → method roadmap.
+AVOID: Phenomenon → broad importance → long chronology → vague gap → contribution list.
+WHY: the mathematical tension, not general prestige, should generate interest.
+
+Algorithm 2 — New formulation.
+
+WHEN: the contribution is an equivalent or quantitative reformulation rather than a direct solution.
+DO: state the original problem, define the reformulation, prove or cite equivalence, and explain what compactness, localization, computation, or induction the new form enables.
+AVOID: presenting equivalence as if it solved the original problem.
+WHY: a reformulation’s value lies in the mechanism it unlocks.
+
+Algorithm 3 — Counterexample or barrier.
+
+WHEN: constructing a model that blocks a class of proof strategies.
+DO: state the target belief, isolate the properties preserved by the model, give the counterexample theorem, then specify exactly which strategies are ruled out and which remain possible.
+AVOID: extrapolating from an artificial model to a stronger negative theorem.
+WHY: local limitation strengthens rather than weakens the barrier claim.
+
+Algorithm 4 — Transference or abstraction.
+
+WHEN: transferring a theorem from an idealized setting to a sparse, noisy, arithmetic, or structured setting.
+DO: identify the dense/ideal theorem, define the pseudorandomness or structural hypotheses, state the transfer principle, and show how the application verifies the hypotheses.
+AVOID: interleaving the abstract proof with every application-specific detail.
+WHY: separating principle and verification makes the reusable mechanism visible.
+
+Algorithm 5 — Long construction.
+
+WHEN: the proof builds a complicated object.
+DO: give the desired final properties, a high-level construction diagram in prose, a list of modules with their contracts, then assemble and verify them.
+AVOID: introducing components in discovery order.
+WHY: readers should know why each artificial component exists.
+
+Algorithm 6 — Heuristic followed by theorem.
+
+WHEN: intuition comes from a probabilistic, scaling, or informal model.
+DO: mark the heuristic; compute or describe its prediction; identify the unjustified assumption; state the rigorous proposition that replaces the heuristic at the needed strength.
+AVOID: allowing a successful prediction to erase the logical gap.
+WHY: the heuristic explains direction while the proposition supplies proof.
+
+Algorithm 7 — Obstacle and open question.
+
+WHEN: explaining why the result is not stronger.
+DO: identify the exact step that loses strength, show what improvement would be required, connect that improvement to a known conjecture or new question, and separate evidence from speculation.
+AVOID: a generic future-work list.
+WHY: a useful open problem inherits its importance from the proof mechanism.
+
+Algorithm 8 — Proof by contradiction.
+
+WHEN: the decisive structure emerges from a bad sequence or failure assumption.
+DO: negate the theorem precisely → normalize/rescale/select a minimal bad object → extract structure or a limit → invoke the incompatible property → state the contradiction → close.
+AVOID: hiding normalization choices or compactness inputs.
+WHY: contradiction proofs are persuasive only when the bad object’s construction is auditable.
+
+
+10. PARAGRAPH ENGINES
+=====================
+
+Select one engine per paragraph. Two to four sentences is a useful default, but a display may carry the central payload.
+
+Engine 1 — Definition engine:
+Need for object → definition/display → immediate usable property.
+
+Engine 2 — Boundary engine:
+Known theorem → uncovered parameter/case → present theorem or question.
+
+Engine 3 — Reduction engine:
+Current target → transformation and reason → narrower target exported to the next paragraph.
+
+Engine 4 — Estimate engine:
+Required bound → named inputs → displayed estimate → consequence.
+
+Engine 5 — Case engine:
+Case condition → specialized argument → case conclusion and relation to remaining cases.
+
+Engine 6 — Interpretation engine:
+Formal result → special case or conceptual meaning → limitation if necessary.
+
+Engine 7 — Objection engine:
+Potential overinterpretation → exact distinction → surviving claim.
+
+Engine 8 — Literature engine:
+Relevant result cluster → common capability → precise missing ingredient → present entry point.
+
+Engine 9 — Example engine:
+Abstract definition → carefully chosen instance → property tested → lesson for the general theory.
+
+Engine 10 — Construction-module engine:
+Required component contract → construction → verification → output passed forward.
+
+Engine 11 — Contradiction engine:
+Bad assumption → derived object/bound → incompatible fact → closure.
+
+Engine 12 — Roadmap engine:
+Central mechanism → ordered stages with causal links → location of the decisive step.
+
+Engine 13 — Qualification engine:
+Claim → nearby stronger claim not obtained → exact reason → optional route around the limitation.
+
+Engine 14 — Synthesis engine:
+Previously established inputs → substitution/combination → theorem-level conclusion.
+
+WHEN: opening a paragraph.
+DO: name the current object, task, case, or claim. Carry over a key term from the previous paragraph when continuity would otherwise be unclear.
+AVOID: empty transitions such as “We now proceed” without a destination.
+WHY: the first sentence should establish the paragraph’s contract.
+
+WHEN: closing a paragraph.
+DO: record the consequence, unresolved obligation, or bridge to the next module.
+AVOID: an explanatory tail that introduces a second topic.
+WHY: a strong closing sentence updates the reader’s proof state.
+
+WHEN: one paragraph seems to need two engines.
+DO: split at the point where the mathematical task changes, unless the second engine is a one-sentence interpretation of the first.
+AVOID: combining literature, theorem statement, proof sketch, and limitation into an undifferentiated block.
+WHY: paragraph boundaries should encode argumentative structure.
+
+
+11. SECTION MODELS
+==================
+
+INTRODUCTION
+
+Purpose: make the problem, boundary, result, and mechanism legible before technical proof.
+
+Opening behavior: define or display the mathematical object early. If the problem is famous, do not rely on fame; state the operative version. Typical sequence: object/convention → conjecture or target → known boundary → obstruction → exact result(s) → interpretation → qualification → proof mechanism → organization when needed.
+
+Claim strength: theorem-level statements are exact; heuristics and possible extensions are explicitly weaker. Citation behavior: embed literature around the boundary or method it establishes, usually in clusters; avoid a detached chronology. Math density: enough notation to state the problem and theorem, but defer proof-local symbols. Transition behavior: let the obstruction motivate the theorem and let the theorem motivate the roadmap. Closing behavior: end with the causal proof plan or essential notation, not a generic contribution summary.
+
+WHEN: there are several main results.
+DO: order them by logical dependence or increasing generality and explain their relation.
+AVOID: a flat bullet list whose common mechanism is invisible.
+WHY: multiple theorems should form an argument.
+
+LITERATURE REVIEW
+
+Purpose: locate the precise mathematical inheritance and missing ingredient. This section is usually integrated into the introduction or placed beside the relevant theorem/method.
+
+Opening behavior: name a result family or method, not “a large literature.” Typical sequence: established capability → hypotheses or range → relation to present object → limitation → present extension or different route. Claim strength: use citations for attributed facts and reserve authorial claims for synthesis. Math density: include formulas only when the boundary cannot be stated faithfully without them. Citation behavior: cluster works by what they prove, not merely by date. Closing behavior: identify the obstruction or input taken forward.
+
+WHEN: a standalone review would interrupt the proof’s causal line.
+DO: distribute short literature blocks at the point each result becomes relevant.
+AVOID: repeating the same citations in the introduction and preliminaries.
+WHY: literature is most informative when attached to a mathematical function.
+
+THEORY / CONCEPTUAL DEVELOPMENT
+
+Purpose: build definitions, assumptions, formal statements, and intuition in dependency order.
+
+Opening behavior: state the target phenomenon or relation that the theory must explain. Typical sequence: motivating obstruction/example → definition → immediate properties → lemma/proposition → interpretation → refinement or corollary. Claim strength: formal status is explicit; intuition is marked and never silently upgraded. Math density: high but staged. Transition behavior: each new object solves a named problem created by the previous step. Closing behavior: export a reusable theorem, structural description, or reduction.
+
+WHEN: a definition is technically natural but conceptually opaque.
+DO: precede it with the property it is designed to encode and follow it with a diagnostic example.
+AVOID: claiming naturalness as a substitute for explanation.
+WHY: the reader learns how to use the definition.
+
+METHODS / METHODS OF PROOF
+
+Purpose: provide a causal model of the argument, reductions, construction, or computational program. In pure mathematics, “methods” means proof strategy rather than an empirical protocol.
+
+Opening behavior: state the central idea in operational terms. Typical sequence: obstacle → main device → successive transformations → decisive estimate/structure → assembly. Paragraph sequence follows dependency, not section numbering. Claim strength: distinguish a proof sketch from a proof; label deliberately informal simplifications. Math density: moderate, with only the formulas needed to show mechanism. Closing behavior: state where the detailed stages occur only after explaining what they accomplish.
+
+WHEN: drafting a roadmap.
+DO: write “A produces B, which permits C,” with exact nouns and verbs.
+AVOID: “Section 2 does X; Section 3 does Y” as the entire explanation.
+WHY: a table of contents does not reveal causality.
+
+RESULTS
+
+Purpose: state proved consequences in a logical sequence. In a theoretical paper, Results are the theorem family and its corollaries; in a computational or numerical paper, they also include measured outcomes.
+
+Opening behavior: restate only the conditions needed to read the result. Typical sequence: principal theorem → immediate specialization → comparison with known boundary → corollary/application → limitation or sharpness. Claim strength: “prove/show” for deductive results; “numerically observe/estimate” for computations; “suggest” for patterns not proved. Math density: exact theorem-level notation, with prose interpretation afterward. Closing behavior: pass the strongest usable consequence to the proof, discussion, or next theorem.
+
+WHEN: numerical evidence is present.
+DO: identify the algorithm, precision, parameter range, and whether the evidence is exploratory, corroborative, or used in a computer-assisted proof.
+AVOID: language that turns numerical agreement into an analytic theorem.
+WHY: numerical and deductive evidence have different failure modes.
+
+DISCUSSION / CONCLUSION
+
+Purpose: only include this section when it performs mathematical work: comparing mechanisms, delimiting generality, diagnosing an obstruction, or posing precise questions.
+
+Opening behavior: begin from the strongest established consequence, not a generic restatement of the abstract. Typical sequence: interpretation → exact limitation → alternate route or extension → technically formulated open question. Claim strength: lower verbs for conjectural generalization. Math density: low to moderate; enough to state the blocked estimate or proposed variant exactly. Closing behavior: end on a precise implication, question, or boundary.
+
+WHEN: the theorem’s final proof already supplies natural closure and no further analysis is needed.
+DO: omit a conclusion section.
+AVOID: adding one solely because a template expects rhetorical symmetry, unless the venue requires it.
+WHY: prompt closure is preferable to repetition.
+
+PROOF / APPENDIX
+
+Purpose: expose a verifiable chain while controlling local complexity. An appendix should contain supporting material whose removal clarifies the main line without weakening logical completeness.
+
+Opening behavior: state the exact lemma, target estimate, normalization, or dependency. Typical sequence: reductions → cases → estimates/constructions → synthesis → closure. Claim strength: fully deductive except for explicitly labeled heuristic remarks. Math density: high; prose remains responsible for provenance and consequence. Citation behavior: verify the form and hypotheses of imported tools. Transition behavior: backward reference to the acquired input followed by the next obligation. Closing behavior: state which result is proved and stop.
+
+WHEN: moving detail to an appendix.
+DO: keep the statement, role, and dependency in the main text; move only the self-contained verification or variant.
+AVOID: exiling a conceptual step needed to understand the argument.
+WHY: compression should preserve the narrative skeleton.
+
+
+12. FLOW AND TRANSITION RULES
+================================
+
+Flow is primarily conceptual continuity, supported by exact connectives.
+
+WHEN: moving from one sentence to the next.
+DO: carry forward the object just obtained and make it the input of the next operation. Repeat the key noun if a pronoun would be ambiguous.
+AVOID: changing notation and topic simultaneously.
+WHY: old-to-new information order makes technical prose easier to parse.
+
+WHEN: moving between paragraphs.
+DO: let the previous closing sentence identify a consequence or remaining task; let the next opening sentence take up that item.
+AVOID: an isolated bridge paragraph whose only content is “we turn to the proof.”
+WHY: paragraph pairs should behave like linked proof steps.
+
+WHEN: moving between sections.
+DO: close the current section with its exported result and open the next with the obligation that result enables.
+AVOID: repeating the full roadmap at every boundary.
+WHY: a local handoff is denser and easier to verify.
+
+WHEN: the next result is a specialization.
+DO: use “in particular” and state the substituted parameters or restricted class.
+AVOID: using a fresh theorem paragraph that conceals the general-to-special relation.
+WHY: the transition itself conveys the logical map.
+
+WHEN: the next result is analogous.
+DO: name the shared argument and the one feature that changes.
+AVOID: “the proof is similar” when the reader cannot reconstruct the altered step.
+WHY: analogy is useful only with an explicit correspondence.
+
+WHEN: a contrast is structural.
+DO: place the competing condition or failed hypothesis in the grammatical foreground.
+AVOID: relying on “however” to carry an unspecified opposition.
+WHY: exact conflict advances the mathematical explanation.
+
+WHEN: a list of reductions is long.
+DO: use numbered or named steps and stable names for their outputs.
+AVOID: mechanically beginning every step with “now.”
+WHY: labels provide global navigation; connectives should describe local logic.
+
+WHEN: the proof returns to an earlier objective after a long detour.
+DO: restate the target in its current simplified form and identify which intermediate theorem supplies the missing input.
+AVOID: assuming that a page-number reference alone restores context.
+WHY: a concise backward link reduces memory cost.
+
+
+13. LATEX CODING STYLE
+======================
+
+Use clean contemporary LaTeX while preserving the semantic habits of the style.
+
+WHEN: starting a paper.
+DO: use the venue or project document class; load only required packages; group macros by mathematical role; keep formatting customizations minimal.
+AVOID: copying a large historical preamble with unused commands or theorem environments.
+WHY: template artifacts are not authorial content.
+
+WHEN: defining a macro.
+DO: give it a semantic source name, keep it short if heavily used, add arguments only when the abstraction is stable, and verify that it does not overwrite a standard command unexpectedly.
+AVOID: macros that merely abbreviate a one-off visual fragment.
+WHY: source code should remain readable to collaborators.
+
+WHEN: defining theorem environments.
+DO: distinguish theorem, proposition, lemma, corollary, definition, remark, example, conjecture, heuristic, principle, claim, problem, and question only as needed. Share counters where the project standard supports linear navigation.
+AVOID: declaring a full inherited taxonomy that the document never uses.
+WHY: environment names encode epistemic and rhetorical function.
+
+WHEN: choosing a display environment.
+DO: use `equation` for a referenced single statement, `align` for aligned transformations or related statements, `gather` for unaligned grouped lines, and unnumbered variants when no reference is needed.
+AVOID: raw `$$...$$` in new code when structured environments provide better spacing, numbering, or diagnostics.
+WHY: raw displays occur historically but should not override current technical practice.
+
+WHEN: assigning equation numbers.
+DO: number displays that will be cited, revisited, or used as named proof states.
+AVOID: numbering every display or manually inserting numbers.
+WHY: equation numbers are navigational resources.
+
+WHEN: labeling.
+DO: use compact mnemonic labels meaningful inside the source; follow an existing project prefix scheme if present.
+AVOID: inventing a rigid universal prefix system or opaque sequential labels.
+WHY: the stable preference is mnemonic compactness, not a particular syntax.
+
+WHEN: referencing.
+DO: use `\eqref` for equations and the project’s reference commands for theorems/sections; write a noun when the reference’s role matters.
+AVOID: unexplained strings of references.
+WHY: references should participate in sentences.
+
+WHEN: coding citations.
+DO: place citations immediately after the attributed theorem, method, or historical claim; cluster sources that perform the same function.
+AVOID: citation dumps at paragraph ends with unclear scope.
+WHY: attribution should be locally recoverable.
+
+WHEN: using figures or diagrams.
+DO: introduce the object in prose before the figure, make the caption explain the mathematical mapping or implication, and state afterward how the figure will be used.
+AVOID: a decorative schematic with no proof or orientation role.
+WHY: visuals should compress structure, not decorate complexity.
+
+WHEN: splitting source files.
+DO: use `\input` or `\include` at stable section/module boundaries when the paper’s size or collaboration requires it; keep each file compilable through the master.
+AVOID: fragmentation into files smaller than the argument units.
+WHY: source architecture should mirror discourse architecture.
+
+
+14. CLAIM-STRENGTH CALIBRATION
+================================
+
+Every assertion must belong to one of the following classes.
+
+PROVED
+
+WHEN: the statement follows from the present argument or a fully verified theorem.
+DO: use direct present-tense or proof verbs; give hypotheses and dependence precisely.
+AVOID: unnecessary hedging that makes a theorem sound tentative.
+WHY: rigor permits direct language.
+
+PROPOSED / CONJECTURED
+
+WHEN: advancing an unproved general statement or possible extension.
+DO: label it as a conjecture, question, proposed principle, or possible route; give supporting evidence separately.
+AVOID: embedding it in ordinary expository present tense.
+WHY: readers must know that no proof is claimed.
+
+HEURISTIC
+
+WHEN: reasoning uses independence, genericity, scaling, random-model, or informal limiting assumptions not justified in the setting.
+DO: mark “heuristically” or create a Heuristic statement; state which assumption is informal and what prediction follows.
+AVOID: citing later agreement as retroactive proof.
+WHY: heuristics explain expectation, not validity.
+
+ASSUMED / CONDITIONAL
+
+WHEN: a result depends on a conjecture, hypothesis, parameter condition, or regularity assumption.
+DO: put the assumption before or inside the theorem and repeat it when drawing a remote consequence.
+AVOID: allowing a conditional theorem to become unconditional in the abstract or conclusion.
+WHY: conditionality must survive every summary layer.
+
+CITED
+
+WHEN: a fact comes from prior work.
+DO: attribute it, cite the exact source, state the form used, and make the new deduction grammatically separate.
+AVOID: collective “it is known” language when attribution and hypotheses matter.
+WHY: cited inputs are part of the proof graph.
+
+NUMERICAL / COMPUTATIONAL
+
+WHEN: evidence is produced by finite computation, simulation, or numerical optimization.
+DO: specify range, precision, reproducibility information, and whether the computation proves a finite claim or merely suggests a general pattern.
+AVOID: conflating exhaustive certified computation with sampling, or either with an analytic proof.
+WHY: computational claims require their own validity conditions.
+
+LIKELY BUT UNRESOLVED
+
+WHEN: expert judgment supports a statement but no formal model or proof is available.
+DO: use “likely,” “plausible,” “appears,” or “we expect,” and say what obstacle prevents verification.
+AVOID: vague confidence language without a mathematical reason.
+WHY: calibrated speculation is useful only when its basis is visible.
+
+Calibration audit:
+
+WHEN: revising any abstract, introduction, or conclusion.
+DO: trace every strong verb back to a theorem, certified computation, or cited result of matching strength.
+AVOID: upgrading “consistent with” to “establishes” for rhetorical impact.
+WHY: summary sections are where overclaiming most easily enters.
+
+
+15. REVIEWER-DEFENSE BEHAVIOR
+=============================
+
+Anticipate objections at the point where they become reasonable.
+
+WHEN: a theorem has an exceptional endpoint, unusual convention, or hidden dependence.
+DO: state it with the theorem or immediately after, and explain whether it is technical, necessary, or unknown.
+AVOID: leaving the exception to a late remark.
+WHY: readers otherwise build arguments on the wrong version.
+
+WHEN: a construction is artificial.
+DO: admit the artificial feature directly, explain which structural properties it retains, and delimit the class of conclusions it supports.
+AVOID: either apologizing vaguely or presenting the model as more faithful than it is.
+WHY: precise artificiality can establish a rigorous barrier.
+
+WHEN: an argument imports a major theorem.
+DO: identify the dependency early, explain what remains self-contained, and verify the imported hypotheses where used.
+AVOID: hiding the dependency in a proof citation.
+WHY: logical novelty and expository completeness are separate claims.
+
+WHEN: a natural alternative strategy exists.
+DO: explain the exact estimate or property it would require and why the present setting lacks it. If it may still work under another hypothesis, say so.
+AVOID: dismissing the strategy as impossible without a barrier theorem.
+WHY: fair comparison makes the selected method more credible.
+
+WHEN: a generalization seems immediate.
+DO: identify which proof steps are invariant and which depend on dimension, commutativity, smoothness, finiteness, or another special structure.
+AVOID: “the argument extends routinely” unless the changes are genuinely local.
+WHY: hidden structural dependence is a common source of false generalization.
+
+WHEN: a proof omits details.
+DO: state whether they are standard, analogous, computational, or deferred, and supply enough of the correspondence to make the omission checkable.
+AVOID: using brevity to conceal a gap.
+WHY: an omission should reduce repetition, not verifiability.
+
+WHEN: the method loses a factor, range, or exponent.
+DO: identify the exact specialization or inequality causing the loss and, when useful, describe a route that removes it.
+AVOID: calling the result nonoptimal without diagnosing why.
+WHY: a localized loss turns a limitation into information.
+
+WHEN: set-theoretic, measurability, normalization, or convention issues can change the claim.
+DO: address them in a short dedicated note or local paragraph before the main construction relies on them.
+AVOID: allowing foundational qualifications to interrupt every later proof step.
+WHY: settle global interpretive risks once, then proceed cleanly.
+
+
+16. DO / DO NOT
+================
+
+DO define the central object early.
+DO state the exact theorem boundary and the nearby claim not obtained.
+DO motivate a technical device by a named obstruction.
+DO organize long proofs into reductions with explicit outputs.
+DO use active first-person plural for real mathematical actions.
+DO distinguish theorem, lemma, claim, heuristic, conjecture, and question.
+DO put a plain-language interpretation near a difficult formal statement.
+DO keep qualifications beside the claim they limit.
+DO give a reason instead of saying a step is obvious.
+DO make each paragraph update the reader’s proof state.
+DO use `in particular` for specialization and deduction markers for actual deductions.
+DO use semantic macros and consistent symbol morphology.
+DO let section headings reveal the proof program.
+DO close after the decisive implication.
+
+DO NOT open with decorative statements of importance.
+DO NOT use a vague literature gap in place of a mathematical obstruction.
+DO NOT flatten multiple results into an unexplained contribution list.
+DO NOT introduce notation long before its use.
+DO NOT give one-use objects elaborate macro names.
+DO NOT hide theorem hypotheses in footnotes.
+DO NOT allow a heuristic to share the grammar of a proof.
+DO NOT overuse “however,” “now,” “let us,” “clearly,” or “obviously.”
+DO NOT turn every display into a numbered equation.
+DO NOT copy a historical preamble or raw display habit as style.
+DO NOT force every paper to have a standalone literature review or conclusion.
+DO NOT call an argument similar without naming the correspondence.
+DO NOT summarize a proof twice.
+DO NOT imitate source phrases mechanically.
+
+
+17. SECTION-SPECIFIC CHECKLIST
+==============================
+
+INTRODUCTION
+
+[ ] Is the mathematical object or problem visible in the opening block?
+[ ] Are conventions sufficient to read the first theorem?
+[ ] Is the known boundary stated precisely and cited?
+[ ] Is the obstruction technical rather than sociological?
+[ ] Are the new theorem’s quantifiers, range, and exceptions explicit?
+[ ] Is there a nonredundant interpretation or special case?
+[ ] Are stronger unproved claims clearly separated?
+[ ] Does the roadmap explain causality, not just section order?
+[ ] Has unnecessary general-importance boilerplate been removed?
+
+LITERATURE REVIEW
+
+[ ] Are works grouped by result or method rather than chronology?
+[ ] Does every citation cluster have a clear scope?
+[ ] Is the present paper’s intellectual distance stated fairly?
+[ ] Does the final sentence export a boundary, tool, or obstruction?
+[ ] Would integration into another section improve local relevance?
+
+THEORY / DEFINITIONS
+
+[ ] Is each definition motivated by a property or obstruction?
+[ ] Are global and local notations separated?
+[ ] Are symbol domains, indices, and decorations consistent?
+[ ] Does every formal statement have the correct epistemic environment?
+[ ] Is intuition visibly distinct from proof?
+[ ] Is there an example when it tests a real boundary?
+
+METHODS / PROOF OVERVIEW
+
+[ ] Is the main mechanism stated in operative verbs?
+[ ] Does each stage have an input, operation, and output?
+[ ] Are reductions linked by necessity?
+[ ] Is the decisive step distinguished from routine verification?
+[ ] Are informal simplifications labeled?
+[ ] Can the reader reconstruct the dependency graph without reading the detailed proof?
+
+RESULTS
+
+[ ] Are related theorems ordered by dependence or strength?
+[ ] Are special cases explicitly marked as specializations?
+[ ] Are cited, proved, conditional, heuristic, and numerical claims distinguished?
+[ ] Does prose explain the consequence rather than restate notation?
+[ ] Are limitations or sharpness statements local?
+
+DISCUSSION / CONCLUSION
+
+[ ] Does the section add mechanism, limitation, generality, or a precise question?
+[ ] Are speculative extensions calibrated?
+[ ] Is the obstruction to improvement named?
+[ ] Could the paper end more strongly at the final proof instead?
+
+PROOF / APPENDIX
+
+[ ] Does every proof begin with a visible target or reduction?
+[ ] Are the sources of displayed estimates named?
+[ ] Are cases exhaustive and differences explicit?
+[ ] Does every auxiliary object pay for its notation?
+[ ] Are imported hypotheses checked?
+[ ] Do paragraph endings record a consequence or next obligation?
+[ ] Is the decisive implication followed by immediate closure?
+[ ] Does an appendix retain its conceptual role in the main text?
+
+LATEX SOURCE
+
+[ ] Does the document follow the current venue/project class?
+[ ] Are macros semantic, used, and nonconflicting?
+[ ] Are theorem environments limited to genuine roles?
+[ ] Are labels mnemonic and references grammatical?
+[ ] Are displays structured and numbered only when useful?
+[ ] Is notation assignment syntax consistent?
+[ ] Are figures and citations introduced for a clear function?
+
+
+18. SELF-REVISION PROTOCOL
+==========================
+
+Pass 1 — Mathematical fidelity.
+
+For every theorem, proposition, and major prose claim, mark its status: proved here, cited, assumed, heuristic, proposed, or numerical. Verify quantifiers, domains, dependencies, exceptions, and constant dependence. Repair correctness before style.
+
+Pass 2 — Boundary and novelty.
+
+Underline the known boundary, the obstruction, and the new boundary. If any is missing, add it. If novelty is expressed only through adjectives such as “new,” “strong,” or “general,” replace the adjective with the exact mathematical change.
+
+Pass 3 — Proof program.
+
+Write the proof’s stages as a private list of implications. Check that the section order matches this dependency. At each section boundary, ensure that one result is exported and one next obligation is imported. Rename headings that merely describe topics when an operative heading would reveal the argument.
+
+Pass 4 — Paragraph contracts.
+
+Label every paragraph by one engine: definition, boundary, reduction, estimate, case, interpretation, objection, literature, example, construction, contradiction, roadmap, qualification, or synthesis. Split paragraphs with two unrelated labels. Strengthen openings so that each names its task; strengthen endings so that each records its output.
+
+Pass 5 — Prose–math audit.
+
+For every display, answer three questions: Why is it here? Where did it come from? What does it give? Put the necessary answers before and after the display. Remove verbal translations that merely recite symbols. Check grammatical punctuation and alignment logic.
+
+Pass 6 — Notation audit.
+
+List all symbols and macros in order of first appearance. Remove one-use notation; move global conventions to a stable location; move proof-local definitions next to their use. Verify domains, index roles, decorations, random/deterministic morphology, and assignment syntax. Make equivalent objects look related and unrelated objects look distinct.
+
+Pass 7 — Claim calibration.
+
+Circle strong verbs and causal or necessity words. Trace each to a proof, certified computation, or citation. Downgrade unsupported language. Conversely, remove timid hedges from fully proved statements. Confirm that conditionality survives the abstract, introduction, theorem, and conclusion.
+
+Pass 8 — Sentence architecture.
+
+Inspect sentences longer than about forty words and sentences with multiple parentheses. Identify their rhetorical moves. Split where the move changes; preserve shared mathematical conditions when splitting would cause ambiguity. Move the main claim to the main clause. Use a short landing sentence after a technically dense setup when possible.
+
+Pass 9 — Flow audit.
+
+Read only the final sentence of each paragraph followed by the first sentence of the next. Confirm consequence → next task, object → operation, or problem → response. Replace empty transitions with exact mathematical handoffs. Remove repetitive “now,” “however,” and roadmap narration.
+
+Pass 10 — Reviewer-defense audit.
+
+Adopt the skeptical reader’s strongest plausible interpretation of each result. Ask about endpoints, hidden assumptions, artificial features, cited dependencies, alternative strategies, omitted details, nonoptimal losses, and generalization. Place each necessary defense beside the vulnerable claim; do not scatter disclaimers everywhere.
+
+Pass 11 — Compression and closure.
+
+Delete decorative motivation, duplicated theorem paraphrases, unused notation, generic literature claims, and retrospective proof summaries. Check whether a conclusion section adds mathematical value. End each proof, section, and paper at the strongest natural mathematical event.
+
+Pass 12 — Anti-imitation audit.
+
+Search for repeated signature phrases. Keep them only when they perform their exact logical function. Rewrite any sentence that resembles a remembered source sentence. Verify that topic-specific notation, coauthor vocabulary, journal boilerplate, and historical TeX habits have not been generalized.
+
+Final acceptance test:
+
+The draft is ready only if a reader can answer, at every major point: What is the current object? What is known? What exactly fails? What is being proved or proposed? Why is this reduction useful? What remains after it? What is the status of each input? Which implication closes the argument?
+
+If those answers are visible, the writing has achieved the intended style: mathematically exact, mechanism-led, modular, candid about limits, and concise at the point of conclusion.

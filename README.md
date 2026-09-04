@@ -1,0 +1,73 @@
+<p align="center">
+  <strong>简体中文</strong> · <a href="./README_EN.md">English</a>
+</p>
+
+# Writing Like Masters
+
+从一位学者的公开论文中整理写作习惯，最后得到一份可以直接交给 AI 使用的写作说明。
+
+你只需要告诉 agent 作者是谁。它会先确认找对了人，再收集公开的论文源文件，观察作者怎样组织文字、公式和论证，最后把结果保存成一个简单的 TXT 文件。
+
+## 最简单的用法
+
+在这个文件夹里对 agent 说：
+
+```text
+请为 <作者名> 整理一份写作风格。先确认作者身份，然后按照 AGENTS.md 完成整个流程。
+```
+
+如果论文已经下载过，可以说：
+
+```text
+请直接使用 corpora/<作者代号>/，不要重新下载，生成最终 style。
+```
+
+agent 会按顺序做四件事：
+
+1. 确认作者，并寻找公开论文源文件。
+2. 论文准备好后，让你选择“简洁版”或“标准版”风格提炼。
+3. 按所选版本总结作者的写作选择；简洁版不分析时间演化。
+4. 把最终结果保存到 `styles/<作者代号>.txt`。
+
+如果公开源文件太少，agent 会先问你是否允许使用 PDF，不会自行决定。
+
+## 文件放在哪里
+
+- `styles/`：最终成果，可以上传 Git。
+- `corpora/`：下载的论文，只留在本机，不上传 Git。
+- `scripts/`：帮 agent 下载、检查和整理材料的小工具。
+- `SCHOLAR_TEX_ACQUISITION_SKILL.md`：如何找到并整理论文。
+- `SCHOLAR_STYLE_DISTILLATION_LITE_SKILL.md`：简洁、非时间维度的风格整理流程。
+- `SCHOLAR_STYLE_DISTILLATION_SKILL.md`：包含完整证据和时间维度的标准流程。
+- `AGENTS.md`：告诉 agent 先做什么、后做什么。
+
+下载记录、临时文件和中间分析也只留在本机，已经由 `.gitignore` 排除。
+
+## 已有风格
+
+- [Grigori Perelman](styles/grigori-perelman.txt)
+- [Yuwen Li](styles/liyuwen.txt)
+- [Noga Alon](styles/noga-alon.txt)
+- [Peter Scholze](styles/peter-scholze.txt)
+- [Saharon Shelah](styles/saharon-shelah.txt)
+- [Sourav Chatterjee](styles/sourav-chatterjee.txt)
+- [Terence Tao](styles/terence-tao.txt)
+
+## 准备环境
+
+需要 Python 3.10 或更新版本。安装依赖：
+
+```powershell
+python -m pip install -r requirements.txt
+```
+
+通常只处理论文源文件即可。只有在不得不读取 PDF 时，才可能需要额外的 PDF 文字识别工具。
+
+## 使用提醒
+
+- 只使用公开来源，并先确认作者身份。
+- 最终 TXT 是写作参考，不是数学正确性的保证。
+- 不要上传下载的论文、网页缓存或中间文件。
+- 发布前检查最终 TXT，避免保留大段原文、私人信息或第三方模板内容。
+
+想了解规则，可以阅读[论文收集说明](SCHOLAR_TEX_ACQUISITION_SKILL.md)、[简洁版风格整理说明](SCHOLAR_STYLE_DISTILLATION_LITE_SKILL.md)和[标准版风格整理说明](SCHOLAR_STYLE_DISTILLATION_SKILL.md)。

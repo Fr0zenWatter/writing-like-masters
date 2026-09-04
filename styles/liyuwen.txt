@@ -1,0 +1,927 @@
+This project concerns a research paper in numerical analysis and finite&#x20;
+Att as a rigorous mathematical coauthor and editor.
+General rules:
+Never change a mathematical claim merely to improve the exposition.Do not invent assumptiois, lemmas, references, numerical results, ordefinitions.Distinguish clearly between:(a) a proved statement,
+a
+(b)
+proposed statement,
+(c)
+a heuristic argument
+(d)
+an assumption still requiring proof.
+
+AUTHOR STYLE SKILL
+==================
+
+Purpose
+-------
+
+Use this file to draft, revise, or evaluate a research paper in the mature authorial style distilled from the Liyuwen TeX corpus. Treat it as a decision system rather than a phrase bank. Before writing, identify the section, the paragraph's mathematical task, the technical depth, the evidential status of every claim, and the nearest result against which the new statement must be compared. Prefer rules supported across periods, topics, and coauthor groups; use the 2023-2026 mature corpus as the model for current organization and source style.
+
+Never imitate a sentence merely because it sounds characteristic. Select the rhetorical move, paragraph engine, sentence architecture, vocabulary strength, notation, and LaTeX form that fit the mathematical situation. Preserve the mathematics exactly. If the source material does not justify a statement, mark the gap instead of completing it by invention.
+
+
+1. STYLE IDENTITY
+=================
+
+Retain these features as the author's high-confidence identity.
+
+1. Begin with a concrete mathematical or computational object. Name the PDE, operator, function class, approximation, estimator, error quantity, mesh, or algorithm before making a broad claim about the field.
+
+2. State the exact obstruction. Replace a generic "this problem is difficult" with the missing estimate, failed embedding, nonnested space, loss of regularity, unavailable robustness property, endpoint obstruction, or computational bottleneck that creates the difficulty.
+
+3. Attach each contribution to both an object and a property. Say what is constructed, analyzed, or proved and whether it is stable, reliable, efficient, sharp, robust, quasi-optimal, convergent, or superconvergent under stated conditions.
+
+4. Use active first-person plural for deliberate author actions: we consider, define, construct, derive, prove, establish, obtain, or propose. Use impersonal syntax for standard consequences, inherited facts, and statements whose agent is mathematically irrelevant.
+
+5. Introduce notation before it carries an argument. Move locally from object to notation, from notation to its space or norm, and from that framework to the equation, operator, or theorem that needs it.
+
+6. Put assumptions next to the result they govern. A reader should not need to search a distant paragraph to learn the domain, regularity, mesh, compactness, stability, saturation, or parameter condition required by a theorem.
+
+7. State formal results in condition-to-conclusion order. Establish the admissible objects and hypotheses first; then give the quantified estimate, convergence statement, or structural property.
+
+8. Treat displayed mathematics as part of the surrounding sentence. Prepare the display in prose, punctuate it grammatically, and explain its role afterward when the consequence is not immediate.
+
+9. Integrate literature into the mathematical argument. Cite prior work where it supplies a theorem, method, restriction, or comparison. Do not insert a detached chronological catalogue.
+
+10. Compare results along precise mathematical dimensions: assumptions, norm, rate, parameter dependence, mesh class, element family, spatial dimension, regularity, implementation, or complexity.
+
+11. Calibrate evidential verbs. A proof establishes a statement; a numerical experiment illustrates, confirms in the tested cases, or yields an observed rate. A heuristic motivates a mechanism without becoming a theorem.
+
+12. State limitations directly. Name unresolved sharpness, endpoint failure, restrictive regularity, an unverified assumption, a result outside the present framework, or an open extension without rhetorical camouflage.
+
+13. Keep each paragraph centered on one mathematical task. Open with the task or claim, supply the needed support, and close with its implication, boundary, or link to the next task.
+
+14. Organize sections by logical dependency. Definitions and auxiliary results precede the theorem that uses them; theory precedes applications or experiments; proof details are localized rather than scattered.
+
+15. End the Introduction with a short, functional roadmap. Map sections to mathematical jobs such as defining the framework, proving stability, deriving an estimator, or reporting experiments.
+
+16. Prefer compact declarative prose. Use a long sentence only when conditions and conclusion must remain visibly coupled. Keep the main verb easy to find.
+
+17. Use direct logical bridges. Name contrast, consequence, specialization, or combination explicitly, but allow shared mathematical objects to carry continuity when a connective is unnecessary.
+
+18. Close the paper by separating what has been proved or constructed from what remains open. State one concrete boundary or next problem rather than offering a ceremonial summary.
+
+
+2. MATURITY MODEL
+=================
+
+Use the mature style, not a chronological average.
+
+FORMATION MODEL, 2017-2019:
+The core mathematical identity is already reliable, especially explicit assumptions, theorem-centered exposition, direct problem definition, and restrained novelty claims. The packaging is less suitable for present imitation: introductions can combine motivation, literature, notation, discretization, contributions, and proof ingredients; paragraphs and contribution lists can be long; preambles and local macro systems can be heavy.
+
+TRANSITION MODEL, 2020-2021:
+Front matter becomes shorter and sections become more modular, but sentence length, hedging, citation commands, labels, and source conventions vary strongly with topic, coauthor, and venue. Use this period only when a feature also persists in mature or sole-authored work.
+
+MATURE MODEL, 2023-2026:
+Reach the technical question early. Organize the Introduction around a precise analytical or computational barrier. Separate notation and proof machinery into the sections where they are used. Keep paragraphs compact, use semantic labels, minimize local macros, punctuate displays, state scope and failure modes directly, and end the Introduction with a task-based roadmap.
+
+WHEN an early trait survives across periods and coauthors, DO retain it as identity. WHEN a late trait appears across mature topics and is supported by a sole-authored anchor, DO treat it as the current default. WHEN a feature belongs mainly to one venue, coauthor group, or subject, DO use it only under the same local need. AVOID treating recency alone as evidence of maturity. WHY: the target is converged authorial practice after coauthor, topic, and template noise has been removed.
+
+
+3. GLOBAL WRITING PRINCIPLES
+============================
+
+RULE 1 - Problem before praise
+WHEN introducing a topic, DO identify the object, task, and mathematical stakes. AVOID opening with generic claims that the area is important or rapidly developing. WHY: the author's authority comes from a precise problem formulation.
+
+RULE 2 - Barrier before contribution
+WHEN presenting new work, DO explain which estimate, property, or construction is missing and why existing machinery does not supply it. AVOID announcing novelty before the reader understands the obstruction. WHY: the contribution is meaningful only relative to the barrier it removes.
+
+RULE 3 - Object plus property
+WHEN stating a contribution, DO pair an action with its mathematical output and guarantee. AVOID empty declarations such as "we give a new approach." WHY: a reviewer must be able to locate the claim in a theorem, construction, or algorithm.
+
+RULE 4 - Assumption locality
+WHEN a conclusion depends on regularity, geometry, discretization, stability, or compactness, DO state that condition in or immediately before the result. AVOID relying on an implicit global assumption unless it was declared as a standing convention. WHY: claim scope must remain auditable.
+
+RULE 5 - One paragraph, one job
+WHEN a paragraph begins to perform a second independent task, DO start a new paragraph. AVOID combining literature review, theorem summary, numerical interpretation, and limitation in one block. WHY: modular paragraphs expose the dependency structure.
+
+RULE 6 - Present mechanism before applications
+WHEN one framework yields several consequences, DO explain the common operator, decomposition, estimate, or principle first. AVOID listing applications as unrelated contributions. WHY: the mature style presents unity before inventory.
+
+RULE 7 - Explain function, not symbols twice
+WHEN following a display, DO state what it achieves, controls, or enables. AVOID translating every symbol back into prose. WHY: the prose should advance the argument rather than duplicate notation.
+
+RULE 8 - Exact comparisons
+WHEN relating a result to prior work, DO name the changed assumption, rate, norm, constant, domain, or method. AVOID "better," "more general," or "improved" without a criterion. WHY: comparative claims must be mathematically testable.
+
+RULE 9 - Evidence-status discipline
+WHEN evidence is rigorous, DO use prove, establish, or show. WHEN evidence is computational, DO use observe, illustrate, or confirm for the tested instances. WHEN an explanation is plausible but unproved, DO label it heuristic or conjectural. AVOID moving between these levels silently. WHY: exposition must never strengthen mathematics.
+
+RULE 10 - Direct boundaries
+WHEN a result excludes an endpoint, relies on saturation, lacks parameter robustness, or leaves sharpness unresolved, DO say so near the result. AVOID burying the qualification in the conclusion. WHY: early scope control prevents overclaiming.
+
+RULE 11 - Lean setup
+WHEN notation or a macro is used only once, DO write it directly or remove it. AVOID front-loading symbol lists and source abstractions. WHY: mature exposition and mature TeX both minimize scaffolding.
+
+RULE 12 - Dependency-led structure
+WHEN ordering subsections, DO ask what each later theorem needs. AVOID ordering material by the chronology of discovery. WHY: readers need the logical route, not the research diary.
+
+
+4. MATHEMATICAL NOTATION
+========================
+
+4.1 Selection policy
+
+WHEN a conventional symbol is unambiguous, DO reuse it. AVOID a new local symbol for a standard object. WHY: notation should expose mathematical structure rather than authorship.
+
+WHEN an exact object has a discrete or approximate counterpart, DO use a transparent modifier such as a subscript h, a projection symbol, or another declared marker. AVOID changing the root letter without a structural reason. WHY: related typography should reveal related roles.
+
+WHEN using h, DO reserve it for a discretization scale or mesh-dependent object unless the paper establishes another convention. WHEN a refinement or iteration level is needed, DO introduce a distinct level index such as ell and state its role. AVOID stacking indices whose meanings cannot be recovered locally.
+
+WHEN naming structured families, meshes, element sets, dictionaries, or manifolds, CONSIDER calligraphic capitals. WHEN naming canonical number fields, use blackboard bold. Use capital Roman letters for spaces, maps, operators, or constants when context supports it; use lowercase Roman or Greek symbols for functions, solutions, coefficients, residuals, and indices. These are defaults, not universal semantic laws.
+
+WHEN using a hat, tilde, bar, prime, or star, DO define the local operation: projection, correction, averaging, postprocessing, duality, adjoint, or another role. AVOID assuming one modifier has a fixed meaning across topics. WHY: corpus evidence supports stable morphology but not universal modifier semantics.
+
+4.2 Introduction sequence
+
+Introduce notation through one of these moves: "Let X be ...", "Let X denote ...", "We denote by X ...", "For a given ..., define ...", or "We set ...". Then proceed as needed:
+
+ambient object and space -> defining relation -> norm or operator -> discrete or auxiliary counterpart -> reason for use.
+
+WHEN several symbols form one system and will recur, DO introduce them together in dependency order. WHEN only one symbol is needed by the next display, DO define it locally. AVOID a long notation catalogue detached from a theorem, construction, or proof step.
+
+4.3 Definitions and operators
+
+Use := or \coloneqq only for a genuine definition. Use equality for identities and derived relations. Define nonstandard operators semantically, preferably with \DeclareMathOperator when they recur. State domains and codomains when they are not evident or when boundedness, compactness, or mapping properties matter.
+
+WHEN defining a norm, seminorm, bilinear form, residual, estimator, or approximation quantity, DO state its underlying space, domain, or order whenever ambiguity is possible. AVOID suppressing a subscript merely to make a formula shorter if the omission changes the claim's scope.
+
+4.4 Constants and dependence
+
+WHEN using a generic constant, DO state which quantities it may depend on and, especially, which mesh sizes, polynomial degrees, parameters, or iteration levels it is independent of. WHEN the constant changes from line to line, declare that convention once. AVOID calling an estimate robust unless this independence is explicit.
+
+4.5 Auxiliary notation
+
+WHEN a symbol shortens several later statements, makes a decomposition visible, or isolates a proof dependency, DO introduce it. AVOID one-use abbreviations and aliases for already short expressions. WHY: mature notation compresses repeated structure, not isolated complexity.
+
+4.6 Equation architecture
+
+Use a single display for one central identity or estimate. Use aligned lines for a derivation, coupled relations, or an inequality chain. Put one conceptual operation on each line. Align at the equality or inequality that carries the reasoning. If a chain uses different justifications, signal them in prose or with restrained annotations.
+
+WHEN a formula introduces several new objects, DO stage them in separate definitions or a short local block before the main relation. AVOID forcing definition, theorem, and interpretation into one display. WHY: each equation should have an identifiable mathematical job.
+
+
+5. PROSE-MATH INTERFACE
+=======================
+
+Use this default cycle:
+
+task or intuition -> required objects and assumptions -> displayed statement -> role, consequence, or interpretation.
+
+BEFORE A DISPLAY:
+WHEN the display answers a local question, DO name that question or action in the preceding sentence. Use a colon only when the grammar introduces the displayed material. AVOID dropping a formula between paragraphs without a syntactic or logical entry.
+
+INSIDE A DISPLAY:
+DO preserve sentence grammar. End the display with a comma if the sentence continues and with a period if it ends. Put labels only on relations that are cited later. AVOID manual equation numbers and decorative numbering.
+
+AFTER A DISPLAY:
+WHEN the implication is not immediate, DO state which quantity is controlled, which property follows, which proof step is complete, or which result becomes applicable. AVOID repeating the formula term by term. If a hidden constant or scope condition matters, state it before moving on.
+
+BEFORE A DEFINITION:
+DO explain why the object is needed when its role is not obvious. AVOID motivation that is longer than the definition's use warrants.
+
+BEFORE A LEMMA:
+DO name the dependency it supplies: stability, approximation, boundedness, localization, decomposition, transfer, or another specific function. AVOID calling every lemma "useful" without saying how.
+
+BEFORE A THEOREM:
+DO pose the target estimate or question, identify the principal conditions, and then state the result. AVOID duplicating the full theorem in prose.
+
+AFTER A THEOREM:
+WHEN needed, DO give one compact sentence on its mathematical meaning, comparison, sharpness, parameter dependence, or limitation. AVOID turning the commentary into a second proof or an unsupported claim of significance.
+
+AROUND A PROOF:
+Open with the local goal or principal device when it aids orientation. During the proof, cite exact equations and lemmas. After combining estimates, state the exact desired conclusion. Close briefly when the final displayed line does not make completion self-evident.
+
+
+6. MATHEMATICAL NARRATIVE
+=========================
+
+Choose the narrative that matches the paper's contribution.
+
+FRAMEWORK-TO-APPLICATION:
+problem -> abstract framework -> stability or approximation theorem -> estimator, preconditioner, solver, or application.
+
+DEFINITION-TO-THEOREM:
+mathematical question -> definitions -> assumptions -> auxiliary lemma -> main theorem -> sharpness or limitation -> consequence.
+
+ALGORITHM-TO-EVIDENCE:
+problem -> admissible inputs -> algorithm -> well-posedness or stability -> convergence theorem -> numerical illustration.
+
+WHEN the result depends on an unfamiliar mechanism, DO provide intuition before formalization, then return quickly to exact definitions. WHEN the framework is standard and only a local modification matters, DO formalize directly and explain the modification. AVOID intuition that asserts more than the theorem proves.
+
+State definitions before assumptions that use them. State assumptions before the theorem they restrict. Place auxiliary lemmas in the order the proof consumes them. If a lemma is standard, cite or state it at the required strength; do not silently strengthen it. If a result is proposed but unproved, label it as a conjecture, expected property, design goal, or open problem according to its actual status.
+
+Theorem architecture:
+
+conditions and objects -> quantified conclusion -> dependence or independence of constants -> essential special consequence.
+
+Proof architecture:
+
+local goal -> invoked identity or lemma -> decomposition or estimate -> combination of bounds -> exact conclusion.
+
+Numerical narrative:
+
+test setting -> measured quantity -> figure or table -> observed behavior -> relation to theory -> discrepancy or limitation.
+
+
+7. VOCABULARY RULES
+===================
+
+7.1 Author actions
+
+Use consider to select a problem or setting. Use define or set to introduce an object. Use construct for an algorithm, operator, estimator, basis, or approximation. Use derive for a relation obtained by calculation. Use prove or establish for a rigorous result. Use show for a proved implication, argument, or direct calculation. Use obtain for the output of preceding estimates. Use propose for a method, framework, conjecture, or design whose status is explicitly identified. Use present when the action is organizational.
+
+WHEN the verb does not reveal the mathematical operation, DO replace it with one that does. AVOID perform, conduct, address, deal with, or explore when a more exact verb is available.
+
+7.2 Logical relations
+
+Use however for a genuine obstruction or contrast. Use therefore, thus, or consequently for a demonstrated implication. Use in particular for specialization. Use moreover or in addition for a new supporting fact of the same type. Use in contrast for an explicit comparison. Use on the other hand only for balanced alternatives. Use "it follows from" when the cited dependency is immediate and "combining ... we obtain" when several bounds jointly yield the conclusion.
+
+AVOID chains of hence, therefore, and thus that merely decorate sequential algebra. If the mathematical object itself supplies continuity, begin the next sentence with that object.
+
+7.3 Precision adjectives
+
+WHEN using sharp, optimal, robust, stable, reliable, efficient, uniform, or quasi-optimal, DO attach the adjective to a named result and criterion. State the range, norm, rate, complexity, parameter, or independence being claimed. AVOID using these words as general praise.
+
+Use new or novel sparingly. Prefer a factual statement of what differs. Use "to the best of our knowledge" only for a narrow priority claim after an actual literature check; never use it as protection for an unverified broad claim.
+
+7.4 Literature verbs
+
+Use proves or establishes for a cited rigorous result, derives for a calculation, introduces or proposes for a method, studies or analyzes for scope, and reports or observes for numerical findings. AVOID assigning a stronger conclusion to a reference than its theorem or experiment supports.
+
+7.5 Limitation verbs
+
+Prefer does not cover, requires, remains unknown, may fail, is not available, is not proved, lies beyond the present scope, or remains open. AVOID vague phrases such as "there are still some issues". Name the issue.
+
+7.6 Tense
+
+Use present tense for the paper's actions, definitions, theorem statements, section tasks, and mathematical facts. Use past tense for a specific completed experiment or historical contribution when chronology matters. Use future tense for actual future work or a necessary forward pointer. Prefer present tense over repeated "we will" announcements. "We shall" remains available for a formal mathematical action but should not become a repetitive transition device.
+
+
+8. SENTENCE ARCHITECTURE
+========================
+
+Default to compact declarative sentences with one visible main action. Mix lengths according to mathematical function. A condition-rich theorem sentence may be long; its interpretation should usually be short.
+
+Use these architectures deliberately:
+
+1. OBJECT -> ROLE. Introduce an operator, space, estimate, or decomposition and state the task it performs.
+
+2. CONDITION -> CONCLUSION. Put if, suppose, assume, or let clauses before the claimed estimate or property.
+
+3. KNOWN RESULT -> LIMITATION. State exactly what prior theory supplies, then identify the missing case, assumption, norm, or rate.
+
+4. CONTRAST -> MECHANISM. State why the existing route fails; begin a new sentence for the construction that resolves the problem.
+
+5. METHOD -> PROPERTY. Name the constructed object, then state its stability, convergence, reliability, or implementation property under explicit conditions.
+
+6. ESTIMATE -> CONSEQUENCE. Follow an equation or inequality chain with the exact bound, theorem, or subgoal it yields.
+
+7. RESULT -> BOUNDARY. State the theorem first, then its endpoint failure, scope restriction, or unresolved sharpness.
+
+8. OBSERVATION -> THEORETICAL RELATION. Report the measured rate or ratio, then say whether it agrees with, falls short of, or lies outside the proved prediction.
+
+9. QUESTION -> THEOREM. Frame the precise analytical question and answer it with the principal result, without an extended ceremonial lead-in.
+
+10. LONG SETUP -> SHORT LANDING. Use a longer sentence to keep coupled hypotheses together, then a short sentence to state the main consequence.
+
+11. GENERAL -> SPECIAL. State the abstract result, then introduce the application with "in particular" or an explicit specialization.
+
+12. LOCAL GOAL -> PROOF ACTION. Begin a proof paragraph with what must be bounded or shown, then name the identity, decomposition, or lemma used.
+
+Information placement rules:
+
+- Put the established context or previously named object near the sentence beginning.
+- Put the new mathematical action in the main clause.
+- Put a qualification next to the precise phrase it limits.
+- Put the important rate, guarantee, or unresolved boundary at the sentence end when that position gives it emphasis without delaying the main verb.
+- Split a sentence when it contains more than one independent contribution, comparison, or caveat.
+- Use parentheses for compact secondary conditions or citations, not for an essential hypothesis.
+- Use semicolons only when two complete clauses are tightly parallel. Prefer separate sentences when the logical relationship needs explanation.
+
+AVOID clause stacking inherited from topic- or coauthor-specific transition papers. Do not coordinate a method, theorem, comparison, three applications, and a limitation under one subject. Preserve the condition-conclusion bond, but move independent information to a new sentence.
+
+
+9. RHETORICAL MOVE ALGORITHMS
+=============================
+
+Select one algorithm, then omit any move that the paper does not need.
+
+9.1 Mature Introduction algorithm
+
+research setting -> central mathematical object -> exact analytical or computational barrier -> closest known result -> limitation of that result -> proposed mechanism or framework -> principal theorem under conditions -> comparison or implication -> task-based roadmap.
+
+WHEN the question itself is the strongest entry point, DO move from context directly to that question. AVOID a broad survey before the reader sees the problem.
+
+9.2 Gap algorithm
+
+known result -> property it controls -> condition under which it works -> missing case or property -> mathematical consequence of the gap -> present entry point.
+
+AVOID declaring that "few works exist." State what is not yet controlled or proved.
+
+9.3 Contribution algorithm
+
+common mechanism -> first principal result -> second result or application -> unifying benefit -> nearest comparison.
+
+Limit the Introduction to two to four principal contributions. Group corollaries and proof ingredients under the mechanism. Do not turn the contribution paragraph into a table of contents.
+
+9.4 Theorem-framing algorithm
+
+target quantity or question -> indispensable assumptions -> theorem -> constant dependence -> sharpness, limitation, or special case -> proof pointer if useful.
+
+9.5 Proof algorithm
+
+announce local goal -> invoke exact dependency -> derive or decompose -> bound components -> combine named estimates -> match the theorem's conclusion -> close.
+
+If one step is heuristic, isolate and label it; do not place it inside a proof as though it were established.
+
+9.6 Numerical-result algorithm
+
+declare test problem and parameters -> define measured errors, rates, or effectivity quantities -> point to figure or table -> report observations -> compare with the theoretical prediction -> name anomalies or limits.
+
+Never move from a finite test suite to a universal theorem.
+
+9.7 Limitation algorithm
+
+state achieved result -> identify exact excluded regime or dependence -> explain whether the obstacle is theoretical, computational, or evidential -> state what remains open.
+
+Do not apologize. Use the limitation to define the result's boundary.
+
+9.8 Conclusion algorithm
+
+principal result -> scope or application -> unresolved estimate, endpoint, or extension -> concrete next mathematical problem.
+
+Avoid repeating the full Introduction, contribution list, or roadmap.
+
+
+10. PARAGRAPH ENGINES
+=====================
+
+Use these engines as functional plans. Do not copy them as fixed sentence templates.
+
+1. FIELD-TO-PROBLEM
+Opening: identify the research or computational setting.
+Development: name the central object and why approximation, analysis, or solution is difficult.
+Closing: specify the target quantity or property.
+
+2. KNOWN-RESULT-TO-GAP
+Opening: state the closest relevant theorem or method.
+Development: identify its assumptions and supplied property.
+Closing: name the exact missing case and its consequence.
+
+3. BARRIER-TO-MECHANISM
+Opening: state the technical obstruction.
+Development: explain why standard machinery fails.
+Closing: introduce the decomposition, operator, framework, or algorithm designed to remove it.
+
+4. MAIN CONTRIBUTION
+Opening: name the proposed object or framework.
+Development: state the principal property under its conditions and compare it with the nearest result.
+Closing: give the theoretical or computational implication.
+
+5. GROUPED CONTRIBUTIONS
+Opening: name the common mechanism.
+Development: state two or three principal results or applications.
+Closing: explain what unifies them. Begin a new paragraph if an item requires a separate assumption or proof idea.
+
+6. DEFINITION
+Opening: identify the ambient objects and need.
+Development: give the definition and required domain.
+Closing: state its immediate interpretation or later use.
+
+7. ASSUMPTION
+Opening: name the property required by the analysis.
+Development: state the assumption exactly and identify the objects it restricts.
+Closing: explain which theorem uses it or whether its verification remains open.
+
+8. AUXILIARY LEMMA
+Opening: state the proof need.
+Development: distinguish cited, adapted, and newly proved material; then state the lemma.
+Closing: identify the exact consequence used next.
+
+9. MAIN THEOREM
+Opening: recall the target question.
+Development: state the theorem under explicit conditions.
+Closing: discuss one of role, comparison, sharpness, limitation, or proof mechanism.
+
+10. PROOF STEP
+Opening: state the local goal.
+Development: invoke a named relation, perform the derivation, and combine bounds.
+Closing: state that the subgoal or theorem conclusion follows.
+
+11. NUMERICAL SETUP
+Opening: give the problem, domain, and parameters.
+Development: specify discretization, refinement, implementation choices needed for reproducibility, and measured quantities.
+Closing: point to the figure or table.
+
+12. NUMERICAL INTERPRETATION
+Opening: report the observed behavior.
+Development: give the quantitative rate, ratio, or effectivity and compare it with theory or a baseline.
+Closing: name an exception, uncertainty, or implication without converting it into proof.
+
+13. REVIEWER-DEFENSE
+Opening: state the plausible competing explanation or weak point fairly.
+Development: give the theorem, test, comparison, or scope condition that addresses it.
+Closing: say what is resolved and what remains unresolved.
+
+14. TRANSITION
+Opening: recover the object or conclusion just established.
+Development: identify the next missing property.
+Closing: state the next section's or paragraph's task.
+
+15. CONCLUSION
+Opening: state the achieved result.
+Development: give scope and one important application or interpretation.
+Closing: identify a precise open case or next direction.
+
+Paragraph opening rule: put the task, claim, or mathematical object early. Paragraph closing rule: stop after the implication, boundary, or forward task is clear. AVOID explanatory tails that add unrelated examples, references, or claims after closure.
+
+
+11. SECTION MODELS
+==================
+
+11.1 Introduction
+
+PURPOSE: Define the problem, isolate the barrier, state the proposed solution and principal result, and orient the reader.
+
+OPENING: Begin with the research setting or central mathematical object. Give only enough disciplinary context to establish the stakes. An early formula is appropriate when precision requires it; keep systematic notation for a later section.
+
+MOVE SEQUENCE: context -> object -> closest known theory -> exact limitation -> proposed framework -> main theorem or guarantee -> comparison or implication -> roadmap.
+
+PARAGRAPH SEQUENCE: use Field-to-Problem, Known-Result-to-Gap, Barrier-to-Mechanism, one or two contribution paragraphs, then a roadmap. Merge adjacent engines only when each remains easy to identify.
+
+CLAIM STRENGTH: State proved principal results directly with their conditions. Qualify priority claims. Describe numerical support as observation or illustration.
+
+MATH DENSITY: Low to moderate. Include only the governing problem, a key quantity, or a concise principal estimate needed to make the question exact.
+
+CITATIONS: Use compact clusters tied to what the references supply. Compare the nearest results on mathematical criteria. Avoid a chronological catalogue or broad catch-all tail.
+
+TRANSITIONS: Let an unresolved property at the end of one paragraph motivate the construction in the next.
+
+CLOSING: Give a short task-based roadmap in present tense.
+
+AVOID: preliminaries disguised as motivation, exhaustive contribution inventories, repeated declarations beginning with "in this paper," and proof detail that belongs in the body.
+
+11.2 Literature Review
+
+PURPOSE: Establish the exact boundary of known results and position the present work.
+
+OPENING: Name a result family, method family, or mathematical issue rather than an era or list of authors.
+
+MOVE SEQUENCE: line of work -> representative references -> supplied theorem or method -> assumption or missing property -> relation of the present result.
+
+PARAGRAPH SEQUENCE: group by mathematical function, not chronology. Give each paragraph one comparison axis: estimator reliability, approximation rate, robustness, regularity, mesh conditions, computational construction, or another relevant property.
+
+CLAIM STRENGTH: Represent cited work at its actual theorem or experimental level. Verify narrow priority claims.
+
+MATH DENSITY: Low unless a formula is required to distinguish results precisely.
+
+CITATIONS: Place citations next to the claim they support. Use representative clusters and say what each cluster contributes.
+
+TRANSITIONS: Close with the condition or property still missing, then move to the work that addresses it or to the present result.
+
+CLOSING: State the exact intellectual and technical position of the present paper.
+
+AVOID: a standalone section when two focused paragraphs in the Introduction suffice; lists that do not lead to a gap; "and references therein" as a substitute for selection.
+
+11.3 Theory / Analysis
+
+PURPOSE: Move from a defined setting through necessary dependencies to the principal result.
+
+OPENING: State the section's mathematical task and why it is needed by the main argument.
+
+MOVE SEQUENCE: setting -> local notation -> assumptions -> auxiliary structure -> lemma -> theorem -> interpretation, comparison, or application.
+
+PARAGRAPH SEQUENCE: alternate short orientation paragraphs with formal statements and proof units. Each lemma should have a declared role.
+
+CLAIM STRENGTH: Use definitive language only for proved results. Label assumptions, conjectures, and heuristic motivations explicitly.
+
+MATH DENSITY: High. Keep prose concise, but do not omit domains, norms, constant dependence, or logical links.
+
+CITATIONS: Cite the exact external lemma or framework when used. Distinguish a quoted result, a modified version, and a new result.
+
+TRANSITIONS: Use proof dependencies: the preceding estimate supplies the stability, localization, or approximation property needed next.
+
+CLOSING: State what the section has established and which main theorem, algorithm, or application now follows.
+
+AVOID: front-loading unused symbols, hiding essential assumptions in prose, or moving conceptual steps to an appendix solely for brevity.
+
+11.4 Methods / Algorithms
+
+PURPOSE: Specify a mathematically well-defined and reproducible procedure and establish its properties.
+
+OPENING: State the input, admissible class, output, and problem the method solves.
+
+MOVE SEQUENCE: inputs -> initialization -> local or iterative update -> stopping/output -> well-posedness or stability -> complexity or convergence guarantee.
+
+PARAGRAPH SEQUENCE: definition of objects, algorithmic sequence, theoretical guarantee, implementation details that affect the mathematical result.
+
+CLAIM STRENGTH: Distinguish a proposed algorithm from a proved property of that algorithm. State when termination, convergence, or complexity is assumed, observed, or proved.
+
+MATH DENSITY: Moderate to high. Use an algorithm environment only if it clarifies order and dependencies.
+
+CITATIONS: Cite inherited procedures and identify the exact modification made here.
+
+TRANSITIONS: Carry the output of one step into the input or property of the next.
+
+CLOSING: State the result that makes the procedure usable in the subsequent analysis or experiment.
+
+AVOID: pseudocode that suppresses mathematical conditions, implementation claims unsupported by details, and calling a construction robust without parameter-independent bounds.
+
+11.5 Numerical Results
+
+PURPOSE: Evaluate predicted rates, estimator behavior, robustness, effectivity, or computational performance in declared test settings.
+
+OPENING: State the test problem, domain, parameters, data, mesh or discretization, refinement rule, and quantities measured.
+
+MOVE SEQUENCE: setup -> metric -> figure/table -> observation -> quantitative comparison -> relation to theorem or baseline -> limitation.
+
+PARAGRAPH SEQUENCE: one setup paragraph, then paired result and interpretation paragraphs for distinct questions. Separate convergence, robustness, and implementation cost if they require different evidence.
+
+CLAIM STRENGTH: Use observed for fitted or empirical rates; illustrates or confirms for agreement in tested cases; numerically demonstrates only when the scope remains explicit. Do not use proves.
+
+MATH DENSITY: Moderate. Define every plotted or tabulated quantity. Give enough information to reproduce the calculation, but move routine code details out of the argument.
+
+CITATIONS: Cite benchmark definitions, comparison methods, or known reference values where relevant.
+
+TRANSITIONS: Move from a theorem's predicted quantity to its measured counterpart, or from an anomaly to the next diagnostic test.
+
+CLOSING: State what the tests support and what they cannot determine.
+
+AVOID: universal claims from a finite sample, adjectives without quantitative criteria, figures introduced only after interpretation, and unexplained deviations.
+
+11.6 Discussion / Conclusion
+
+PURPOSE: State what has been established, define its reach, and identify a concrete remaining mathematical problem.
+
+OPENING: Recap the principal result at the level of object, property, and conditions. Do not replay the narrative of the Introduction.
+
+MOVE SEQUENCE: achieved result -> scope or application -> exact technical boundary -> unresolved case or future extension.
+
+PARAGRAPH SEQUENCE: one dense paragraph is acceptable when no new qualification is required; use a second paragraph for a substantive limitation or future problem.
+
+CLAIM STRENGTH: Match the theorem and numerical evidence exactly. Retain all qualifications.
+
+MATH DENSITY: Low. Use notation only when the open problem cannot be stated accurately without it.
+
+CITATIONS: Usually sparse; cite only when defining the relation to a specific unresolved line of work.
+
+TRANSITIONS: Move from result to boundary through the condition that limits generality.
+
+CLOSING: End on a precise estimate, endpoint, class, or construction that remains open.
+
+AVOID: generic declarations of impact, an exhaustive results recap, and future work unrelated to the paper's obstruction.
+
+11.7 Proof / Appendix
+
+PURPOSE: Supply a technical dependency, extended derivation, supporting theorem, or implementation detail while preserving a clear link to the main text.
+
+OPENING: State which result or step the appendix supports and whether the material is standard, adapted, or new.
+
+MOVE SEQUENCE: dependency -> assumptions and notation -> lemma or derivation -> proof -> exact main-text consequence.
+
+PARAGRAPH SEQUENCE: organize by subgoal and proof dependency. Use short prose to announce decompositions, cases, and combinations of bounds.
+
+CLAIM STRENGTH: Apply the same rigor as in the main text. An appendix does not lower the burden of proof.
+
+MATH DENSITY: High, with every symbol and assumption recoverable locally or through an explicit main-text reference.
+
+CITATIONS: Give exact sources for imported tools and distinguish direct use from adaptation.
+
+TRANSITIONS: Reference the equation, lemma, or theorem that supplies the next step.
+
+CLOSING: State which main-text assertion now follows.
+
+AVOID: moving an idea essential to understanding the principal result out of the main text, hiding an unproved assumption, or ending without reconnecting to the supported claim.
+
+
+12. FLOW AND TRANSITION RULES
+=============================
+
+SENTENCE FLOW:
+Carry a mathematical object, property, or unresolved condition from the end of one sentence into the subject or opening of the next. Use old information to anchor new information. WHEN the relation is inferable from shared objects, DO omit a mechanical connective. WHEN the relation could be mistaken, DO name it explicitly.
+
+PARAGRAPH FLOW:
+Close a paragraph on a limitation, consequence, or new requirement. Open the next with the object or task generated by that close. Preferred bridge patterns include:
+
+known estimate -> missing property -> new construction;
+definition -> needed auxiliary property -> lemma;
+theorem -> special consequence -> application;
+observed discrepancy -> unresolved question -> diagnostic test or limitation.
+
+SECTION FLOW:
+End a section by stating what has been obtained and what it enables. Open the next section with a short task sentence. AVOID repeating the complete Introduction roadmap at every boundary.
+
+CONNECTIVE CONTROL:
+Use however only for real contrast, therefore or thus for established consequence, in particular for specialization, and moreover for a genuinely additional fact. AVOID varying connectives merely for surface elegance. Name the actual relation when a generic adverb is too weak.
+
+REFERENCE FLOW:
+Use equation, theorem, lemma, figure, and section references as logical pointers: say whether the cited item defines, bounds, implies, illustrates, or completes the current step. AVOID bare references that force the reader to infer why the item matters.
+
+
+13. LATEX CODING STYLE
+======================
+
+13.1 Source architecture
+
+Use the shortest preamble compatible with the mathematics and venue. Start with standard packages and add a package only for a needed feature. Keep document-class commands, funding statements, author metadata, bibliography configuration, and venue boilerplate separate from authorial style decisions.
+
+WHEN a paper is long or has substantial appendices, DO split source files by stable section units with \input or the venue-compatible mechanism. WHEN the main source remains easy to navigate, a single file is acceptable. AVOID fragmentation into files that contain only a few lines without a maintenance benefit.
+
+13.2 Macros
+
+Use \DeclareMathOperator for recurring named operators. Define a semantic macro only when it represents the same mathematical object throughout the paper and recurs enough to reduce error or expose meaning. Use parameters when the macro represents a stable family of forms.
+
+AVOID early-style suites of local formatting, address, URL, bibliography, or one-use abbreviation macros. Do not import a macro collection from another paper without checking every semantic collision. Prefer readable standard LaTeX for isolated expressions.
+
+13.3 Display environments
+
+Use equation for one numbered relation and equation* for one unnumbered supporting relation. Use align or align* for derivations, inequality chains, or coupled formulas. Use aligned inside another environment only when one semantic display contains multiple aligned lines. Use cases for true piecewise definitions.
+
+AVOID eqnarray, manual tags, and unusual environments when equation or align expresses the structure. Use gather or another environment only when its layout has a real mathematical purpose. Do not use display environments as spacing devices.
+
+13.4 Numbering, labels, and references
+
+Number a display only when it will be cited, anchors a theorem or proof, or aids navigation in a long derivation. Put \label with the numbered object. Use \eqref for equations and \ref for sections, theorems, lemmas, propositions, figures, and tables unless the venue enforces another system. Do not use \autoref as the default.
+
+Prefer semantic label families: eq:, thm:, lem:, prop:, cor:, def:, ass:, sec:, fig:, tab:, and alg:. Choose one casing and naming convention for the paper. Make the suffix meaningful enough to survive local editing. AVOID labels based only on transient numbers such as eq:3.
+
+Number equations within sections when compatible with the venue and paper length. Follow mandatory class behavior when it differs.
+
+13.5 Citations
+
+Use plain \cite as the authorial default. Use \citet, \citep, or other commands only when the venue and citation package require them or when the grammatical distinction is intentional. Group citations that support the same claim. Put each citation next to the mathematical or historical statement it supports.
+
+AVOID changing citation commands merely to imitate one paper; citation coding is strongly venue-sensitive.
+
+13.6 Figures and tables
+
+Mention each figure or table before or at its first appearance. In a float, center the object, provide a concise caption that identifies the content and necessary conditions, and place the label immediately after the caption. Define plotted quantities, abbreviations, and parameters in the text or caption.
+
+Before a table or figure, state what is being tested or displayed. After it, report the relevant observation and relate it to the theorem or baseline. AVOID captions that make claims not supported in the body.
+
+13.7 Theorem environments and punctuation
+
+Use theorem, lemma, proposition, corollary, definition, assumption, and remark according to mathematical role. Keep numbering consistent and share counters only when it improves navigation. End displayed equations with the punctuation required by their sentences. Do not let a line break replace punctuation.
+
+
+14. CLAIM-STRENGTH CALIBRATION
+==============================
+
+Every substantive statement must belong to one evidential class.
+
+CLASS A - PROVED STATEMENT
+Evidence: a complete proof in the paper or a correctly cited theorem whose assumptions are verified.
+DO: use prove, establish, show, implies, yields, follows, or obtain as appropriate.
+INCLUDE: hypotheses, quantifiers, norm, parameter dependence, and scope.
+AVOID: omitting a needed assumption or silently generalizing a cited result.
+
+CLASS B - PROPOSED STATEMENT OR OBJECT
+Evidence: a definition, method, framework, conjecture, or claimed direction introduced for study, without a proof of all desired properties.
+DO: use propose, introduce, define, formulate, conjecture, or seek, and then state separately which properties are proved.
+AVOID: using construct or establish to imply a guarantee that has not been demonstrated.
+
+CLASS C - HEURISTIC ARGUMENT
+Evidence: intuition, scaling, analogy, formal calculation, or mechanism that motivates a result but is not a proof.
+DO: label it heuristic, formal, intuitive, suggestive, or consistent with; explain its intended role.
+AVOID: placing it inside a proof without a status marker or using therefore for a nonrigorous leap.
+
+CLASS D - ASSUMPTION REQUIRING PROOF OR VERIFICATION
+Evidence: a condition imposed for analysis or observed in tests but not established in the required setting.
+DO: state "we assume," "under the saturation assumption," "provided that," or an equally explicit marker. Say which result depends on it and whether verification is known in a special case.
+AVOID: presenting the assumption as a fact or hiding it in notation.
+
+CLASS E - NUMERICAL OBSERVATION
+Evidence: a finite set of computations, fitted rate, table, or figure.
+DO: use observe, appears, illustrates, agrees with, confirms in these tests, or numerically demonstrates within the declared setup.
+AVOID: prove, establish universally, or guarantee.
+
+CLASS F - PRIORITY OR NOVELTY CLAIM
+Evidence: a sufficiently broad and current literature search.
+DO: state a narrow object-property comparison. Use "to the best of our knowledge" only when justified.
+AVOID: first, unique, new, or novel without a checked scope.
+
+STRENGTH DECISION:
+WHEN all hypotheses and proof links are available, use the strongest accurate rigorous verb. WHEN only a calculation or experiment supports the statement, lower the verb strength and state the evidence type. WHEN a mechanism is plausible but unproved, separate motivation from conclusion. WHEN the status is unclear, insert an explicit editorial query instead of choosing a stronger phrase.
+
+Suggested editorial markers during drafting:
+[CLAIM STATUS?], [ASSUMPTION NEEDED], [PROOF GAP], [REFERENCE NEEDED], [NUMERICAL ONLY], [SCOPE CHECK]. Remove each marker only after resolving it from supplied evidence.
+
+
+15. REVIEWER-DEFENSE BEHAVIOR
+=============================
+
+Anticipate objections at the point where they arise, not in a defensive appendix added after review.
+
+SCOPE:
+WHEN a theorem excludes a natural regime, DO state the exclusion immediately after the result and, if known, name the step that fails. AVOID implying full generality in the Introduction and narrowing it later.
+
+ASSUMPTIONS:
+WHEN an assumption is restrictive, DO explain whether it is standard, verifiable, necessary for a particular lemma, or merely sufficient. AVOID claiming necessity unless proved.
+
+ROBUSTNESS:
+WHEN robustness is a contribution, DO identify the parameter and demonstrate constant independence. AVOID treating numerical insensitivity as a proof of robustness.
+
+SHARPNESS AND OPTIMALITY:
+WHEN claiming a sharp or optimal rate, DO state the comparison class and bound that certifies it. WHEN sharpness is unknown, say so. AVOID using optimal as a synonym for good.
+
+PRIOR WORK:
+WHEN the nearest reference appears similar, DO compare assumptions, spaces, norms, rates, algorithms, and dimensions explicitly. AVOID vague differentiation or unfairly weak descriptions of the cited result.
+
+ALTERNATIVE EXPLANATIONS:
+WHEN a numerical pattern could arise from pre-asymptotic behavior, mesh choice, parameter selection, or implementation, DO test or acknowledge that possibility. AVOID declaring a mechanism uniquely established by the plot.
+
+REPRODUCIBILITY:
+WHEN a computational conclusion depends on setup choices, DO report the problem, parameters, discretization, refinement, solver tolerance, and measured quantity at the level needed to interpret it. AVOID operational detail that does not affect the mathematical claim.
+
+DEPENDENCY AUDIT:
+WHEN a proof imports a standard result, DO verify that its hypotheses hold and cite it exactly. AVOID "by standard arguments" where the omitted step carries a nonstandard domain, norm, or parameter dependence.
+
+LIMITATION PLACEMENT:
+Put local limitations beside the claim; reserve the conclusion for the broad boundary and future problem. This makes the exposition candid without interrupting every line with generic hedging.
+
+
+16. DO / DO NOT
+===============
+
+DO:
+- Define the mathematical object before evaluating its importance.
+- Translate a broad gap into a missing estimate, property, or case.
+- Pair every contribution with an object, guarantee, and conditions.
+- Use active "we" for deliberate mathematical operations.
+- Keep assumptions visible and local.
+- Put formal statements in condition-conclusion order.
+- Introduce notation near its first real use.
+- Explain why a lemma or display is needed.
+- Punctuate display mathematics as part of the sentence.
+- Compare prior results on exact mathematical dimensions.
+- Group contributions by their shared mechanism.
+- Use one central task per paragraph.
+- Organize proofs by dependencies and subgoals.
+- State constant dependence when robustness matters.
+- Report numerical rates and ratios quantitatively.
+- Mark observations, heuristics, assumptions, and proofs distinctly.
+- Give a compact task-based roadmap.
+- State limitations and open cases directly.
+- Keep the preamble lean and labels semantic.
+- End after the paragraph's implication or forward task is clear.
+
+DO NOT:
+- Change, strengthen, weaken, or generalize a mathematical claim for smoother prose.
+- Invent an assumption, lemma, definition, reference, experiment, or result.
+- Call a problem important without naming the mathematical stakes.
+- Call an approach new without a checked and narrow comparison.
+- Use robust, optimal, or sharp without a criterion.
+- Present a proposed property as proved.
+- Present a heuristic calculation as a proof.
+- Present a finite numerical sample as a universal theorem.
+- Hide an assumption in notation or a distant paragraph.
+- Introduce a large symbol inventory before its purpose is clear.
+- Give one-use symbols or macros merely to shorten a line.
+- Copy venue front matter or paper-specific macro suites as style.
+- Turn the Introduction into preliminaries.
+- List every corollary and proof ingredient as a contribution.
+- Catalogue literature without using it to define a gap.
+- Stack several contributions and caveats in one sentence.
+- Repeat the content of a display in prose.
+- Use connectives as decoration.
+- Bury endpoint failure or unknown sharpness in the conclusion.
+- End with generic impact or unrelated future work.
+
+
+17. SECTION-SPECIFIC CHECKLIST
+==============================
+
+INTRODUCTION
+[ ] Is the mathematical object or computational task visible in the opening paragraphs?
+[ ] Is the exact obstruction named rather than described as generic difficulty?
+[ ] Does each citation cluster supply a theorem, method, restriction, or comparison?
+[ ] Is the proposed mechanism stated before its applications?
+[ ] Are the principal contributions limited to a small, unified set?
+[ ] Does every result summary preserve its hypotheses and evidence status?
+[ ] Is introductory notation restricted to what the question or main result requires?
+[ ] Does the final paragraph map sections to mathematical tasks?
+
+LITERATURE REVIEW
+[ ] Is the literature grouped by mathematical function or comparison axis?
+[ ] Does each paragraph say what the cited work proves, constructs, or observes?
+[ ] Is the remaining limitation stated exactly?
+[ ] Are novelty and priority claims narrow and checked?
+[ ] Could the review be integrated into the Introduction without losing a necessary taxonomy?
+
+THEORY / ANALYSIS
+[ ] Does the section open with its task?
+[ ] Are objects, spaces, norms, and operators defined before use?
+[ ] Are assumptions adjacent to the results they govern?
+[ ] Does every auxiliary lemma have a stated proof role?
+[ ] Do theorem statements follow condition -> conclusion -> constant dependence?
+[ ] Does prose around displays explain mathematical function rather than repeat notation?
+[ ] Are all cited results used under verified hypotheses?
+[ ] Are sharpness, endpoint, and scope statements accurate?
+
+METHODS / ALGORITHMS
+[ ] Are input, admissible class, initialization, update, output, and stopping conditions defined?
+[ ] Is each claimed property identified as proved, assumed, proposed, or observed?
+[ ] Are stability, convergence, complexity, and robustness criteria explicit?
+[ ] Can a reader recover implementation choices that affect the mathematical conclusion?
+[ ] Does each procedural step feed the next in a visible dependency chain?
+
+NUMERICAL RESULTS
+[ ] Are the test problem, domain, data, parameters, discretization, and refinement stated?
+[ ] Is every plotted or tabulated quantity defined?
+[ ] Is each figure or table introduced before interpretation?
+[ ] Are rates, ratios, errors, and effectivities reported quantitatively?
+[ ] Are observations separated from theorems and heuristic explanations?
+[ ] Are deviations, pre-asymptotic effects, and test limitations acknowledged where relevant?
+[ ] Does the text say what the experiments cannot establish?
+
+DISCUSSION / CONCLUSION
+[ ] Is the principal result stated as object + property + conditions?
+[ ] Does the section avoid replaying the whole Introduction?
+[ ] Are proved results separated from observed applications?
+[ ] Is the main technical boundary stated directly?
+[ ] Does the final direction follow from that boundary?
+
+PROOF / APPENDIX
+[ ] Is the supported main-text result named at the start?
+[ ] Are all local symbols and assumptions recoverable?
+[ ] Is each proof organized by explicit subgoals and dependencies?
+[ ] Are adapted and quoted results distinguished from new ones?
+[ ] Does the ending reconnect the derivation to the main-text claim?
+
+LATEX
+[ ] Is every package and custom macro necessary?
+[ ] Are recurring operators defined semantically?
+[ ] Are equation and align environments used according to mathematical structure?
+[ ] Is every display punctuated grammatically?
+[ ] Are only referenced or navigationally important equations numbered?
+[ ] Are labels semantic and consistent?
+[ ] Are equations cited with \eqref and other objects with \ref?
+[ ] Are citation commands compatible with the venue without being mistaken for authorial style?
+[ ] Are figures and tables mentioned, captioned, and labeled in the intended order?
+
+
+18. SELF-REVISION PROTOCOL
+==========================
+
+Run these passes in order. Do not polish prose before the mathematical status is secure.
+
+PASS 1 - CLAIM LEDGER
+List every theorem, proposition, comparison, novelty statement, numerical conclusion, heuristic, and assumption. Assign each to proved, proposed, heuristic, assumed/unverified, numerical, or cited. Check that the verb and scope match the evidence. If evidence is missing, insert an editorial marker; do not repair the claim by invention.
+
+PASS 2 - ASSUMPTION AND QUANTIFIER AUDIT
+For every formal result, verify domain, function spaces, mesh class, regularity, parameter range, quantifiers, and constant dependence. Move each essential condition into or immediately before the result. Check that the Introduction and Conclusion do not silently omit restrictions.
+
+PASS 3 - MATHEMATICAL DEPENDENCY MAP
+For every section and proof, write the chain of required objects and results. Reorder definitions, lemmas, and theorems so that each dependency precedes its use. Move routine technical detail to an appendix only when the main argument remains understandable.
+
+PASS 4 - PROBLEM AND CONTRIBUTION AUDIT
+In the Introduction, underline the precise problem, obstruction, mechanism, principal object, guarantee, and nearest comparison. If any item is generic, replace it with the appropriate mathematical quantity or property. Group secondary results under the mechanism and remove exhaustive inventory.
+
+PASS 5 - NOTATION AUDIT
+Create a temporary symbol table. Check that every symbol is defined before use, has one role, and is typographically related to its counterparts. Remove one-use notation. Verify modifier meanings, indices, domains, norm subscripts, and constant independence. Resolve collisions introduced by copied source fragments or coauthors.
+
+PASS 6 - PROSE-MATH AUDIT
+Read each display with its preceding and following sentences. Add a task or syntactic lead-in where needed. Add the correct comma or period. After the display, state its mathematical role only when that role is not immediate. Remove prose that merely restates symbols.
+
+PASS 7 - PARAGRAPH FUNCTION AUDIT
+Label every paragraph with one engine from Section 10. If a paragraph has two independent labels, split it. Move the claim or task toward the opening. End after the implication, qualification, or forward link; delete explanatory tails that begin a new task without a new paragraph.
+
+PASS 8 - SENTENCE AUDIT
+Locate the main verb of every long sentence. Split sentences that combine independent contributions, comparisons, and caveats. Keep coupled hypotheses together. Use compact interpretation sentences after technical statements. Replace vague verbs and adjectives with mathematical actions and criteria.
+
+PASS 9 - FLOW AUDIT
+For each sentence pair, identify the carried object or logical relation. For each paragraph pair, verify that the preceding close creates the next task. For each section boundary, state what has been established and what follows. Remove mechanical connectives; add an explicit relation where continuity is ambiguous.
+
+PASS 10 - LITERATURE AND ATTRIBUTION AUDIT
+Check every citation against the claim it supports. Distinguish what prior work proves, proposes, or observes. Replace broad novelty language with exact comparisons. Do not let a phrase, symbol system, or source convention from one coauthor, topic, or venue become a global stylistic rule.
+
+PASS 11 - NUMERICAL EVIDENCE AUDIT
+Verify setup, parameters, measured quantities, rates, and baselines. Check that every figure and table is introduced and interpreted. Replace proof verbs with observation verbs where evidence is computational. State anomalies and finite-test limitations.
+
+PASS 12 - LATEX AUDIT
+Remove unused packages, macros, labels, and commented remnants. Replace one-use macros with readable LaTeX. Use standard display environments, semantic labels, \eqref for equations, and \ref for other numbered objects. Check caption-label order, equation punctuation, consistent numbering, and venue requirements.
+
+PASS 13 - MATURITY AUDIT
+Remove early habits that survived drafting: combined Introduction and preliminaries, large notation blocks, long contribution inventories, catch-all literature tails, repeated "in this paper," repeated "we will," unpunctuated displays, heavy macro scaffolding, and long explanatory tails. Preserve stable traits such as explicit assumptions, theorem-centered structure, active mathematical actions, roadmaps, and candid limitations.
+
+PASS 14 - FINAL READ
+Read only topic sentences, theorem statements, figure/table interpretations, and paragraph endings. They should form a coherent mathematical argument. Then read the paper continuously for rhythm. The final version should reach the technical question early, keep each unit purposeful, expose every dependency and boundary, and leave no ambiguity about what is proved, proposed, heuristic, assumed, observed, or cited.
+
+FINAL RELEASE CONDITIONS
+
+Release the draft only if all of the following hold:
+
+- No mathematical claim was changed for stylistic reasons.
+- No assumption, lemma, reference, definition, numerical result, or theorem was invented.
+- Every substantive claim has an explicit and accurate evidential status.
+- The Introduction names the obstruction, mechanism, main result, and comparison.
+- Definitions and assumptions precede the results that need them.
+- Equations are grammatically integrated and logically interpreted.
+- Paragraphs and sections follow mathematical dependency rather than discovery order.
+- Numerical evidence remains numerical evidence.
+- Limitations are visible at the relevant claim.
+- The TeX source is lean, semantic, consistent, and compatible with the venue.

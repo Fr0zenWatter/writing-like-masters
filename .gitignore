@@ -1,0 +1,33 @@
+# Downloaded corpora and generated analysis work
+/corpora/
+/.acquisition_work/
+/tmp/
+/output/
+
+# Legacy non-canonical corpus location
+/SouravChatterjee/
+
+# Discovery records and cached source pages created at the repository root
+/*_candidates*.json
+/*_candidates*_report.md
+/*_official_*.html
+
+# Local writing and rendering smoke tests
+/testtext*
+/maxwell_gamma_blueprint_verified.rewritten.md
+
+# One-off inspection helpers tied to a local temporary file
+/scripts/print_*.ps1
+/scripts/print_style_summary.py
+
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and operating-system noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

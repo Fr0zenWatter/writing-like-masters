@@ -1,0 +1,1351 @@
+AUTHOR STYLE SKILL
+==================
+
+Target voice: present-day mathematical writing governed by the mature,
+sole-author-supported decision system of Saharon Shelah.
+
+Use this file as an operational writing policy, not a quotation bank. Preserve
+the characteristic density, explicit dependency graph, typed local notation,
+direct theorem status, and willingness to expose obstacles. Do not reproduce
+grammatical errors, obsolete TeX, revision chatter, or needless opacity.
+Correctness, the conventions of the current subject, and the requirements of
+the current venue always override surface imitation.
+
+
+1. STYLE IDENTITY
+=================
+
+The indispensable signature is constructive mathematical pressure: identify
+the exact point at which the obvious route stops, define a framework capable
+of passing that point, and make every later claim addressable.
+
+1. WHEN opening a paper, DO begin with the object, theorem, failed analogue,
+   or undecided parameter range. AVOID a generic declaration that the area is
+   important. WHY: the mathematical obstruction supplies the motivation.
+
+2. WHEN the contribution depends on a new framework, DO state the intended
+   theorem or question before giving all machinery. Then tell the reader why
+   the old framework is insufficient. AVOID making the reader infer the goal
+   from several pages of definitions.
+
+3. WHEN a symbol will be used globally, DO assign its object type, range, and
+   ambient structure in a Notation, Convention, or Context block. AVOID
+   relying on a literal letter to carry the same meaning across papers.
+
+4. WHEN a definition or theorem has several obligations, DO divide it into
+   numbered and lettered clauses that can be cited independently. AVOID a
+   single paragraph containing an unaddressable bundle of assumptions.
+
+5. WHEN mathematics is proved, DO say “we prove,” “we show,” “we construct,”
+   or state the theorem directly. AVOID diffusing a proved result through
+   generic hedging.
+
+6. WHEN a step follows by a recognizable local inference, DO use a precise
+   marker such as “hence,” “clearly,” “note that,” “in particular,” or
+   “moreover.” AVOID a marker when the inference still needs an argument.
+
+7. WHEN an argument is long, DO reveal its joints: stages, cases, local
+   claims, named obligations, and the exact result that closes each one.
+   AVOID a continuous derivation whose purpose is visible only at the end.
+
+8. WHEN prior work supplies a tool, DO cite the exact result at the point of
+   use and state what it supplies. AVOID a detached chronological catalogue.
+
+9. WHEN an assumption may look excessive, DO identify the line or lemma that
+   uses it, or give the example that blocks its removal. AVOID defensive
+   adjectives and vague assurances.
+
+10. WHEN a paper is large, DO provide an annotated dependency map, audience
+    route, or “used only in” notice. AVOID a roadmap that merely repeats
+    section titles.
+
+11. WHEN choosing paragraph boundaries, DO assign one mathematical job to
+    each paragraph or theorem-like block. A dense one-sentence paragraph is
+    acceptable if it performs one job. AVOID splitting or merging by length
+    alone.
+
+12. WHEN there is a genuine missing case, DO ask an exact question naming the
+    cardinal, hypothesis, comparison, or preservation property. AVOID a broad
+    sentence saying that further research would be interesting.
+
+13. WHEN a general framework and a characteristic application coexist, DO
+    distinguish them explicitly and say which parts are used here. AVOID
+    presenting topic-local notation as universal infrastructure.
+
+14. WHEN editing, DO retain the mathematical density but shorten the longest
+    sentence tail, punctuate displays, and remove source-management residue.
+    AVOID imitating roughness as if it were intellectual style.
+
+
+2. MATURITY MODEL
+=================
+
+The sampled “early” period begins in 1989, when Shelah was already a mature
+scholar. Treat it as corpus-early established practice, not career formation.
+
+CORPUS-EARLY PRACTICE uses manual TeX, long multi-obligation sentences, large
+private macro systems, frequent “without loss of generality,” and dense inline
+mathematics. Retain its direct definition-to-theorem motion, typed alphabet,
+two-stage constructions, and explicit inferential spine. Do not retain its
+font machinery, raw display syntax, or avoidable syntactic overload.
+
+TRANSITION PRACTICE increasingly uses `amsart`, semantic macros, theorem
+taxonomies, labels, annotated contents, and short task-specific blocks. This
+is chiefly a source and organization transition. It does not replace the
+earlier mathematical identity.
+
+RECENT SOLE-AUTHORED PRACTICE makes the namespace and dependency map especially
+explicit. A structured parameter is defined once and its components are then
+retrieved by systematic subscripts; long proofs use fine-grained clause
+addresses. Sentences have a shorter upper tail, but local mathematical density
+remains high.
+
+RECENT COAUTHORED PRACTICE may be smoother, more literature-led, more
+display-heavy, and less first-person. Use it when the current genre calls for
+that surface, but do not let it displace the sole-authored decision system.
+
+When evidence conflicts, rank it as follows:
+
+    stable cross-period decision rule
+    > recent sole-authored same-section practice
+    > transition sole-authored practice retained recently
+    > representative coauthored practice
+    > old manual-source habit or one-paper surface.
+
+
+3. GLOBAL WRITING PRINCIPLES
+============================
+
+PRINCIPLE A — Put the obstruction before the machinery.
+
+WHEN a new construction is needed, DO state the natural attempt and the exact
+property it fails to preserve. Then introduce the correction. AVOID calling a
+method “new” before the need for it is mathematically visible.
+
+PRINCIPLE B — Make every assumption spend itself.
+
+WHEN stating a theorem, DO arrange assumptions so later text can point to the
+clause that is used. AVOID a cloud of “standard hypotheses.” If a hypothesis
+is only for one application, move it to that application.
+
+PRINCIPLE C — Build an addressable proof.
+
+WHEN a proof has several independent burdens, DO name them `(a)`, `(b)`,
+`(*)_1`, or by short claims. AVOID inventing labels for trivial algebra. A
+label earns its place by being cited or by clarifying the dependency graph.
+
+PRINCIPLE D — Separate status from confidence.
+
+WHEN a statement is proved, proposed, assumed, recalled, heuristic, or
+numerical, DO mark that status with the correct environment and verb. AVOID
+using “clearly” to turn a wish into a theorem or “perhaps” to weaken a proof.
+
+PRINCIPLE E — Compress repeated structure, not logical responsibility.
+
+WHEN a heterogeneous object recurs, DO define a tuple and systematic component
+notation. WHEN a formula occurs once, write it directly if naming it adds
+memory cost. AVOID both symbol proliferation and repeated opaque expressions.
+
+PRINCIPLE F — Use local standard notation consciously.
+
+WHEN the field has a strong convention, DO start from it. If the paper must
+override it, declare the override in one sentence. AVOID silent switching
+between standard and private spellings.
+
+PRINCIPLE G — Treat the reader as a collaborator in a long proof.
+
+WHEN a section is optional, preparatory, or used only once, DO say so and name
+the destination. AVOID forcing every reader through every technical branch.
+
+PRINCIPLE H — Let transitions certify relations.
+
+WHEN using “hence,” “however,” “moreover,” or “in particular,” DO ensure the
+next sentence respectively follows, contrasts, adds an independent fact, or
+specializes. AVOID connective rotation for stylistic variety.
+
+PRINCIPLE I — Locate limitations mathematically.
+
+WHEN a result cannot be strengthened, DO show the counterexample, critical
+case, or failed clause. AVOID generic “limitations” paragraphs detached from
+the theorem.
+
+PRINCIPLE J — Close on a changed mathematical state.
+
+WHEN ending a proof or section, DO name the obtained bound, constructed
+object, discharged clause, or remaining exact question. AVOID a generic recap
+of activity.
+
+
+4. MATHEMATICAL NOTATION
+========================
+
+This is the primary operational layer. Design notation as a typed, scoped
+system. The examples are exact compact native-TeX specimens. `DIRECT` means
+reuse is allowed for the same role; `ADAPT` means preserve the construction
+while replacing topic-specific bases; `LOCAL_ONLY` means evidence or warning,
+never a default.
+
+4.1 Notation design principles
+------------------------------
+
+[N01] WHEN several object classes coexist, DO distinguish them by case and
+font before adding indices: lower-case functions/elements/conditions, plain
+capitals for individual sets or structures, calligraphic capitals for
+families, blackboard capitals for forcing notions when useful, and fraktur for
+a structured class or algebraic object. AVOID a decorative font change with
+no type change. WHY: typography should reduce collision risk.
+
+[N02] WHEN a relation depends on an ambient object, DO put that object on the
+relation: `M\le_{\frak K}N`, `f<_Dg`, `p\le_{\mathbb Q}q`. AVOID repeatedly
+explaining the ambient order in prose. WHY: a semantic relation remains
+locally readable in a dense formula.
+
+[N03] WHEN an alphabet has a global role, DO reserve it explicitly. AVOID
+assuming that Greek always means cardinal or that `M` always means model. WHY:
+the corpus deliberately reuses letters in different topics.
+
+[N04] WHEN a notation needs more than two accents or indices to remain unique,
+DO introduce a structured object or auxiliary definition. AVOID visual stacks
+whose parsing cost exceeds the prose they replace.
+
+4.2 Typed symbol palette
+------------------------
+
+Use the following as defaults only inside compatible mathematical domains:
+
+- Cardinals and cardinal parameters: `\lambda,\kappa,\mu,\chi,\theta`.
+- Ordinals and transfinite stages: `\alpha,\beta,\gamma,\delta,\varepsilon,
+  \zeta,\xi`.
+- Finite indices: `i,j,k,\ell,m,n,r,s`, after declaring their range.
+- Models/structures: `M,N`; theory: `T`; class: `K`; structured class:
+  `\frak K`.
+- Functions/maps: `f,g,h`; forcing conditions: `p,q`; filters/ideals: `D,J`.
+- Forcing notions: `\mathbb P,\mathbb Q` or locally defined `\bbP,\bbQ`.
+- Sequences: a barred base together with an angle-bracket declaration.
+
+WHEN a topic convention conflicts with this palette, DO keep the topic
+convention and state the local reservation. AVOID forcing set-theory meanings
+onto probability, algebra, or finite combinatorics.
+
+4.3 Stable and conditional concept/role mappings
+------------------------------------------------
+
+[N05] WHEN defining a size stratum of a class, DO attach the cardinal below
+the class symbol. EXAMPLE: `K_\lambda`. WHEN combining the class and its
+relation, DO package them once as a structured object.
+
+[N06] WHEN naming a family indexed by a stage or node, DO use a subscript and
+declare the range in an angle-bracket family. WHEN two parallel structures
+are compared, DO place the side/variant in a superscript and the stage below.
+
+[N07] WHEN writing forcing, DO distinguish the forcing notion, conditions,
+generic names, and ground-model parameters typographically. Declare which
+direction of `\le` means “stronger.” This rule is mandatory because the
+corpus contains both orientations.
+
+[N08] WHEN a filter, ideal, model class, or order controls a relation, DO use a
+semantic subscript rather than a new verbal abbreviation. DEFINE positive
+parts, duals, bounded ideals, and quotient orders before chaining them.
+
+4.4 Modifier grammar
+--------------------
+
+Use modifiers compositionally:
+
+    base object + subscript       -> member, stage, coordinate, or parameter
+    base object + superscript     -> owner, side, version, or operation
+    base object + bar             -> declared sequence/family, occasionally extension
+    base object + dot/name mark   -> forcing name
+    base object + star            -> explicitly distinguished local variant
+    cardinal + plus signs         -> successor iteration
+
+[N09] WHEN a bar denotes a sequence, DO give its angle-bracket expansion at
+first use. WHEN a bar denotes extension or closure instead, DO define it by an
+equation. AVOID treating the accent as self-explanatory.
+
+[N10] WHEN a superscript denotes ownership, DO use a form such as `f^p` and
+keep it distinct from algebraic powers. WHEN ambiguity remains, use a tuple
+projection phrase in prose.
+
+[N11] WHEN a star marks a positive part, maximal object, or exceptional case,
+DO state which. AVOID introducing `A_*`, `p_*`, and `q_*` in one local scope
+unless their roles are visibly parallel.
+
+4.5 Index grammar
+-----------------
+
+[N12] WHEN declaring a sequence, DO use `\langle X_i:i<\alpha\rangle` or the
+domain-appropriate equivalent. The colon separates the object expression from
+its index range.
+
+[N13] WHEN an object varies by side and stage, DO keep the order stable, as in
+`I^\ell_n`; do not alternate among subscript orderings, superscript roles, and
+prose.
+
+[N14] WHEN fixed and varying indices coexist, DO explain their roles and keep
+fixed structural parameters farther from the base only if that convention is
+consistent throughout. AVOID guessing index roles from letters.
+
+[N15] WHEN nested clauses are needed, DO use a stable hierarchy such as
+`1) -> (a) -> (\alpha) -> (*)_1`. Cite the smallest address that contains the
+needed assertion.
+
+4.6 Operator, relation, and delimiter conventions
+-------------------------------------------------
+
+[N16] DO romanize named operators and abbreviations with portable LaTeX:
+`\operatorname{dom}`, `\operatorname{cf}`, `\operatorname{rk}`, or a declared
+operator. AVOID private font tricks and unspaced text inside math.
+
+[N17] DO use angle brackets for ordered sequences and braces for sets. In set
+comprehension, separate the object from its condition with a colon or vertical
+bar chosen consistently. Use parentheses for tuples and function arguments.
+
+[N18] DO attach forcing/model/order context directly to `\Vdash`, `\models`,
+`\le`, or `<`. AVOID one bare order symbol for several simultaneous orders.
+
+[N19] DO size delimiters only when nesting requires it. AVOID automatic
+`\left...\right` around every short expression.
+
+4.7 Namespace, scope, reuse, and collision rules
+------------------------------------------------
+
+Global reservations live in a Notation block; specialized structures may be
+section-global; witnesses and obligation markers are theorem- or proof-local.
+Reuse a base only after its scope closes. After a long gap, recall the defining
+label rather than silently redefine the symbol.
+
+Known collision controls:
+
+- `M`: model in model theory, finite order/domain in combinatorics.
+- `T`: theory, tree, torus, or type parameter.
+- `p`: forcing condition, prime/parameter, or probability.
+- `D,J`: filter, ideal, or ultrafilter.
+- `\alpha`: ordinal in the dominant corpus, probability exponent in a local
+  modern paper.
+- `\xi`: ordinal in several papers, explicitly non-ordinal in one recent
+  finite-combinatorial paper.
+- bar: sequence/family or extension/closure.
+- `\le`: opposite forcing-strength conventions occur.
+
+WHEN two meanings could be active together, DO rename, add a semantic font or
+subscript, or state a local exception. AVOID trusting disciplinary habit alone.
+
+4.8 Notation introduction and lifecycle
+---------------------------------------
+
+Use this sequence:
+
+    ambient assumptions
+    -> object type and domain/range
+    -> exact definition or tuple
+    -> numbered properties/components
+    -> one collision-preventing convention
+    -> sustained use through stable labels
+    -> specialization by index or modifier.
+
+Use a consolidated block for global alphabets, orders, and repeated operators.
+Introduce proof-local witnesses just in time. If an object disappears after
+one line, prefer the expression itself unless naming it clarifies a later
+reference.
+
+4.9 Equation-composition rules
+------------------------------
+
+[N20] WHEN a display defines an object, DO prepare it with a sentence that
+names the object type and follow it with the property that matters. AVOID
+repeating the display word for word.
+
+[N21] WHEN a definition contains several constraints, DO write the outer
+tuple/equality first and then list the constraints. AVOID hiding the object's
+shape at the end of the list.
+
+[N22] WHEN a proof needs the same complex assertion several times, DO name it
+with a local marker and cite that marker. AVOID permanent global notation for
+a one-proof obligation.
+
+[N23] WHEN the general formula obscures the mechanism, DO state a special case
+or interpretation immediately after it. WHEN the generality is essential, DO
+explain why the special case would not suffice.
+
+[N24] WHEN a display is part of a sentence, DO punctuate it. Use `equation`,
+`align`, `gather`, or `\[...\]` according to the logical shape; do not imitate
+old raw `$$` usage.
+
+4.10 Exact native-TeX specimen bank
+-----------------------------------
+
+Object and alphabet specimens:
+
+1.  `DIRECT | \lambda, \kappa,\mu,\chi | cardinal palette; declare locally`.
+2.  `DIRECT | \alpha, \beta, \gamma, \xi, \zeta | ordinal palette; declare locally`.
+3.  `DIRECT | i,j,k,\ell,m,n,r,s | finite-index palette when that range applies`.
+4.  `ADAPT | {\frak K} = (K,\le_{\frak K}) | package a class with its relation`.
+5.  `ADAPT | K_\lambda = \{ M \in K:\|M\| = \lambda\} | size-indexed class`.
+6.  `ADAPT | K_{< \lambda} = \dsize \bigcup_{\mu < \lambda} K_\mu | smaller strata`.
+7.  `DIRECT | M \le_{\frak K} N | relation carries its ambient class`.
+8.  `ADAPT | \cH(\chi^*) | hereditary-size ambient set; replace macro if needed`.
+
+Sequence, modifier, and index specimens:
+
+9.  `DIRECT | \langle J_n:n < \omega\rangle | sequence plus declared range`.
+10. `DIRECT | \bar\theta = \langle \theta_\varepsilon:\varepsilon < \lambda\rangle | barred family expanded once`.
+11. `DIRECT | {}^B A | functions from B to A under the declared convention`.
+12. `DIRECT | {}^{\alpha >}A = \cup\{{}^\beta A:\beta < \alpha\} | lengths below alpha`.
+13. `ADAPT | f_i :  \omega_1 \to \omega_1 | family with domain and range`.
+14. `ADAPT | p = (\eta,f) = (\eta^p,f^p) | tuple plus ownership projections`.
+15. `ADAPT | I^\ell_n | stage subscript, side superscript`.
+16. `ADAPT | A^\ell_\eta | node subscript, side superscript`.
+17. `ADAPT | \eta^- = \nu | locally defined predecessor modifier`.
+18. `ADAPT | \bar c_{ij} = c_{ij} \cup \{ \delta \} | bar explicitly means extension`.
+19. `ADAPT | \exp_m(n) = \exp(m,n) \defeq m^n | abbreviation prevents deep nesting`.
+20. `LOCAL_ONLY | \xi \in \Xi | explicit local override: xi is not an ordinal`.
+
+Set, operator, and relation specimens:
+
+21. `DIRECT | D^+ = \{A \subseteq Y:Y \backslash A \notin D\} | positive part`.
+22. `DIRECT | f <_D g | order modulo a filter`.
+23. `DIRECT | \{s \in Y:f(s) < g(s)\} \in D | set condition defining the modulo-filter order`.
+24. `DIRECT | \text{rk}_D(f) | rank relative to D`.
+25. `DIRECT | J_{\lambda}^{\rm{bd}} | bounded ideal on lambda`.
+26. `DIRECT | \eta \triangleleft f | proper initial segment`.
+27. `DIRECT | \eta \rest \beta | restriction; define \rest portably`.
+28. `ADAPT | \text{Suc}_T(\eta) | successor set relative to T`.
+29. `ADAPT | <_{lx}^{I} | lexicographic order in I`.
+30. `ADAPT | \nonfork {A}{C}_{B} | independence over base B; define macro`.
+31. `LOCAL_ONLY | A + B | union only under an explicit local convention`.
+32. `LOCAL_ONLY | \boxplus^2_{D_1,D_2} | paper-local commutation property`.
+
+Forcing-system specimens:
+
+33. `DIRECT | \bbQ = \bbQ_{\bar\theta} | forcing indexed by parameter sequence`.
+34. `ADAPT | \bbP_{\bfm} | forcing generated by structured parameter m`.
+35. `ADAPT | M_{\bfm} | component projection from structured parameter`.
+36. `ADAPT | L_{\bfm} | underlying-order projection`.
+37. `DIRECT | \Vdash_{\bbP_{\bfm}} | forcing relation names the forcing`.
+38. `ADAPT | \name\eta = \cup\{\eta^p: p \in \name{\mathbf G}_{\bbQ_{\bar\theta}}\} | generic-name definition`.
+39. `ADAPT | \{ \name{\eta}_{s}: s \in M_{\bfm} \} | indexed family of names`.
+40. `DIRECT | p \le_{\mathbb Q} q | q gives more information under this declared convention`.
+41. `LOCAL_ONLY | q\leq p | q is stronger under a conflicting coauthored convention`.
+42. `LOCAL_ONLY | \myc_{f,g} | topic-specific slalom invariant`.
+
+Proof-address and structured-definition specimens:
+
+43. `DIRECT | \underline{when} | mark a defining condition in dense prose`.
+44. `DIRECT | \underline{then} | mark the conclusion of a long conditional`.
+45. `DIRECT | \underline{iff} | mark an exact equivalence`.
+46. `ADAPT | (*)_1 | address a clause or local property`.
+47. `ADAPT | \circledast '_4 | address a proof-local obligation`.
+48. `ADAPT | \boxplus _1 | address an intermediate assertion`.
+49. `ADAPT | \bfs \defeq (\overbar m,\Lambda,\alpha,\beta,C) | heterogeneous parameter tuple`.
+50. `ADAPT | (\overbar m_\bfs,\Lambda_\bfs,\alpha_\bfs,\beta_\bfs,C_\bfs) | systematic tuple projections`.
+
+4.11 Temporal, topic, and coauthor qualifications
+-------------------------------------------------
+
+Old source forms—manual font families, hand-built forcing glyphs, `$$`, and
+private spacing commands—are historical implementations, not present-day
+rules. Forcing and model-theory mappings have the strongest repeated support;
+algebra, probability, and finite combinatorics require their own conventional
+palettes. Smooth display-rich coauthored work demonstrates a viable venue
+adaptation but does not erase the compact sole-authored namespace.
+
+4.12 Notation DO / DO NOT checklist
+-----------------------------------
+
+DO declare global alphabets and order direction. DO type every object before
+sustained use. DO give ranges for indices. DO use semantic relation subscripts.
+DO define a bar, star, dot, or ownership superscript. DO make complex
+definitions clause-addressable. DO keep one spelling for restriction, set
+difference, forcing names, and operators.
+
+DO NOT infer meaning from frequency. DO NOT export a private macro without its
+definition. DO NOT assume `p\le q` has a universal forcing meaning. DO NOT use
+one bare letter for two live roles. DO NOT stack modifiers to rescue a crowded
+namespace. DO NOT reuse `LOCAL_ONLY` specimens as defaults.
+
+
+5. PROSE–MATH INTERFACE
+=======================
+
+[PM1] WHEN introducing a formula, DO tell the reader its job before the
+display: definition, target inequality, compatibility condition, induction
+hypothesis, or obstruction. AVOID “we have” when a more exact verb is
+available.
+
+[PM2] WHEN a display introduces new symbols, DO define the object type and
+index range either immediately before it or in its first clause. AVOID making
+the reader reverse-engineer types from legal operations.
+
+[PM3] WHEN a display completes an inference, DO state afterward which clause,
+bound, or theorem it establishes. AVOID paraphrasing every symbol. Interpret
+the logical payload, not the typography.
+
+[PM4] WHEN a relation is nonstandard, DO read it once in prose: for example,
+say which condition is stronger, what `<_D` means, or which kind of embedding
+`\le_{\frak K}` represents. Thereafter use the notation without repeated
+glosses.
+
+[PM5] WHEN mathematics sits inside a sentence, DO preserve grammatical
+continuity and punctuation. AVOID a paragraph that ends before an unexplained
+display and restarts on an unrelated subject.
+
+[PM6] WHEN a formula has several quantified conditions, DO move them into a
+lettered list if prose would require more than one level of subordination.
+AVOID compressing conditions merely to make the theorem occupy fewer lines.
+
+[PM7] WHEN an intuitive gloss is available, DO place it after the formal
+definition and name the feature it isolates. AVOID a metaphor that leaves the
+formal role less clear. Intuition is a second representation, not a substitute.
+
+[PM8] WHEN a calculation is routine but necessary, DO give the one equality
+or inclusion that carries the conclusion and cite the prior clause. AVOID both
+“obvious” with no witness and a full derivation of algebra that contributes no
+idea.
+
+Preferred local sequence:
+
+    prose purpose
+    -> typed notation
+    -> formula or clause list
+    -> exact consequence
+    -> optional intuition or forward reference.
+
+
+6. MATHEMATICAL NARRATIVE
+=========================
+
+Choose a narrative algorithm that matches the mathematical burden.
+
+THEOREM FROM A KNOWN BOUNDARY
+
+    canonical result or earlier theorem
+    -> exact remaining case
+    -> main theorem
+    -> one sentence on method
+    -> dependency map.
+
+Use this when the contribution closes a named gap. State the old and new
+assumptions in commensurable notation.
+
+FAILED ANALOGUE AND REPAIR
+
+    natural analogue
+    -> property expected to be preserved
+    -> precise failure
+    -> corrected object/framework
+    -> characteristic theorem
+    -> wider versions or applications.
+
+This is especially Shelah-like. Do not describe the repair until the reader
+can see what is broken.
+
+CONSTRUCTION IN STAGES
+
+    target properties
+    -> stage-one object
+    -> stage-two killing/extension step
+    -> preservation lemmas
+    -> enumeration/exhaustion argument
+    -> verification of the target.
+
+At each stage, name the invariant that survives. End with the property that
+was not automatic.
+
+ABSTRACT FRAMEWORK TO INSTANCE
+
+    Context/Convention
+    -> typed structured parameter
+    -> general definitions
+    -> sufficient conditions
+    -> main conclusion
+    -> concrete instance
+    -> optional wider framework.
+
+Tell the reader which abstract clauses are actually used. Generality must
+earn itself through more than renaming.
+
+INDUCTION OR APPROXIMATION
+
+    induction parameter
+    -> approximation at stage n
+    -> compatibility obligation
+    -> extension at n+1
+    -> limit object
+    -> property inherited at the limit.
+
+State why the stage data are enough for the next step. Do not hide the
+induction invariant in the construction prose.
+
+CONTRADICTION
+
+    desired assertion
+    -> assume a minimal/specific counterexample
+    -> derive an object violating a named clause
+    -> write the incompatible statements
+    -> conclude the assertion.
+
+Prefer “this contradicts clause (c)” or the false inequality over the stock
+phrase “we get a contradiction.”
+
+LIMITATION OR NON-IMPROVABILITY
+
+    tempting strengthening
+    -> witness/counterexample/critical scale
+    -> exact clause that fails
+    -> strongest statement still supported.
+
+Keep this near the theorem it qualifies. A limitation is part of the result's
+shape, not an afterthought.
+
+
+7. VOCABULARY RULES
+===================
+
+Use vocabulary as a status-and-inference system.
+
+PROVED RESULTS
+
+- Use “we prove” for a theorem whose proof is supplied.
+- Use “we show” for a conclusion, comparison, or property established here.
+- Use “we construct” when the mathematical contribution is an object/model.
+- Use “we conclude” only after the stated premises have been discharged.
+- Use “it follows from [result]” when the cited implication is genuinely
+  immediate after matching hypotheses.
+
+PROPOSALS AND OPEN WORK
+
+- Use “we conjecture” or a Conjecture environment for a definite proposition.
+- Use “we ask whether” or a Question environment for an exact missing case.
+- Use “we intend to consider” only for a concrete continuation, not as proof.
+- Use “we may hope” for programmatic possibility; never let it sound proved.
+
+HEURISTICS
+
+- Use “the point is,” “the idea is,” or “this suggests” to explain mechanism.
+- Use “it seems” only when the statement is genuinely evidential or
+  provisional.
+- Follow a heuristic with the theorem, example, or question it motivates.
+
+ASSUMPTIONS AND CONTEXT
+
+- Use “Assume …” in a theorem or local argument.
+- Use “We work in …” for a section- or paper-wide foundation.
+- Use “Suppose …” for a temporary branch or contradiction setup.
+- Use “We may assume …” only after naming the reduction, symmetry, or earlier
+  result that permits it.
+
+CITED FACTS
+
+- Write “By [specific result], …” when applying it now.
+- Write “Recall that …” when the fact has already been introduced or is
+  standard for the intended reader.
+- Write “See [reference]” for background or omitted proof, not for the main
+  logical step unless the exact result is named.
+
+NUMERICAL, ASYMPTOTIC, OR PROBABILISTIC CLAIMS
+
+- Distinguish equality, inequality, asymptotic order, convergence in
+  probability, high probability, consistency, and existence.
+- Put the parameter regime next to the conclusion.
+- Do not strengthen “is consistent,” “with probability tending to one,” or
+  “for sufficiently large” into an unconditional assertion.
+
+INFERENTIAL CONNECTIVES
+
+- “hence”: the next assertion follows from the preceding local facts.
+- “clearly”: the verification is genuinely immediate for the intended reader;
+  use sparingly and never across a hidden lemma.
+- “note that”: draw attention to a fact needed later or a possible
+  misreading.
+- “in particular”: specialize a stronger statement already established.
+- “moreover”: add an independent strengthening under the same setup.
+- “however” / “on the other hand”: state a real contrast, limitation, or
+  alternate direction.
+- “indeed”: supply the verification of the immediately preceding assertion.
+
+AVOID promotional adjectives such as “groundbreaking,” “remarkable,” or
+“powerful” unless a precise comparison follows. AVOID near-synonym rotation.
+Repeated exact words are better than blurred logical roles.
+
+
+8. SENTENCE ARCHITECTURE
+========================
+
+The mature target is compact but not artificially simple. Aim for one logical
+spine per sentence and keep the 90th-percentile tail under control.
+
+Preferred architectures:
+
+1. **Context -> exact claim.** “Assume [typed hypotheses]. Then [conclusion].”
+2. **Known result -> missing case.** Attribute the theorem; name the parameter
+   or hypothesis it does not cover.
+3. **Obstacle -> repair.** State why the natural construction fails; make the
+   new definition the main clause of the next sentence.
+4. **Definition -> consequence.** Define the object in the main clause; use
+   “hence” for the immediate property that will be used.
+5. **Claim -> witness.** State the local claim; begin the next sentence with
+   the object that verifies it.
+6. **Condition -> choice -> purpose.** Use only one subordinate layer; if
+   several choices are required, make a numbered list.
+7. **Result -> qualification.** State the proved core first, then attach the
+   exact boundary with “provided,” “when,” or “unless.”
+8. **General case -> characteristic case.** Give the framework, then a short
+   sentence identifying the case treated here.
+9. **Long setup -> short landing.** A technical sentence may define all local
+   data; follow it with “This proves (b)” or the exact resulting relation.
+10. **Question -> program.** Ask the mathematical question, then state which
+    construction or comparison would answer it.
+
+Information placement rules:
+
+- Put the object and action in the main clause; do not bury the theorem behind
+  historical subordinate clauses.
+- Keep quantifier scope next to the symbol it controls.
+- Use parentheses for a compact clarification, alternate convention, or exact
+  citation. If the parenthesis contains a second argument, promote it to a
+  sentence or remark.
+- A semicolon may join two mathematically parallel clauses. Do not use it to
+  conceal a new rhetorical task.
+- Prefer active plural agency for choices and constructions. Use passive voice
+  when the actor is irrelevant and the mathematical object should remain the
+  subject.
+- Do not mimic article omissions, agreement errors, misspellings, or abrupt
+  fragments found in draft sources.
+
+
+9. RHETORICAL MOVE ALGORITHMS
+==============================
+
+ALGORITHM 1 — Introduction to a closure result
+
+    prior theorem
+    -> exact leftover cases
+    -> why “surely true” is not proof
+    -> strengthened property or construction
+    -> theorem closing every case
+    -> section map keyed to proof burdens.
+
+ALGORITHM 2 — New framework
+
+    desired application
+    -> existing framework and its failure
+    -> structured parameter
+    -> definitions with addressable clauses
+    -> main preservation/construction theorem
+    -> application and wider variants.
+
+ALGORITHM 3 — Comparison theorem
+
+    objects to compare
+    -> known inequalities/implications
+    -> missing directions or consistency patterns
+    -> complete list of possibilities
+    -> references to the claims proving each case.
+
+ALGORITHM 4 — Programmatic paper
+
+    long-term problem
+    -> result achieved here
+    -> unresolved sharper target
+    -> why this partial step adds information even under stronger axioms
+    -> next precise question.
+
+ALGORITHM 5 — Reviewer-facing boundary
+
+    plausible objection or strengthening
+    -> example showing failure
+    -> exact hypothesis used in the proof
+    -> revised maximal claim.
+
+ALGORITHM 6 — Reader routing
+
+    identify audience/prerequisite
+    -> annotate each major section by what it proves
+    -> mark optional branches and their destinations
+    -> state where the main theorem is assembled.
+
+Use these moves without theatrical setup. A “puzzle” is a concrete mismatch
+between statements, not a marketing label.
+
+
+10. PARAGRAPH ENGINES
+=====================
+
+Select one engine per paragraph or theorem-like block.
+
+P1 — OBJECT DEFINITION
+
+    object type -> exact notation -> clauses -> one operational consequence.
+
+P2 — KNOWN BOUNDARY
+
+    cited theorem -> covered regime -> uncovered regime -> current target.
+
+P3 — OBSTRUCTION
+
+    natural attempt -> failed property -> reason -> need for correction.
+
+P4 — CONSTRUCTION STEP
+
+    current stage -> chosen object -> preserved invariant -> next-stage access.
+
+P5 — LOCAL CLAIM
+
+    claim -> short proof/witness -> exact role in the parent proof.
+
+P6 — CASE
+
+    case hypothesis -> specialized simplification -> deduction -> discharged
+    parent clause.
+
+P7 — COMPARISON
+
+    first formulation -> second formulation -> implication each way or exact
+    failure of one direction.
+
+P8 — LIMITATION
+
+    tempting stronger claim -> counterexample/critical case -> corrected
+    boundary.
+
+P9 — APPLICATION
+
+    previously proved framework theorem -> verification of its hypotheses ->
+    obtained domain result.
+
+P10 — NOTATION RECALL
+
+    cited definition -> only the components needed here -> local specialization.
+
+P11 — READER ROUTE
+
+    section's job -> dependencies -> optionality -> destination result.
+
+P12 — OPEN QUESTION
+
+    established fact -> remaining parameter/hypothesis -> exact question ->
+    why the present method stops.
+
+P13 — PROOF CLOSURE
+
+    last required clause -> inference -> named theorem/claim completed.
+
+P14 — SECTION CLOSURE
+
+    section output -> where it is used next -> no generic recap.
+
+Opening rule: begin with the paragraph's object or logical job, not a vague
+pronoun. Closing rule: land on a consequence, dependency, or boundary. Keep
+citations clustered around the result they support. Put qualifications beside
+the claim they limit, not in an apologetic tail several paragraphs later.
+
+
+11. SECTION MODELS
+==================
+
+INTRODUCTION
+
+Purpose: identify the exact mathematical pressure and state what the paper
+does about it.
+
+Opening behavior: begin with a known theorem, a natural construction, a named
+object, or a preservation/comparison question. Move quickly to the boundary.
+
+Typical sequence:
+
+    known setting
+    -> exact obstruction or uncovered case
+    -> principal claim/question
+    -> core device
+    -> limitations or characteristic case
+    -> dependency-aware roadmap.
+
+Paragraph policy: use separate paragraphs for the known boundary, obstruction,
+repair, theorem, and roadmap. Claim strength is direct for proved results and
+explicitly provisional for programs. Math density may be high, but introduce
+only the notation needed to state the problem. Cite exact antecedent results at
+the point of comparison. Close by telling the reader where the main theorem is
+proved and which sections are optional. Avoid broad field importance,
+inflated novelty, and a roadmap that merely lists titles.
+
+LITERATURE REVIEW / PRIOR WORK
+
+Purpose: expose the dependency and the unresolved mathematical relation, not
+provide a census of publications.
+
+Opening behavior: name the result, method, or line of work that the current
+argument actually uses. Organize by implication, technique, or boundary rather
+than chronology.
+
+Typical sequence:
+
+    cited result and hypotheses
+    -> what it supplies
+    -> where it stops
+    -> relation to the current theorem
+    -> any competing direction or example.
+
+Keep citations adjacent to their logical function. Separate “continued in,”
+“generalized by,” and “used here” because they make different claims. A
+standalone literature section is optional; in technical mathematics, integrate
+prior work into the introduction and the first point of use. Avoid priority
+claims not needed for the argument and vague clusters of references.
+
+THEORY / DEFINITIONS / FRAMEWORK
+
+Purpose: create an addressable universe in which the theorem can be stated and
+proved.
+
+Opening behavior: give Context or Convention, then the global alphabet and
+ambient assumptions. Define the outer structured object before its components.
+
+Typical sequence:
+
+    ambient foundation and fixed parameters
+    -> notation and order conventions
+    -> main object as tuple/class
+    -> numbered component conditions
+    -> examples or sufficient conditions
+    -> elementary observations/claims
+    -> main framework theorem.
+
+Use high math density, short prose bridges, and many local labels. Every new
+symbol must have an object type and scope. State whether a definition is
+standard, modified, or specific to this paper. A remark should clarify a
+collision, boundary, or later use. Close by listing exactly which framework
+clauses the next theorem needs. Avoid defining an entire private vocabulary
+before any mathematical need is visible.
+
+METHODS / CONSTRUCTION
+
+Purpose: explain how the target object, model, forcing, or probabilistic
+estimate is produced and why required properties survive.
+
+Opening behavior: restate the target properties and divide the method into
+stages or invariants.
+
+Typical sequence:
+
+    construction data
+    -> stage rule
+    -> local extension/existence lemma
+    -> preservation argument
+    -> limit or generic object
+    -> verification against the target list.
+
+For a computational or probabilistic method, replace “generic object” with the
+sample/model/algorithm, but retain the invariant ledger. Defend every choice
+that is not standard: support, ordering, threshold, completeness, or index
+range. Use displays for the defining rule and critical bound; use prose for
+why they work. Close by matching obtained properties to the theorem clauses.
+Avoid a chronological log of actions with no invariant.
+
+RESULTS
+
+Purpose: state what has been proved under exactly which conditions, and connect
+it to the question that generated it.
+
+Opening behavior: give the strongest clean theorem early. If several outcomes
+form a classification, state the cases in parallel notation.
+
+Typical sequence:
+
+    theorem with assumptions
+    -> immediate corollary
+    -> comparison with previous bound/result
+    -> exceptional or critical case
+    -> example showing sharpness/non-improvability
+    -> application.
+
+In pure mathematics the Results section may be distributed through theorem
+sections rather than named separately. Claim strength must distinguish
+existence, consistency, implication, equivalence, upper/lower bounds, and
+independence. In empirical/numerical work, distinguish computed observation
+from proved fact and report the regime, tolerance, or probability model.
+Citations explain comparison, not proof of the new theorem. Close with the
+precise consequence used later. Avoid “supports” or “demonstrates” when a
+formal relation is available.
+
+DISCUSSION / CONCLUSION
+
+Purpose: identify what the theorem changes, where the method stops, and the
+next exact mathematical question.
+
+Opening behavior: begin with the strongest conceptual consequence, not a full
+abstract repeated in past tense.
+
+Typical sequence:
+
+    result's changed boundary
+    -> relation to the broader program
+    -> assumption or direction not settled
+    -> exact question/conjecture
+    -> possible method only if concrete.
+
+Keep the section short in a theorem paper. It may be replaced by a Conclusion,
+Question, Discussion, or final application block. Use no new global notation.
+Calibrate possibilities with “we ask,” “we conjecture,” “it may be possible,”
+or “the present proof does not.” Avoid promotional summary and vague calls for
+future research.
+
+PROOF SECTION
+
+Purpose: discharge an addressable list of obligations while keeping the main
+idea visible.
+
+Opening behavior: state the proof plan and isolate the bottleneck. If the proof
+is immediate from earlier results, name the results and match their hypotheses.
+
+Typical sequence:
+
+    setup and fixed notation
+    -> claim/invariant
+    -> cases or induction
+    -> local calculations
+    -> assembly
+    -> explicit closure of theorem.
+
+Use local labels only when referenced. Begin each case by stating its
+hypothesis; end it by naming the discharged clause. Put long routine
+verification after the conceptual step, not before it. Avoid unexplained
+“clearly,” silent changes of convention, and endings that do not say what has
+been proved.
+
+APPENDIX
+
+Purpose: hold self-contained technical material, absoluteness, background, or
+verification whose inclusion in the main line would hide the mechanism.
+
+Opening behavior: say exactly which main-text claims depend on the appendix
+and whether it can be read independently. Preserve the main namespace unless a
+fresh Context explicitly resets it.
+
+Typical sequence:
+
+    dependency notice
+    -> recalled assumptions
+    -> technical lemma or alternate proof
+    -> cross-reference back to each consumer.
+
+Do not exile a central idea merely because it is difficult. Move detail when
+the main text can state the operative lemma and its role without deception.
+
+
+12. FLOW AND TRANSITION RULES
+==============================
+
+Flow is primarily conceptual continuity plus exact references; connectives are
+secondary labels on that structure.
+
+SENTENCE TO SENTENCE
+
+- Carry the main object from old information to new information.
+- Use “Indeed” to verify the preceding claim, “Hence” to state its consequence,
+  “However” to restrict or oppose it, and “In particular” to specialize it.
+- Begin with a precise noun or symbol after a dense sentence; avoid a chain of
+  “this,” “it,” and “the latter” with multiple candidates.
+
+PARAGRAPH TO PARAGRAPH
+
+- End the first paragraph with the unresolved obligation; begin the next with
+  the definition, lemma, or case that discharges it.
+- A bridge sentence should name both sides: “To prove clause (c), we now define
+  …” is better than “We next continue the proof.”
+- After a long local proof, restate the obtained property, not the entire setup.
+
+SECTION TO SECTION
+
+- End with the section's output and its next consumer.
+- Open the next section by recalling only the required object and label.
+- In a long paper, annotated contents may state these edges globally; local
+  transitions must still work without consulting the map.
+
+Avoid mechanical alternation among “thus,” “therefore,” and “hence.” Avoid
+transition phrases that do not encode a logical edge. Repetition of a key
+technical noun is preferable to an ambiguous synonym.
+
+
+13. LATEX CODING STYLE
+======================
+
+DOCUMENT ARCHITECTURE
+
+- Use a current mathematical class, normally `amsart` unless the venue
+  supplies another class.
+- Use `\section` and `\subsection` semantically. Number the Introduction as §0
+  only if the project consistently uses that convention; otherwise follow the
+  venue.
+- For a long paper, add an annotated contents block only when it records jobs,
+  dependencies, optional sections, or label ranges.
+
+THEOREM ENVIRONMENTS
+
+- Define a compact taxonomy actually used by the paper: theorem, proposition,
+  lemma, claim, corollary, definition, notation, convention, context, remark,
+  example, question, conjecture, discussion, and conclusion as needed.
+- Share counters when that improves reference order. Do not declare dozens of
+  near-synonyms that occur once.
+- Put proof status in the environment; do not simulate theorem heads with bold
+  text and spacing commands.
+
+MACROS
+
+- Prefer semantic macros (`\restr`, `\dom`, `\cf`, a recurring forcing or
+  class) over formatting macros.
+- Use `\DeclareMathOperator` or `\operatorname` for named operators.
+- Define every private macro in the source delivered to the reader. Never
+  assume a personal file such as a font or bibliography helper is available.
+- Avoid exporting historical macros such as `\mn`, `\sn`, `\bn`, hand-built
+  forcing glyphs, or one-letter font factories.
+- A macro such as `\cA` is safe only within the current source; its expansion
+  has varied across papers.
+
+MATH TYPESETTING
+
+- Use inline math for short typed assertions and structured displays for
+  definitions, pivotal inequalities, case systems, and aligned derivations.
+- Replace raw `$$` with `\[...\]`, `equation`, `align`, or `gather`.
+- Punctuate displays as parts of sentences.
+- Avoid indiscriminate delimiter sizing and manual negative spacing.
+
+LABELS AND REFERENCES
+
+- Give labels a readable local scheme such as `def:frame`, `clm:preserve`, or
+  `thm:main`; short internal codes are acceptable in a long established
+  project only if a dependency map makes them usable.
+- Cite the smallest address needed: theorem, clause, or equation.
+- Use `\eqref` for equations and `\ref`/the venue's smart reference command for
+  structural units. Keep capitalization consistent.
+
+CITATIONS, FIGURES, AND TABLES
+
+- Place citations after the exact result or method attributed.
+- Introduce a figure/table before it appears and state the mathematical fact it
+  makes visible afterward.
+- Do not infer a figure/table style from this largely theorem-driven corpus;
+  follow the current venue and subject.
+
+
+14. CLAIM-STRENGTH CALIBRATION
+==============================
+
+Every important statement must occupy one of these lanes.
+
+PROVED: use a theorem-like environment or “we prove/show/construct.” State all
+quantifiers and assumptions. “Clearly” may shorten only an immediate
+verification inside the proof.
+
+PROPOSED: use Definition for a new object, Conjecture for a definite unproved
+proposition, and Question for an exact open case. “We propose” does not imply
+existence or correctness.
+
+HEURISTIC: use “the point is,” “this suggests,” or “it seems” and identify the
+formal result the heuristic motivates. Do not cite a heuristic later as a
+lemma.
+
+ASSUMED: use “Assume,” “Suppose,” “We work in,” or a Context/Hypothesis block.
+Distinguish global foundation, theorem hypothesis, and temporary case.
+
+CITED: name the author/result or exact reference and say whether it supplies a
+definition, implication, construction, or consistency statement. Check that
+the cited hypotheses match the present ones.
+
+NUMERICAL/COMPUTATIONAL: state that a value was computed, simulated, or
+observed; give parameters and uncertainty. Do not write “we prove” unless a
+formal proof accompanies it.
+
+CONSISTENCY/INDEPENDENCE: preserve the modality. “It is consistent that P” is
+not “P”; “P is not provable from ZFC” is not “not P”; an implication under a
+large-cardinal assumption is not an unconditional theorem.
+
+Before finalizing a claim, ask: What is its status? What are its quantifiers?
+Which assumptions does it spend? What exact sentence would falsify an
+overstatement?
+
+
+15. REVIEWER-DEFENSE BEHAVIOR
+==============================
+
+Anticipate objections at the mathematical joint they threaten.
+
+1. If a definition looks stronger than necessary, identify the later clause
+   that uses the strength or state the weaker unresolved version.
+2. If a natural alternative construction exists, explain the precise
+   preservation, support, compactness, or complexity property it loses.
+3. If a theorem resembles prior work, put both statements in the same notation
+   and isolate the new range, direction, or conclusion.
+4. If a proof says “without loss,” name the symmetry or reduction.
+5. If a result may appear obvious from many special cases, say why that is not
+   a proof and identify the case requiring the new idea.
+6. If a long framework is used only once, route readers to the characteristic
+   case and justify retaining the general version.
+7. If an assumption cannot be removed, put the counterexample or critical
+   scale near the theorem.
+8. If an earlier version contained an error, state the corrected mathematical
+   claim and dependency concisely; omit source-management conversation.
+
+The tone is factual. Do not plead, over-apologize, or claim robustness without
+a theorem, example, or check.
+
+
+16. DO / DO NOT
+===============
+
+DO begin with the mathematical object or obstruction. DO state the main result
+early. DO declare the alphabet, scope, and order convention. DO make complex
+definitions and proofs addressable. DO use direct verbs for proved claims. DO
+use first-person plural for mathematical choices. DO expose stages, cases, and
+invariants. DO cite dependencies at first use. DO place limitations beside the
+affected claim. DO provide reader routes in long work. DO end blocks with a
+consequence or exact question. DO modernize the TeX while preserving semantic
+macros.
+
+DO NOT copy source sentences. DO NOT imitate errors, fragments, or typist
+notes. DO NOT begin with ceremonial importance. DO NOT assign a universal
+meaning to a frequent symbol. DO NOT import topic-local macros. DO NOT leave
+forcing order orientation implicit. DO NOT call an unproved expectation
+“clear.” DO NOT use “without loss” without a reduction. DO NOT scatter
+qualifications far from their scope. DO NOT let a coauthor-polished paper erase
+the compact solo identity. DO NOT make annotated contents for a short linear
+paper. DO NOT use raw `$$`, manual font internals, or layout-only macros.
+
+
+17. SECTION-SPECIFIC CHECKLIST
+==============================
+
+INTRODUCTION
+
+- Is the object/problem visible in the first paragraph?
+- Is the exact obstruction or missing case stated before the machinery?
+- Is the principal theorem/question present early with correct modality?
+- Does the roadmap record mathematical jobs and dependencies?
+
+PRIOR WORK
+
+- Does every citation have a role: source, tool, comparison, or continuation?
+- Are old and new assumptions expressed commensurably?
+- Is novelty separated from provenance?
+
+DEFINITIONS/THEORY
+
+- Are foundation, global parameters, and order conventions explicit?
+- Is every long definition clause-addressable?
+- Are symbol types, domains, ranges, and scopes recoverable at first use?
+- Does each remark solve an ambiguity or prepare later work?
+
+METHOD/CONSTRUCTION
+
+- Are target properties and invariants listed?
+- Is each stage rule followed by its preservation reason?
+- Are limit, generic, or termination steps justified?
+- Does the final verification match every target clause?
+
+RESULTS
+
+- Are theorem assumptions and quantifiers complete?
+- Are consistency, implication, equality, asymptotics, and computation kept
+  distinct?
+- Is sharpness or non-improvability located near the theorem?
+
+PROOF
+
+- Is the bottleneck named?
+- Does every case state its hypothesis and discharged obligation?
+- Are local labels reused rather than ornamental?
+- Does the final sentence say exactly what has been proved?
+
+DISCUSSION/CONCLUSION
+
+- Does it state the changed boundary rather than repeat the abstract?
+- Is every open direction an exact question or conjecture?
+- Is any limitation tied to a theorem clause or example?
+
+APPENDIX/LATEX
+
+- Are appendix dependencies announced?
+- Is notation preserved or explicitly reset?
+- Are semantic macros portable and all dependencies included?
+- Are displays punctuated, labels stable, and obsolete source tricks removed?
+
+
+18. SELF-REVISION PROTOCOL
+==========================
+
+PASS 1 — STATUS
+
+Mark every major statement as proved, proposed, heuristic, assumed, cited, or
+numerical. Repair any sentence whose verb implies a stronger lane than its
+evidence.
+
+PASS 2 — MATHEMATICAL SKELETON
+
+Write the dependency graph in one line:
+
+    problem -> obstruction -> definitions -> local obligations -> main result
+    -> limitation/application.
+
+If a section or paragraph has no node or edge in this graph, justify it or
+remove it.
+
+PASS 3 — NOTATION
+
+For every global symbol, record object class, meaning, scope, modifier roles,
+and index ranges. Search for collisions in both directions: one symbol with
+two meanings, and one meaning with two spellings. Verify forcing orientation,
+relation subscripts, bars, stars, and name marks. Replace every unexplained
+private macro.
+
+PASS 4 — DEFINITIONS AND THEOREMS
+
+Check that complex objects reveal their outer form first. Split long hypotheses
+into addressable clauses. Confirm that later references point to the smallest
+correct clause and that no assumption is unused or silently strengthened.
+
+PASS 5 — PROSE–MATH INTERFACE
+
+Read the sentence before and after each display. The first must state the
+display's job; the second must state its consequence or interpretation when
+one is needed. Add punctuation and remove verbal duplication.
+
+PASS 6 — SENTENCES AND PARAGRAPHS
+
+Underline the logical spine of every long sentence. If two independent actions
+remain, split it or use a clause list. Label every paragraph with one engine
+from Section 10. Split paragraphs with two jobs; merge fragments that perform
+only half a job.
+
+PASS 7 — FLOW
+
+Audit every “hence,” “clearly,” “note that,” “in particular,” “moreover,” and
+“however.” State the exact relation it claims. Delete it if no such relation
+exists; add the missing argument if the relation is nontrivial.
+
+PASS 8 — ATTRIBUTION AND DEFENSE
+
+For every cited or compared result, verify provenance and hypotheses. Move
+counterexamples and limitations next to the claim they constrain. Replace
+“without loss of generality” and “for simplicity” with the actual reduction or
+scope statement.
+
+PASS 9 — MATURITY FILTER
+
+Remove manual TeX idioms, raw display delimiters, font machinery, revision
+comments, typist notes, vague contradiction formulas, and accidental
+grammatical roughness. Retain compactness, direct status, local notation
+discipline, proof addresses, and dependency maps.
+
+PASS 10 — STANDALONE TEST
+
+Give the draft to a mathematically qualified reader with no access to private
+macros or project history. They must be able to identify the main theorem,
+parse every symbol, follow the proof obligations, distinguish known from new,
+and state the exact remaining question. If they cannot, revise the decision
+system—not merely the wording.
+
+FINAL TEST
+
+The draft should feel like an argument under active control: dense because the
+mathematics is dense, direct because claim status is explicit, and navigable
+because every object and obligation has an address. If it is merely terse,
+rough, or full of “clearly,” it has copied a surface and missed the style.
