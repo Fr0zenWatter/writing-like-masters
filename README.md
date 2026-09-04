@@ -47,13 +47,12 @@ agent 会按顺序做四件事：
 
 这些风格都以数学正确性为先，主要区别在于如何组织问题、解释概念和推进论证：
 
-- [Grigori Perelman](styles/grigori-perelman.txt)：直接进入核心对象，按逻辑依赖用短段落推进，并明确标出假设、缺口和尚未完成的目标。
-- [Noga Alon](styles/noga-alon.txt)：问题先行、陈述精确、证明紧凑；少作铺陈，把篇幅集中在定义、关键区别和推理本身。
-- [Peter Scholze](styles/peter-scholze.txt)：由明确的数学需要引出新工具，在定义、定理、解释和证明化简之间建立清楚的衔接。
-- [Saharon Shelah](styles/saharon-shelah.txt)：信息密度高，强调显式的依赖关系、带类型的局部记号和可单独引用的分条定义或结论。
-- [Sourav Chatterjee](styles/sourav-chatterjee.txt)：善用简单例子和直观计算引出抽象方法，同时为技术结果补充通俗解释、适用边界和局限。
-- [Terence Tao](styles/terence-tao.txt)：精确交代参数范围和例外，在形式陈述与直观含义之间切换，并把长证明组织成有动机的逐步化简。
-- [Yuwen Li](styles/liyuwen.txt)：从具体方程、离散对象或算法出发，重视条件、误差估计、方法性质以及与已有结果的精确比较。(只是我老板，不是大师，乐)
+- [Grigori Perelman](styles/grigori-perelman.txt)：研究几何分析、微分几何与拓扑，尤其 Ricci flow；整体是**冷峻极简**的文风，少铺垫、直入证明，按逻辑依赖推进，对假设、缺口和未完成之处表述得很克制。
+- [Noga Alon](styles/noga-alon.txt)：研究组合数学、图论、概率方法与理论计算机科学；整体是**精确经济**的文风，问题先行，迅速进入定理与证明，篇幅紧凑，几乎没有多余铺陈。
+- [Peter Scholze](styles/peter-scholze.txt)：研究算术几何、代数几何、p-进几何、上同调与 Langlands；整体是**概念架构型**文风，先识别核心障碍，再引入恰好解决障碍的新对象，在形式陈述与概念直觉之间切换。
+- [Saharon Shelah](styles/saharon-shelah.txt)：研究数理逻辑、模型论与集合论；整体是**高密度构造型**文风，编号、记号和依赖关系极强，常把长证明拆成一系列可定位的局部任务与技术障碍。
+- [Sourav Chatterjee](styles/sourav-chatterjee.txt)：研究概率论、统计、数学物理与分析；整体是**直觉解释型**文风，强调机制和动机，常从具体问题或简单模型切入，再逐步抽象，并解释每一步为什么需要。
+- [Terence Tao](styles/terence-tao.txt)：研究调和分析、偏微分方程、组合数学、数论等多个领域；整体是**教学式导航**文风，层次清晰，不断交替严格陈述与直观解释，把复杂证明组织成一连串有明确动机的 reduction。
 
 ## 同一原稿的风格示例
 

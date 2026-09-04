@@ -47,13 +47,12 @@ Download records, temporary files, and working notes also stay local and are exc
 
 All styles put mathematical correctness first. They differ mainly in how they frame problems, explain ideas, and advance arguments:
 
-- [Grigori Perelman](styles/grigori-perelman.txt): enters directly through the central object, advances in short dependency-ordered paragraphs, and makes assumptions, gaps, and unfinished goals explicit.
-- [Noga Alon](styles/noga-alon.txt): problem-first, precise, and economical, spending words on definitions, decisive distinctions, and logical work rather than ceremony.
-- [Peter Scholze](styles/peter-scholze.txt): introduces machinery in response to a visible mathematical need and connects definitions, theorems, interpretations, and proof reductions clearly.
-- [Saharon Shelah](styles/saharon-shelah.txt): dense and highly structured, with explicit dependencies, typed local notation, and multi-part definitions or results that can be cited precisely.
-- [Sourav Chatterjee](styles/sourav-chatterjee.txt): motivates abstractions with simple examples or intuitive calculations, then pairs technical results with plain-language meaning, scope, and limitations.
-- [Terence Tao](styles/terence-tao.txt): states parameter ranges and exceptions exactly, moves between formal statements and intuition, and organizes long proofs as motivated sequences of reductions.
-- [Yuwen Li](styles/liyuwen.txt): starts from a concrete equation, discrete object, or algorithm, with careful attention to conditions, error estimates, method properties, and exact comparisons with prior results. (He's just my advisor, not a master—lol.)
+- [Grigori Perelman](styles/grigori-perelman.txt): works in geometric analysis, differential geometry, and topology, especially Ricci flow; his prose is **austere and minimalist**, with little preamble, a direct entry into proofs, dependency-ordered reasoning, and restrained statements of assumptions, gaps, and unfinished points.
+- [Noga Alon](styles/noga-alon.txt): works in combinatorics, graph theory, the probabilistic method, and theoretical computer science; his prose is **precise and economical**, putting the problem first, moving quickly to theorems and proofs, and leaving almost no room for unnecessary exposition.
+- [Peter Scholze](styles/peter-scholze.txt): works in arithmetic geometry, algebraic geometry, p-adic geometry, cohomology, and the Langlands program; his prose is **conceptual and architectural**, identifying the central obstruction before introducing exactly the object needed to resolve it, while moving between formal statements and conceptual intuition.
+- [Saharon Shelah](styles/saharon-shelah.txt): works in mathematical logic, model theory, and set theory; his prose is **dense and construction-driven**, with strong numbering, notation, and dependency structures that break long proofs into locatable local tasks and technical obstacles.
+- [Sourav Chatterjee](styles/sourav-chatterjee.txt): works in probability, statistics, mathematical physics, and analysis; his prose is **intuition-led and explanatory**, emphasizing mechanisms and motivation, often beginning with a concrete problem or simple model before moving gradually toward abstraction and explaining why each step is needed.
+- [Terence Tao](styles/terence-tao.txt): works across harmonic analysis, partial differential equations, combinatorics, number theory, and many other fields; his prose offers **tutorial-style navigation**, alternating rigorous statements with intuitive explanations and organizing complex proofs as a sequence of clearly motivated reductions.
 
 ## Style examples from the same source
 
