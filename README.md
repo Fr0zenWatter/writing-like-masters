@@ -45,13 +45,15 @@ agent 会按顺序做四件事：
 
 ## 已有风格
 
-- [Grigori Perelman](styles/grigori-perelman.txt)
-- [Yuwen Li](styles/liyuwen.txt)
-- [Noga Alon](styles/noga-alon.txt)
-- [Peter Scholze](styles/peter-scholze.txt)
-- [Saharon Shelah](styles/saharon-shelah.txt)
-- [Sourav Chatterjee](styles/sourav-chatterjee.txt)
-- [Terence Tao](styles/terence-tao.txt)
+这些风格都以数学正确性为先，主要区别在于如何组织问题、解释概念和推进论证：
+
+- [Grigori Perelman](styles/grigori-perelman.txt)：直接进入核心对象，按逻辑依赖用短段落推进，并明确标出假设、缺口和尚未完成的目标。
+- [Yuwen Li](styles/liyuwen.txt)：从具体方程、离散对象或算法出发，重视条件、误差估计、方法性质以及与已有结果的精确比较。(只是我老板，还不是大师，乐)
+- [Noga Alon](styles/noga-alon.txt)：问题先行、陈述精确、证明紧凑；少作铺陈，把篇幅集中在定义、关键区别和推理本身。
+- [Peter Scholze](styles/peter-scholze.txt)：由明确的数学需要引出新工具，在定义、定理、解释和证明化简之间建立清楚的衔接。
+- [Saharon Shelah](styles/saharon-shelah.txt)：信息密度高，强调显式的依赖关系、带类型的局部记号和可单独引用的分条定义或结论。
+- [Sourav Chatterjee](styles/sourav-chatterjee.txt)：善用简单例子和直观计算引出抽象方法，同时为技术结果补充通俗解释、适用边界和局限。
+- [Terence Tao](styles/terence-tao.txt)：精确交代参数范围和例外，在形式陈述与直观含义之间切换，并把长证明组织成有动机的逐步化简。
 
 ## 准备环境
 
@@ -67,7 +69,12 @@ python -m pip install -r requirements.txt
 
 - 只使用公开来源，并先确认作者身份。
 - 最终 TXT 是写作参考，不是数学正确性的保证。
+- 本项目是独立整理，与风格所涉及的学者本人无隶属、合作或背书关系。
 - 不要上传下载的论文、网页缓存或中间文件。
 - 发布前检查最终 TXT，避免保留大段原文、私人信息或第三方模板内容。
+
+## 许可证
+
+本仓库中的代码、工作流说明和风格文件采用 [MIT License](LICENSE) 发布。下载的论文、语料库、网页缓存及其他第三方材料不属于本仓库，也不在此许可证的授权范围内。
 
 想了解规则，可以阅读[论文收集说明](SCHOLAR_TEX_ACQUISITION_SKILL.md)、[简洁版风格整理说明](SCHOLAR_STYLE_DISTILLATION_LITE_SKILL.md)和[标准版风格整理说明](SCHOLAR_STYLE_DISTILLATION_SKILL.md)。

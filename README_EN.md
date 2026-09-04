@@ -45,13 +45,15 @@ Download records, temporary files, and working notes also stay local and are exc
 
 ## Included styles
 
-- [Grigori Perelman](styles/grigori-perelman.txt)
-- [Yuwen Li](styles/liyuwen.txt)
-- [Noga Alon](styles/noga-alon.txt)
-- [Peter Scholze](styles/peter-scholze.txt)
-- [Saharon Shelah](styles/saharon-shelah.txt)
-- [Sourav Chatterjee](styles/sourav-chatterjee.txt)
-- [Terence Tao](styles/terence-tao.txt)
+All styles put mathematical correctness first. They differ mainly in how they frame problems, explain ideas, and advance arguments:
+
+- [Grigori Perelman](styles/grigori-perelman.txt): enters directly through the central object, advances in short dependency-ordered paragraphs, and makes assumptions, gaps, and unfinished goals explicit.
+- [Yuwen Li](styles/liyuwen.txt): starts from a concrete equation, discrete object, or algorithm, with careful attention to conditions, error estimates, method properties, and exact comparisons with prior results.
+- [Noga Alon](styles/noga-alon.txt): problem-first, precise, and economical, spending words on definitions, decisive distinctions, and logical work rather than ceremony.
+- [Peter Scholze](styles/peter-scholze.txt): introduces machinery in response to a visible mathematical need and connects definitions, theorems, interpretations, and proof reductions clearly.
+- [Saharon Shelah](styles/saharon-shelah.txt): dense and highly structured, with explicit dependencies, typed local notation, and multi-part definitions or results that can be cited precisely.
+- [Sourav Chatterjee](styles/sourav-chatterjee.txt): motivates abstractions with simple examples or intuitive calculations, then pairs technical results with plain-language meaning, scope, and limitations.
+- [Terence Tao](styles/terence-tao.txt): states parameter ranges and exceptions exactly, moves between formal statements and intuition, and organizes long proofs as motivated sequences of reductions.
 
 ## Setup
 
@@ -67,7 +69,12 @@ Public paper sources are normally enough. Extra PDF-reading tools are needed onl
 
 - Use public sources and confirm the scholar's identity first.
 - The final TXT is a writing aid, not a guarantee that the mathematics is correct.
+- This is an independent project and is not affiliated with, sponsored by, or endorsed by any scholar whose style is discussed.
 - Do not commit downloaded papers, cached web pages, or working files.
 - Review each final TXT before publishing it so it does not contain long copied passages, private information, or third-party template text.
+
+## License
+
+The code, workflow guides, and style files in this repository are released under the [MIT License](LICENSE). Downloaded papers, corpora, cached web pages, and other third-party materials are not part of this repository and are not covered by this license.
 
 For the rules, read the [paper collection guide](SCHOLAR_TEX_ACQUISITION_SKILL.md), the [concise style guide](SCHOLAR_STYLE_DISTILLATION_LITE_SKILL.md), and the [standard style guide](SCHOLAR_STYLE_DISTILLATION_SKILL.md).
