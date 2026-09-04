@@ -48,7 +48,7 @@ agent 会按顺序做四件事：
 这些风格都以数学正确性为先，主要区别在于如何组织问题、解释概念和推进论证：
 
 - [Grigori Perelman](styles/grigori-perelman.txt)：直接进入核心对象，按逻辑依赖用短段落推进，并明确标出假设、缺口和尚未完成的目标。
-- [Yuwen Li](styles/liyuwen.txt)：从具体方程、离散对象或算法出发，重视条件、误差估计、方法性质以及与已有结果的精确比较。(只是我老板，还不是大师，乐)
+- [Yuwen Li](styles/liyuwen.txt)：从具体方程、离散对象或算法出发，重视条件、误差估计、方法性质以及与已有结果的精确比较。(只是我老板，不是大师，乐)
 - [Noga Alon](styles/noga-alon.txt)：问题先行、陈述精确、证明紧凑；少作铺陈，把篇幅集中在定义、关键区别和推理本身。
 - [Peter Scholze](styles/peter-scholze.txt)：由明确的数学需要引出新工具，在定义、定理、解释和证明化简之间建立清楚的衔接。
 - [Saharon Shelah](styles/saharon-shelah.txt)：信息密度高，强调显式的依赖关系、带类型的局部记号和可单独引用的分条定义或结论。

@@ -48,7 +48,7 @@ Download records, temporary files, and working notes also stay local and are exc
 All styles put mathematical correctness first. They differ mainly in how they frame problems, explain ideas, and advance arguments:
 
 - [Grigori Perelman](styles/grigori-perelman.txt): enters directly through the central object, advances in short dependency-ordered paragraphs, and makes assumptions, gaps, and unfinished goals explicit.
-- [Yuwen Li](styles/liyuwen.txt): starts from a concrete equation, discrete object, or algorithm, with careful attention to conditions, error estimates, method properties, and exact comparisons with prior results.
+- [Yuwen Li](styles/liyuwen.txt): starts from a concrete equation, discrete object, or algorithm, with careful attention to conditions, error estimates, method properties, and exact comparisons with prior results. (He's just my advisor, not a master—lol.)
 - [Noga Alon](styles/noga-alon.txt): problem-first, precise, and economical, spending words on definitions, decisive distinctions, and logical work rather than ceremony.
 - [Peter Scholze](styles/peter-scholze.txt): introduces machinery in response to a visible mathematical need and connects definitions, theorems, interpretations, and proof reductions clearly.
 - [Saharon Shelah](styles/saharon-shelah.txt): dense and highly structured, with explicit dependencies, typed local notation, and multi-part definitions or results that can be cited precisely.
