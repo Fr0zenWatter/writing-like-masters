@@ -4,7 +4,7 @@
 
 # Writing Like Masters
 
-Turn a scholar's public papers into a practical writing guide that an AI agent can use directly.
+Distill a scholar's academic writing style from public research papers into a practical writing guide that AI agents can use directly.
 
 Tell the agent who the scholar is. It will first make sure it has the right person, collect public paper sources, study how the author explains ideas, uses formulas, and builds arguments, then save the result as one plain TXT file.
 
@@ -48,12 +48,28 @@ Download records, temporary files, and working notes also stay local and are exc
 All styles put mathematical correctness first. They differ mainly in how they frame problems, explain ideas, and advance arguments:
 
 - [Grigori Perelman](styles/grigori-perelman.txt): enters directly through the central object, advances in short dependency-ordered paragraphs, and makes assumptions, gaps, and unfinished goals explicit.
-- [Yuwen Li](styles/liyuwen.txt): starts from a concrete equation, discrete object, or algorithm, with careful attention to conditions, error estimates, method properties, and exact comparisons with prior results. (He's just my advisor, not a master—lol.)
 - [Noga Alon](styles/noga-alon.txt): problem-first, precise, and economical, spending words on definitions, decisive distinctions, and logical work rather than ceremony.
 - [Peter Scholze](styles/peter-scholze.txt): introduces machinery in response to a visible mathematical need and connects definitions, theorems, interpretations, and proof reductions clearly.
 - [Saharon Shelah](styles/saharon-shelah.txt): dense and highly structured, with explicit dependencies, typed local notation, and multi-part definitions or results that can be cited precisely.
 - [Sourav Chatterjee](styles/sourav-chatterjee.txt): motivates abstractions with simple examples or intuitive calculations, then pairs technical results with plain-language meaning, scope, and limitations.
 - [Terence Tao](styles/terence-tao.txt): states parameter ranges and exceptions exactly, moves between formal statements and intuition, and organizes long proofs as motivated sequences of reductions.
+- [Yuwen Li](styles/liyuwen.txt): starts from a concrete equation, discrete object, or algorithm, with careful attention to conditions, error estimates, method properties, and exact comparisons with prior results. (He's just my advisor, not a master—lol.)
+
+## Style examples from the same source
+
+The two documents below were generated from the same mathematical source, illustrating how Peter Scholze's and Terence Tao's styles organize the material differently.
+
+### Peter Scholze
+
+<p align="center">
+  <img src="assets/readme/peter-scholze-blueprint-example.png" alt="A one-page mathematical document in Peter Scholze's style" width="760">
+</p>
+
+### Terence Tao
+
+<p align="center">
+  <img src="assets/readme/terence-tao-blueprint-example.png" alt="A section-free one-page mathematical document in Terence Tao's style" width="760">
+</p>
 
 ## Setup
 

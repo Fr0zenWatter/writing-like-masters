@@ -4,7 +4,7 @@
 
 # Writing Like Masters
 
-从一位学者的公开论文中整理写作习惯，最后得到一份可以直接交给 AI 使用的写作说明。
+从一位学者的公开研究论文中提炼学术写作风格，生成一份可以直接交给 AI agent 使用的实用写作指南。
 
 你只需要告诉 agent 作者是谁。它会先确认找对了人，再收集公开的论文源文件，观察作者怎样组织文字、公式和论证，最后把结果保存成一个简单的 TXT 文件。
 
@@ -48,12 +48,28 @@ agent 会按顺序做四件事：
 这些风格都以数学正确性为先，主要区别在于如何组织问题、解释概念和推进论证：
 
 - [Grigori Perelman](styles/grigori-perelman.txt)：直接进入核心对象，按逻辑依赖用短段落推进，并明确标出假设、缺口和尚未完成的目标。
-- [Yuwen Li](styles/liyuwen.txt)：从具体方程、离散对象或算法出发，重视条件、误差估计、方法性质以及与已有结果的精确比较。(只是我老板，不是大师，乐)
 - [Noga Alon](styles/noga-alon.txt)：问题先行、陈述精确、证明紧凑；少作铺陈，把篇幅集中在定义、关键区别和推理本身。
 - [Peter Scholze](styles/peter-scholze.txt)：由明确的数学需要引出新工具，在定义、定理、解释和证明化简之间建立清楚的衔接。
 - [Saharon Shelah](styles/saharon-shelah.txt)：信息密度高，强调显式的依赖关系、带类型的局部记号和可单独引用的分条定义或结论。
 - [Sourav Chatterjee](styles/sourav-chatterjee.txt)：善用简单例子和直观计算引出抽象方法，同时为技术结果补充通俗解释、适用边界和局限。
 - [Terence Tao](styles/terence-tao.txt)：精确交代参数范围和例外，在形式陈述与直观含义之间切换，并把长证明组织成有动机的逐步化简。
+- [Yuwen Li](styles/liyuwen.txt)：从具体方程、离散对象或算法出发，重视条件、误差估计、方法性质以及与已有结果的精确比较。(只是我老板，不是大师，乐)
+
+## 同一原稿的风格示例
+
+下面两份文稿使用同一份数学原稿生成，分别展示 Peter Scholze 和 Terence Tao 风格下的组织方式。
+
+### Peter Scholze
+
+<p align="center">
+  <img src="assets/readme/peter-scholze-blueprint-example.png" alt="Peter Scholze 风格的单页数学文稿" width="760">
+</p>
+
+### Terence Tao
+
+<p align="center">
+  <img src="assets/readme/terence-tao-blueprint-example.png" alt="Terence Tao 风格的无 section 单页数学文稿" width="760">
+</p>
 
 ## 准备环境
 
