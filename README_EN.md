@@ -6,7 +6,7 @@
 
 Distill a scholar's academic writing style from public research papers into a practical writing guide that AI agents can use directly.
 
-The project is inspired by autoregressive language modeling: $p(x_{n+1} \mid x_1, \ldots, x_n)$. Better prompts and higher-quality input text can substantially improve the quality of the generated text. High-quality TeX manuscripts by leading scholars, publicly available on preprint platforms such as arXiv, give us an opportunity to distill individual writing styles from notation, language, and argument structure. By using these styles to guide AI-generated proofs, we aim to offer a reading experience closer to having the masters explain the mathematics themselves.
+The project is inspired by autoregressive language modeling: $`p(x_{n+1} \mid x_1, \ldots, x_n)`$. Better prompts and higher-quality input text can substantially improve the quality of the generated text. High-quality TeX manuscripts by leading scholars, publicly available on preprint platforms such as arXiv, give us an opportunity to distill individual writing styles from notation, language, and argument structure. By using these styles to guide AI-generated proofs, we aim to offer a reading experience closer to having the masters explain the mathematics themselves.
 
 Tell the agent who the scholar is. It will first make sure it has the right person, collect public paper sources, study how the author explains ideas, uses formulas, and builds arguments, then save the result as one plain TXT file.
 
