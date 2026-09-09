@@ -1,0 +1,563 @@
+AUTHOR STYLE SKILL
+==================
+John Preskill
+An evidence-based decision system for English research writing
+
+1. STYLE IDENTITY
+
+Write as a theoretical physicist who wants the reader to understand what a problem means, why a proposed mechanism might work, and exactly what has been established. Technical confidence and physical curiosity belong together. Precision should improve the explanation rather than replace it.
+
+Retain these decisions:
+
+1) Identify the physical or computational task before advertising a contribution.
+2) Explain the obstacle that makes the task interesting.
+3) Use a concrete example, protocol, or limiting case to make an abstract mechanism visible.
+4) Introduce mathematical objects with their types, roles, and relevant assumptions.
+5) Connect formal results to an operational consequence.
+6) Distinguish an achievable bound from an optimum, a sufficient condition from a necessary one, and a model from the physical system it illustrates.
+7) Separate rigorous arguments, controlled approximations, heuristic reasoning, numerical evidence, attributed results, and forecasts.
+8) Anticipate the natural objection where its underlying assumption enters.
+9) Organize a paragraph around a question, claim, definition, calculation, or qualification.
+10) Carry a physical object or unresolved question across paragraph boundaries.
+11) Discuss limitations directly and identify the next substantive problem.
+12) Use an approachable explanatory voice when the audience benefits from it.
+
+These are HIGH-confidence recurring decisions, supported across sole-authored and collaborative writing. They are not claimed to be unique to this author. Do not impersonate his biography, institutional role, experiences, collaborators, or personal beliefs. Produce new prose with the decision system; do not recycle source sentences.
+
+2. MATURITY MODEL
+
+The observed native-source corpus runs from 1991 to 2026, with some early papers acquired in later revisions. It does not cover the author's actual formative career. Early available work already combines physical motivation, careful distinctions, and explicit objections.
+
+Two present-day registers are useful. For a perspective or overview, prioritize the convergence seen in the sole-authored NISQ discussion of 2018, quantum-information overview of 2022, and megaquop discussion of 2025: explain the opportunity, locate the bottleneck, compare plausible routes, and qualify the outlook. First person and research questions remain available.
+
+For technical research, combine that stable explanatory core with the discipline of the sole-authored correlated-noise analysis and corroborating protocol, channel, coding, and algorithm papers. Let the mathematical task determine density and structure. Recent collaborative papers do not prove that a particular bold font, preamble, proof length, or section order is the author's mature default.
+
+No author-level abandonment of questions, personal voice, hedging, or long explanatory sentences is established. Historical TeX formats need not be reproduced. Treat the revised quantum-information teaching chapter as pedagogical evidence, not as a dated turning point. Prefer stable identity plus the appropriate recent register, without inventing a story of inevitable stylistic improvement.
+
+3. GLOBAL WRITING PRINCIPLES
+
+[G1 — Problem before promotion; HIGH]
+WHEN opening an argument, DO state the task and the feature that resists an obvious solution. AVOID an importance claim that could introduce almost any paper. WHY: the reader should understand the need for the result before evaluating its novelty.
+
+[G2 — Mechanism before unexplained machinery; HIGH]
+WHEN introducing a technique, DO explain what changes in the physical process, information available, or computational resources. AVOID a list of technical ingredients without their jobs. WHY: the ingredients become memorable when they answer a specific obstruction.
+
+[G3 — Local scope for every conclusion; HIGH]
+WHEN stating a guarantee, DO include the assumptions that materially determine its interpretation. AVOID allowing those assumptions to disappear in the abstract, introduction, or conclusion. WHY: a concise claim remains accurate only within the scope of its argument.
+
+[G4 — Interpret the result; HIGH]
+WHEN a derivation ends, DO explain what it permits, rules out, costs, or leaves uncertain. AVOID repeating the formula in words without adding meaning. WHY: the physical or computational implication is the reason the derivation belongs in the narrative.
+
+[G5 — Match the register; HIGH, conditional]
+WHEN writing for a broad scientific audience, DO spend words on concepts and tradeoffs. WHEN writing a proof, DO spend them on definitions, dependencies, and decisive steps. AVOID using mathematical density or conversational informality as an author-identification trick.
+
+4. MATHEMATICAL NOTATION
+
+4.1 Notation design principles
+
+[N1 — Type before glyph; HIGH]
+WHEN a mathematical object first matters, DO identify whether it is a scalar, state, observable, channel, set, space, distribution, parameter, or bound. Supply dimension, units, domain, or normalization when needed. AVOID assigning meaning from typography alone. WHY: the same small alphabet supports many incompatible physical roles. This discipline recurs in symmetry, channel, noise, coding, and learning analyses.
+
+Use established notation when it fits the task, then define the local specialization. Preserve the input manuscript's coherent notation unless a change solves an actual collision. Do not rename every object to resemble a remembered paper. A symbol dictionary is subordinate to the mathematics.
+
+4.2 Typed symbol palette
+
+Use Dirac notation for pure states when the argument concerns quantum states, amplitudes, or subsystem structure. Distinguish these vectors from density operators and from measured numbers. A density operator may use a Greek letter, but the letter alone does not certify positivity, normalization, or its system.
+
+Distinguish an observable from its expectation and a channel from both. Calligraphic forms can help separate maps, spaces, codes, and sets, but each of those categories already occurs in the corpus; the font cannot carry the definition unaided. Bold notation can mark a vector or a matrix/operator in some collaborations. It is not a universal vector rule.
+
+Use lower-case or Greek parameters according to the physical convention and the available namespace. Keep physical units visible where they change the interpretation of a comparison. Use roman descriptive attributes for fixed roles when this makes an indexed family easier to read.
+
+4.3 Stable and conditional concept/role mappings
+
+[N2 — Quantum object distinctions; HIGH, topic-conditioned]
+WHEN a quantum protocol is formalized, DO distinguish state preparation, channel action, measurement operators, and scalar outcomes. AVOID moving between a ket, a density matrix, and a probability as though they were interchangeable. WHY: each belongs to a different operation in the protocol.
+
+Hamiltonians often use H and states often use rho, but neither is globally reserved. H also appears as a parity-check matrix and as entropy. A channel may use a calligraphic letter or a named map; select one local convention with an explicit input/output domain.
+
+For probability, distinguish a random object, a realization, a distribution, and an estimate. A sampling law over quantum states is not itself a quantum state. A sample count is not a Hilbert-space dimension. Define these roles before reporting complexity.
+
+4.4 Modifier grammar
+
+[N3 — Decorate by meaning; HIGH]
+WHEN adding a hat, tilde, bar, star, dagger, or prime, DO state its operation or semantic role and keep that role stable inside the relevant scope. AVOID a universal translation such as hat means estimator or tilde means approximation. WHY: the sources contain direct counterexamples.
+
+A dagger can identify an adjoint or a dual map; explain the pairing for a superoperator. Complex conjugation of a scalar differs from an operator adjoint. A prime can distinguish a modified Hamiltonian or an approximate optimum. A tilde can indicate rescaling, an encoded basis state, or a filtered quantity. Hats can identify an estimator, a unit direction, or a Fourier transform.
+
+Read stacked decorations from the declared base object outward. If both a transformation and a subsystem label are present, make their scopes explicit. Prefer a brief local definition to a visually elaborate form whose interpretation must be guessed.
+
+4.5 Index grammar
+
+[N4 — Give each index a job; HIGH]
+WHEN an object carries several indices, DO say which enumerate subsystems, samples, interaction terms, iterations, or components. Give their ranges when a sum, bound, or algorithm relies on them. AVOID adopting a universal ordering of indices from an unrelated topic. WHY: physical tensor factors and statistical samples obey different rules.
+
+Use subsystem labels consistently through states, operators, and partial traces. Distinguish a parenthesized interaction-order superscript from an exponent. For sampled measurements, distinguish the shot index from the qubit index. In an adaptive procedure, specify which earlier outcomes the next indexed object may depend on.
+
+An index list may name an unordered set rather than an ordered tuple. State the convention, especially when it changes counting factors. Reintroduce a range after changing proof scope instead of assuming that a distant declaration still governs it.
+
+4.6 Operator, relation, and delimiter conventions
+
+[N5 — Preserve the operation; HIGH]
+WHEN writing a trace, norm, inner product, derivative, or optimization, DO identify the relevant domain and convention. AVOID silently replacing one metric by another. WHY: a vector norm, matrix absolute value, Schatten norm, and channel norm can yield different claims.
+
+Choose one consistent trace implementation locally. Lower-case tr, capital Tr, and semantic trace macros are attested alternatives. Their definitions, capitalization, and argument counts vary. A partial trace must identify the eliminated subsystem.
+
+Keep equality, approximation, proportionality, inequality, and asymptotic order distinct. Make explicit what tends to a limit and what is held fixed. If two limits do not commute, their order is part of the result. Size delimiters to clarify grouping, not to decorate every inline expression.
+
+4.7 Namespace, scope, reuse, and collision rules
+
+[N6 — Manage a local namespace; HIGH]
+WHEN introducing a family of related objects, DO reserve visibly related forms and state the family relationship. AVOID using a new decoration merely because the preferred letter is occupied. WHY: notation should help the reader recognize the argument's structure.
+
+Before reusing a letter, check whether a nearby definition already assigns it a different type. Rename an actual collision, or explicitly close the earlier scope. A fresh section is not sufficient notice when the old meaning remains active.
+
+Check macro meaning as carefully as glyph meaning. In different papers, the same short macro can denote an equation environment or a bold coordinate vector. A braket or ketbra macro may take one argument in one source and two in another. Copying such a macro name without its definition can change the mathematics.
+
+4.8 Notation introduction and lifecycle
+
+WHEN a definition is needed once, DO keep it near the calculation it enables. WHEN a family is used throughout a model, DO collect its types and scope in a short setup. AVOID a front-loaded catalogue of symbols that the reader cannot yet place.
+
+Introduce the physical role, give the form, and explain any unfamiliar convention. Recall a definition after a major change of task or a long technical interruption. If an appendix uses the main notation, preserve it; if it introduces a new local namespace, announce that boundary.
+
+Only suppress an index, argument, or normalization factor when the suppression is mathematically harmless in the stated context and explicitly identified. A pedagogical omission in one source is not permission to erase factors from a new proof.
+
+4.9 Equation-composition rules
+
+[N7 — Stage the formalization; HIGH]
+WHEN a single formula would introduce several unrelated objects, DO separate the model, an intermediate quantity, and the resulting relation. AVOID forcing the reader to decode every symbol while also discovering why the equation matters. WHY: staged definitions lower the explanatory burden.
+
+Prepare the display with its task: a channel action, decomposition, probability, criterion, or cost. Follow it with new definitions and its consequence. In a proof with an established namespace, consecutive aligned steps are appropriate; explain the decisive transition rather than every routine algebraic operation.
+
+Use a general statement and a revealing special case in the order that best serves the argument. Do not generalize the special case without restoring its assumptions. Label a relation that will be needed again; numbering is a navigation aid, not evidence of rigor.
+
+4.10 Exact native-TeX specimen bank
+
+The forms below are exact compact native-source specimens. Their glosses are new explanations. DIRECT permits reuse for the same declared role. ADAPT permits the construction but requires local objects, ranges, and definitions. LOCAL_ONLY marks a collision or paper-specific convention that must not become a default. A macro specimen requires its definition in the new document.
+
+States, subsystems, and estimates:
+
+- DIRECT | |n\rangle | Photon-number basis state, with n declared; optical-security analysis.
+- DIRECT | |0\rangle^{\otimes n} | Declared n-qubit product preparation; correlated-noise analysis.
+- DIRECT | |\psi^-\rangle | Conventional singlet label, with normalization stated; clock analysis.
+- ADAPT | \ket{i}_{\rm inside} | State plus subsystem attribute; information-loss discussion.
+- ADAPT | |\tilde{0}\rangle | Encoded basis label, not a generic approximate state; code examples.
+- ADAPT | \rho_\nu | Density operator indexed by a physical parameter; optical source.
+- ADAPT | \rho_E | State of a declared ancillary subsystem; state preparation.
+- ADAPT | \hat{\theta} | Estimated parameter only after an estimation definition; metrology.
+- ADAPT | \theta^0 | Prior/reference parameter value; metrology.
+- ADAPT | \ket{\psi(\theta)} | Parameter-dependent state family; metrology.
+- LOCAL_ONLY | \sigma_\beta | Gibbs reference state; sigma has other physical meanings elsewhere.
+
+Generators, spaces, and mathematical families:
+
+- ADAPT | H_S | System Hamiltonian after the system is declared; noise analyses.
+- ADAPT | H_B | Bath Hamiltonian; preserve the subsystem distinction.
+- ADAPT | H_{SB} | System–bath interaction; define which noise terms it includes.
+- ADAPT | H_x | Indexed Hamiltonian family; measurement/search example.
+- ADAPT | H'_x | Modified Hamiltonian; prime does not universally mean derivative.
+- ADAPT | H^{(k)}_{i_1,i_2, \dots i_k} | Interaction order and participating-qubit list; correlated noise.
+- ADAPT | \HA | Hilbert-space macro expanding to \mathcal{H}_A in the source.
+- ADAPT | T:\HA\mapsto\HB | Domain-to-codomain declaration of an isometry; define both space macros.
+- ADAPT | G_{\rm approx} | Group with a descriptive symmetry attribute; defect analysis.
+- ADAPT | G_{\rm gauge} | A related gauged subgroup; preserve the declared relationship.
+- ADAPT | G_{\rm approx}/H_{\rm approx} | Quotient-space construction; explain its physical role.
+- ADAPT | A_1, A_2, \dots A_n | Enumerated physical subsystems; approximate error correction.
+- ADAPT | T_L | Logical charge observable; L denotes the logical system here.
+- ADAPT | T_A | Physical total charge; define its relation to the logical charge.
+- ADAPT | \Delta T | Spectral range after explicit definition; not automatically a time interval.
+- LOCAL_ONLY | H(X) | Entropy functional in information theory; H is not always a Hamiltonian.
+- LOCAL_ONLY | \vH | Bold Hamiltonian macro in a collaborative analysis; bold does not imply vector.
+
+Channels, measurements, and probabilities:
+
+- ADAPT | \mathcal{E} | CPTP map after its input/output systems are specified.
+- ADAPT | \mathcal{E}^\dagger | Dual channel acting on observables; explain the duality.
+- ADAPT | \mathcal{D} | Distribution over input states; distinct from a density operator.
+- DIRECT | \Tr(O \rho) | Observable expectation for declared O and rho; define the trace macro.
+- ADAPT | o_i(\rho) | Scalar response corresponding to an indexed observable.
+- ADAPT | O_{i+1} | Next observable in an explicitly defined adaptive sequence.
+- ADAPT | \set{M_x}_x | Outcome-indexed POVM; the set macro needs its local definition.
+- ADAPT | \xi | Gaussian displacement variable in a specified channel model.
+- ADAPT | \sigma^2 | Variance in that model; sigma is not globally a noise parameter.
+- ADAPT | P(\xi) | Probability density with its variable and measure understood.
+- ADAPT | \alpha=\sqrt{\nu}e^{i\theta} | Decompose coherent amplitude into magnitude and phase.
+- ADAPT | \nu=|\alpha|^2 | Define mean photon number from a coherent amplitude.
+- ADAPT | p_0=e^{-\nu} | Local vacuum probability; the zero index has a stated event meaning.
+- ADAPT | g(\omega) | Frequency sampling density in a preparation algorithm.
+
+Operators, modifiers, and collisions:
+
+- DIRECT | [q,p]=i\hbar | Canonical commutation relation under the stated operator convention.
+- DIRECT | a^\dagger | Creation/adjoint operator in a declared oscillator convention.
+- DIRECT | \alpha^* | Complex conjugation of a declared scalar amplitude.
+- DIRECT | X \otimes X | Tensor-product Pauli observable on specified systems.
+- DIRECT | Z\otimes Z | Corresponding Z-type observable; tensor order remains meaningful.
+- ADAPT | \overline{X} | Logical Pauli operator in a declared code.
+- ADAPT | \overline{Z} | Related logical operator; preserve the same encoding convention.
+- ADAPT | \langle i_1,i_2, \dots i_k\rangle | Unordered qubit selection in one noise model.
+- ADAPT | \hat{f}(\omega) | Fourier-transformed function, not an estimator.
+- ADAPT | \hat{\be}_a | Coordinate unit direction; be is a locally defined bold-vector macro.
+- LOCAL_ONLY | \tilde{\Phi} | Dimensionless rescaled flux in a symmetry example.
+- LOCAL_ONLY | \sigma_+(\theta) | Exclusive cross-section function, not a density operator.
+- LOCAL_ONLY | \fsre | Filtered resource macro; its tilde expansion does not denote estimation.
+
+Resources, scales, and indexed constructions:
+
+- ADAPT | \tau_{AB} | Proper time between declared events; specify the path or frame as needed.
+- ADAPT | \sqrt{L/C} | Impedance scale from declared circuit parameters.
+- ADAPT | k'/k | Approximation ratio with achieved and optimal values distinguished.
+- ADAPT | \mathcal{O}(\log M) | Sample scaling only under the associated observable assumptions.
+- ADAPT | \mc{O}(n) | Alternative order macro; define mc and the resource being counted.
+- ADAPT | \Theta(n) | Two-sided asymptotic scaling under stated fixed parameters.
+- ADAPT | [[n, k, d]] | Code parameters; define physical size, logical size, and distance.
+- ADAPT | \calO(n^2) | Overhead scaling for a specified state family; define calO.
+- ADAPT | \lambda_i - \lambda_j \approx \pm \omega | Approximate transition-energy relation with indexed eigenstates.
+- LOCAL_ONLY | \Lambda | Cutoff or reported suppression factor in different papers; never infer its role.
+- ADAPT | N\to\infty | System-size limit with the other parameters specified.
+- ADAPT | \beta\to 0 | Temperature-related limit; check its order relative to system size.
+
+4.11 Temporal, topic, and coauthor qualifications
+
+The stable practice is local semantic discipline. Exact fonts, trace capitalization, shorthand, and environment choices vary with topic, collaborators, and publication format. State notation recurs across periods; the meaning of a decorative mark often does not. Sparse recent overviews and dense recent proof papers are different tasks, not successive levels of maturity.
+
+Treat all local resource values, code parameters, optical assumptions, and physical models as evidence examples. Never import them as facts about the new manuscript. The specimen bank teaches construction and collision awareness; it is not a universal physics glossary.
+
+4.12 Notation DO / DO NOT checklist
+
+DO check object type, scope, domain, units, normalization, free indices, summation ranges, modifier meaning, and operator convention.
+DO distinguish a theorem's conditions from the notation that merely names them.
+DO verify every semantic macro's definition and arity.
+DO use the simplest notation that preserves the necessary distinctions.
+DO NOT infer a physical meaning from frequency, font, or a familiar letter.
+DO NOT transfer a local symbol family without its definitions.
+DO NOT silently repair a quoted mathematical specimen into a different formula.
+DO NOT let a style preference change a scientific claim.
+
+5. PROSE–MATH INTERFACE
+
+[PM1 — Give the display a task; HIGH]
+WHEN introducing an equation, DO tell the reader what the equation describes or establishes. Name the relevant channel, state, bound, decomposition, or comparison. AVOID a display inserted after a vague announcement that some mathematics follows. WHY: the reader needs a question against which to read the formula.
+
+[PM2 — Supply what the equation cannot say; HIGH]
+WHEN continuing after a display, DO define new symbols, identify the operative assumption, or explain the physical consequence. AVOID merely pronouncing each algebraic operation in English. WHY: prose should add interpretation and logical scope.
+
+[PM3 — Keep the sentence intact; HIGH]
+WHEN a display completes a sentence, DO punctuate it accordingly and make the following clause grammatically connected. AVOID treating every equation as an isolated caption. Use a new sentence when the argument changes from defining a quantity to interpreting it.
+
+Place a short physical explanation before a complicated formalism when it clarifies why that formalism is needed. In an already established proof, allow compact mathematics to lead and explain the nonobvious step afterward. Do not impose the same prose-to-equation ratio on an overview, a model setup, and a technical appendix.
+
+For a bound, the useful interpretation often concerns scaling, access, error, or a limiting regime. For a state or channel, it often concerns what an observer can prepare, preserve, distinguish, or infer. Tie the mathematical object back to that role.
+
+6. MATHEMATICAL NARRATIVE
+
+Use one of the following sequences when it matches the supplied result:
+
+Physical question → concrete model → explicit assumptions → formal criterion → consequence.
+Familiar classical construction → quantum distinction → proposed analogue → limitation.
+Operational protocol → state/channel description → proof or bound → accessible output.
+General definition → informative special case → mechanism → restored general scope.
+Tempting remedy → what the remedy actually changes → residual obstruction → revised task.
+
+WHEN proving a theorem, DO state the proof's goal and identify the reduction or estimate that carries the argument. Divide a long proof by subgoals that the reader can recognize. AVOID producing a chain of inequalities whose role becomes apparent only at the end.
+
+WHEN giving a proof sketch, DO indicate what is omitted and where the missing justification belongs. AVOID treating an intuitive picture as a complete proof. The sketch can explain why the result is plausible while the formal argument establishes the precise statement.
+
+WHEN using a toy model, DO distinguish an exact result inside the model from the physical correspondence it illustrates. AVOID allowing a suggestive construction to inherit the full claims of the system it resembles.
+
+WHEN reporting computational efficiency, DO identify the input, required access, output, accuracy, and resources included. AVOID equating an asymptotic guarantee with practical usefulness. Both scaling and the assumptions behind its implementation belong to the narrative.
+
+7. VOCABULARY RULES
+
+[V1 — Match the verb to the evidence; HIGH]
+Use prove, establish, or derive when an argument supplies the stated guarantee. Use propose or construct for a method or model. Use estimate, approximate, or bound when that is the actual operation. Use suggest, may, might, or could for implications that the evidence does not settle.
+
+Do not mechanically weaken a theorem that is proved. Instead, keep its assumptions visible. Conversely, do not strengthen a numerical observation by attaching a more assertive verb. A sentence can be direct and conditional at the same time.
+
+[V2 — Name the mechanism; HIGH]
+WHEN explaining why a method works, DO name the physical process or mathematical relation responsible. Prefer concrete verbs such as encode, measure, recover, suppress, prepare, distinguish, or bound when they accurately describe the action. AVOID broad verbs whose object could be almost anything.
+
+[V3 — Compare by task; HIGH]
+WHEN discussing prior work, DO state what it achieves and which requirement remains unmet. Use distinctions involving access, model class, accuracy, resources, robustness, or proof status. AVOID dismissive novelty language unsupported by a concrete comparison.
+
+[V4 — Control emphasis; MEDIUM, genre-conditioned]
+An overview may express excitement, skepticism, or a personal expectation when clearly marked as judgment. A technical result usually needs its mechanism and scope more than an intensifier. Avoid turning occasional humor or exuberance into a recurring signature.
+
+Use contrast words when the logical contrast matters, and consequence words when the inference is valid. Do not distribute however, therefore, or indeed by quota. Repetition of the central technical term can provide better continuity than a thesaurus substitution that changes its scope.
+
+8. SENTENCE ARCHITECTURE
+
+Prefer architectures whose logic is easy to follow:
+
+Condition → claim → reason.
+Known achievement → missing condition → resulting question.
+Method → result → operational implication.
+Concession → qualified conclusion.
+Definition → relation → interpretation.
+Result → scope restriction → remaining possibility.
+
+WHEN a sentence carries a major qualification, DO place it where its scope is unmistakable. AVOID attaching a caveat at the end of a long sentence when it could modify several different claims.
+
+WHEN a sentence introduces both a new object and a new argument, DO consider separating the definition from the consequence. AVOID asking a parenthesis to carry a theorem assumption, a notation definition, and a literature comparison simultaneously.
+
+Use a short sentence to land a conclusion after a longer explanation when the conclusion benefits from emphasis. Keep a longer sentence when its clauses express one closely connected comparison. There is no supported universal word limit or rule that later writing must be shorter.
+
+First-person constructions can identify the action of the present paper or a marked judgment. Choose I or we according to the actual authorship and context. Use impersonal statements for facts whose agent is irrelevant. Do not force passive voice to sound formal or first person to sound like the author.
+
+Questions are useful when they organize the next argument, particularly in overviews and conceptual discussions. Answer or develop the question promptly. Avoid rhetorical questions that merely repeat an already settled result.
+
+9. RHETORICAL MOVE ALGORITHMS
+
+[RM1 — The incomplete obvious answer; HIGH]
+WHEN a familiar method seems to solve the problem, DO explain its genuine achievement, expose the missing assumption or resource, and formulate the remaining task. AVOID pretending the prior method accomplishes nothing. WHY: a fair contrast makes the contribution precise.
+
+[RM2 — The operational explanation; HIGH]
+WHEN introducing a protocol, DO describe who or what has access to which system, the allowed operations, the resulting information, and the failure condition. Then formalize the essential steps. AVOID a narrative that cannot be matched to the mathematical model.
+
+[RM3 — The scoped guarantee; HIGH]
+WHEN stating a theorem or performance result, DO name the class of instances, assumptions, metric, and resulting capability. Follow with an interpretation and a relevant boundary. AVOID changing the class of instances when summarizing the claim later.
+
+[RM4 — The productive objection; HIGH]
+WHEN a natural counterargument arises, DO isolate the assumption it challenges and test it using a calculation, example, countermodel, or explicit limitation. AVOID dismissing the objection with confidence alone. WHY: the response should improve the reader's understanding of the result.
+
+[RM5 — The calibrated outlook; HIGH, overview-conditioned]
+WHEN assessing a developing field, DO distinguish what has been demonstrated, what engineering or conceptual obstacle remains, and which routes plausibly address it. AVOID a promised timetable unsupported by the evidence. End with a concrete scientific question or useful next capability.
+
+[RM6 — The model-to-physics bridge; HIGH]
+WHEN a mathematical construction captures part of a physical phenomenon, DO identify exactly which features it reproduces and which it leaves out. AVOID allowing an analogy to supply missing evidence. WHY: the construction can be illuminating without being a complete account.
+
+10. PARAGRAPH ENGINES
+
+Select an engine according to the paragraph's job. Do not turn these sequences into repeated sentence templates.
+
+1) Puzzle engine: familiar picture → tension → precise question → proposed entry.
+2) Mechanism engine: desired capability → obstruction → enabling idea → residual cost.
+3) Definition engine: object type → notation → defining relation → interpretation.
+4) Example engine: special setting → calculation or protocol → lesson → scope.
+5) Protocol engine: input/access → operation → output → failure condition.
+6) Guarantee engine: claim → assumptions → bound or result → consequence.
+7) Objection engine: challenge → analysis → narrowed conclusion → remaining issue.
+8) Literature engine: achievement → relevant limitation → comparison criterion → current task.
+9) Proof engine: subgoal → decisive step → local conclusion → next subgoal.
+10) Numerical engine: question → computed comparison → observed behavior → analytic boundary.
+11) Outlook engine: established progress → bottleneck → plausible route → conditional prospect.
+12) Bridge engine: completed result → unresolved dependency → next section's task.
+
+Open with the claim, question, or object that determines the paragraph's work. Put supporting detail where the reader needs it. Close with a consequence, qualification, or forward link rather than a generic declaration of importance.
+
+Split a paragraph when it changes from one independent claim to another, or when a long derivation needs a new subgoal. Do not split every displayed equation into a different argumentative unit. Conversely, a single paragraph should not simultaneously introduce a method, survey its history, prove a theorem, and announce a future program.
+
+11. SECTION MODELS
+
+Introduction
+Purpose: make the task, obstacle, and contribution intelligible.
+Opening: a physical phenomenon, computational need, established capability, or conceptual puzzle.
+Move sequence: context → what is understood → precise limitation → central idea → supported result → scope.
+Paragraph sequence: orient the reader, sharpen the question, explain the approach, state what changes, then provide a roadmap only if useful.
+Claim strength: direct about demonstrated contributions and explicit about assumptions.
+Math density: introduce only objects needed to understand the task or headline guarantee.
+Citations: attach prior results to the claim they support; compare relevant capabilities.
+Transition: let the obstacle motivate the proposed approach.
+Closing: tell the reader what the next section must establish.
+Avoid: a generic importance lead, a literature catalogue, or an abstract theorem without its physical role.
+
+Literature Review
+Purpose: locate the present task relative to actual achievements and limits.
+Opening: the comparison dimension that matters, such as assumptions, access, accuracy, or cost.
+Move sequence: classify approaches → explain their gains → identify the remaining requirement → position the current result.
+Paragraph sequence: organize by scientific question or method capability rather than automatically by date.
+Claim strength: fair and bounded; identify an unproven point without implying that all related work is deficient.
+Math density: enough to make competing tasks comparable.
+Citations: narrative when attribution is the point, grouped when several works support one category.
+Transition: a comparison should produce a question the paper addresses.
+Closing: restate the precise unresolved requirement.
+Avoid: unsupported priority claims or a mandatory separate review section when integrated discussion suffices.
+
+Theory
+Purpose: establish the model, definitions, assumptions, and result.
+Opening: the object and physical situation to be formalized.
+Move sequence: motivation → typed setup → conditions → result → explanation or special case.
+Paragraph sequence: separate definitions, principal claims, mechanisms, and boundary cases.
+Claim strength: distinguish theorem, conjecture, approximation, and interpretive analogy.
+Math density: high where the result requires it; symbols remain locally introduced.
+Citations: identify imported lemmas, models, and conventions.
+Transition: state why each formal step is needed for the next one.
+Closing: translate the result into its physical or computational consequence.
+Avoid: changing a model assumption without notice or treating a toy construction as a full physical theory.
+
+Methods
+Purpose: specify how the task is carried out and evaluated.
+Opening: inputs, access, preparation, and the target output.
+Move sequence: model or protocol → operations → implementation → accuracy/error → resource accounting.
+Paragraph sequence: group by operational stage or analysis subgoal.
+Claim strength: state whether a step is exact, approximate, simulated, or assumed feasible.
+Math density: sufficient for reproduction and interpretation; defer long derivations with clear pointers.
+Citations: credit borrowed protocols and implementation choices.
+Transition: connect the output of one stage to the input of the next.
+Closing: identify what the procedure guarantees and how performance is assessed.
+Avoid: omitting state-preparation, measurement, classical processing, or convergence costs when they affect the claim.
+
+Results
+Purpose: answer the stated question at the supported level of generality.
+Opening: the principal bound, construction, behavior, or experimentally evaluated quantity.
+Move sequence: result → applicable regime → evidence → interpretation → limitation.
+Paragraph sequence: separate formal guarantees, special cases, and numerical observations.
+Claim strength: exact for what is proved; descriptive for observed performance; conditional for extrapolation.
+Math density: enough to identify scaling, metric, and magnitude.
+Citations: distinguish the new result from a reused benchmark or theorem.
+Transition: use the result to motivate the next comparison or test.
+Closing: state what has become possible or what obstruction remains.
+Avoid: treating a lower bound as the optimum or numerical agreement as proof of all regimes.
+
+Discussion / Conclusion
+Purpose: recover the scientific significance and delimit what remains unresolved.
+Opening: the question answered or distinction clarified.
+Move sequence: achieved result → consequence → boundary → concrete further problem.
+Paragraph sequence: synthesize without repeating the full derivation, then discuss the decisive limitation.
+Claim strength: preserve the qualifications used in the technical argument.
+Math density: usually lower; retain a scale or condition when essential.
+Citations: use them for a substantive comparison or future connection, not ceremonial breadth.
+Transition: a limitation should generate a meaningful next question.
+Closing: a specific unresolved issue, practical requirement, or conditional prospect.
+Avoid: inflated final claims, promised impact, or a new theorem introduced without support.
+
+Proof / Appendix
+Purpose: supply the technical justification that the main narrative cannot carry comfortably.
+Opening: identify the claim, notation, and assumptions used.
+Move sequence: subgoal → reduction → decisive estimate or identity → conclusion.
+Paragraph sequence: one recognizable proof task at a time, with local lemmas when needed.
+Claim strength: preserve quantifiers and exceptional cases exactly.
+Math density: high, with explanatory prose at nonroutine steps.
+Citations: distinguish invoked results from arguments established here.
+Transition: show how each lemma or calculation feeds the main claim.
+Closing: explicitly discharge the promised statement.
+Avoid: hidden changes of notation, omitted hypotheses, or using a proof sketch as a substitute for missing justification.
+
+12. FLOW AND TRANSITION RULES
+
+Build continuity through the argument's objects. The output of a protocol becomes the next paragraph's state to analyze. A bound leads to the question of attainability. A successful ideal model motivates the issue of robustness. A physical limitation determines the next algorithmic requirement.
+
+WHEN moving between paragraphs, DO carry forward the relevant object, property, or unanswered question. AVOID a connective that conceals a change of subject. WHY: conceptual continuity should survive even if the transition word is removed.
+
+WHEN a contrast changes the conclusion, DO name the changed assumption or competing mechanism. AVOID using however merely to add another observation.
+
+WHEN a derivation yields a consequence, DO verify that the consequence follows at the stated scope before using therefore or hence. Distinguish a logical consequence from an analogy or a plausible expectation.
+
+WHEN beginning a section, DO state the work it performs in the larger argument. A short backward link can recall what has been achieved; a forward link can identify the missing step. Avoid summarizing the entire previous section before advancing.
+
+Use research questions to organize an overview when they genuinely determine the next discussion. In a proof, use subgoals and dependencies more often than conversational prompts. Neither explicit transitions nor questions are known to be abandoned in recent writing.
+
+13. LATEX CODING STYLE
+
+Follow the destination manuscript's established class, packages, bibliography system, and conventions. The evidence does not support a single personal Preskill template. Historical plain-TeX formats, journal layouts, and collaborator preambles should not be copied for stylistic resemblance.
+
+WHEN a mathematical expression recurs, DO consider a semantic macro whose definition is short and locally clear. AVOID importing a large alphabet of unused commands. WHY: a macro should preserve meaning and consistency, not obscure the source.
+
+Check macro arity and expansion before reuse. Do not assume that a familiar name has the same definition in another project. Keep formatting commands distinct from scientific objects, and do not treat comments or revision commands as publishable prose.
+
+Use the existing numbered or unnumbered display conventions according to navigation needs. Align related steps when alignment clarifies the reasoning. Keep punctuation consistent with surrounding sentences. The corpus uses several environments; no single one is a personal signature.
+
+Use labels that identify the referenced object or result, and maintain the manuscript's reference spelling consistently. Citation commands should match the document's bibliography system. A citation belongs near the claim it supports.
+
+Introduce a figure or table through the question it answers. Explain the result in the prose and make the caption sufficient to identify the represented objects and conditions. Do not infer an author's preferred figure placement or table design from a publisher template.
+
+Keep appendices navigable and preserve the main notation where applicable. Remove drafting artifacts from final prose, while retaining source integrity when analyzing an existing corpus.
+
+14. CLAIM-STRENGTH CALIBRATION
+
+PROVED: state the exact result and its hypotheses. A sufficient condition remains sufficient. An upper or lower bound retains its direction. A theorem about an ideal model does not establish that all hardware satisfies that model.
+
+CONSTRUCTED OR PROPOSED: describe the object or protocol and what is demonstrated about it. Feasibility, usefulness, and optimality require separate evidence.
+
+HEURISTIC: identify the physical argument and the step lacking rigorous control. Explain why the reasoning is informative without relabeling it a theorem.
+
+APPROXIMATE: name the regime, neglected terms, and error control available. Do not let an asymptotic expression imply accuracy at unspecified finite parameters.
+
+NUMERICAL OR EXPERIMENTAL: report what was measured or simulated, the relevant conditions, and the observed behavior. Describe agreement with analysis at the tested settings; do not extend it automatically to every instance.
+
+ASSUMED: place the assumption where the dependent conclusion is stated. A conjectured complexity separation, accessible input state, favorable gap, or noise restriction is part of the claim's scope.
+
+CITED: attribute the imported result and preserve its conditions. Do not make a cited conjecture sound like an established theorem.
+
+PROSPECTIVE: state what might become possible and what must change first. A plausible research opportunity is not a forecast with a guaranteed timetable.
+
+WHEN revising, DO trace every strong verb back to the evidence supporting its sentence. AVOID replacing all strong verbs with hedges. Accurate calibration requires both strength where justified and restraint where necessary.
+
+15. REVIEWER-DEFENSE BEHAVIOR
+
+Anticipate the objection that a technically informed reader would naturally raise about the actual argument. Common questions concern the noise model, state preparation, access assumptions, limiting regime, metric, resource count, normalization, or interpretation of a model.
+
+WHEN an objection challenges a hypothesis, DO identify that hypothesis and explain the result's dependence on it. AVOID burying the answer in a general discussion of limitations. WHY: the reader needs to know which conclusion survives the change.
+
+WHEN an example appears to contradict a claim, DO test whether it belongs to the stated class. If it does, investigate the claim; if it does not, explain the boundary. Do not dismiss a counterexample through rhetorical confidence.
+
+WHEN a useful method has a tradeoff, DO acknowledge the cost alongside its benefit. A protocol that lowers one resource may increase another. An error remedy may also remove information needed for the task.
+
+WHEN a result is only about an issue of principle, DO say so and distinguish it from an optimized engineering estimate. Do not promise realistic thresholds, universality, or practical speedups that the argument does not establish.
+
+Do not invent defensive experiments, citations, benchmarks, or analyses. Flag the missing support and narrow the prose to what exists.
+
+16. DO / DO NOT
+
+DO make the task and obstruction concrete.
+DO connect mathematical structure to physical or operational meaning.
+DO define types, domains, indices, metrics, and assumptions where needed.
+DO use examples to explain mechanisms and test scope.
+DO distinguish proposed, proved, approximated, observed, cited, and anticipated claims.
+DO retain a clear human explanatory voice.
+DO make uncertainty specific.
+DO end with the actual remaining question.
+
+DO NOT copy sentences, personal anecdotes, or distinctive closing slogans.
+DO NOT paste an old preamble or paper-specific notation into a new topic.
+DO NOT equate recent publication with stylistic maturity.
+DO NOT let one long chapter or collaborator determine the whole profile.
+DO NOT mistake a familiar physical convention for a uniquely personal habit.
+DO NOT convert a toy-model result into a general physical claim.
+DO NOT manufacture symbols, references, empirical evidence, or assumptions.
+DO NOT sacrifice mathematical correctness to stylistic resemblance.
+
+17. SECTION-SPECIFIC CHECKLIST
+
+Introduction: Can the reader name the task, obstruction, proposed idea, principal contribution, and decisive qualification?
+
+Literature: Are the compared approaches solving the same problem under comparable assumptions? Is each claimed limitation actually supported?
+
+Theory: Are objects typed and conditions stated before the result depends on them? Does the reader understand the mechanism or a revealing example?
+
+Methods: Are input access, operations, outputs, error criteria, and relevant costs specified? Are implementation assumptions distinguished from guarantees?
+
+Results: Are proof, numerical evidence, and interpretation separated? Are bound direction, scaling variables, and regimes preserved?
+
+Discussion: Does the synthesis retain the scope of the argument? Does the proposed next step address an identified limitation?
+
+Proof / Appendix: Does each technical component have a recognizable job? Are definitions, quantifiers, and notation consistent with the main statement?
+
+Overview: Are progress and bottlenecks both concrete? Is personal judgment marked? Does a question guide actual explanation rather than merely create atmosphere?
+
+Every section: Does each equation have a purpose, each paragraph a task, and each strong claim adequate support?
+
+18. SELF-REVISION PROTOCOL
+
+Pass 1 — Scientific contract.
+Identify the task, section, audience, evidence type, and intended claim strength. List the assumptions that cannot be dropped. Preserve the supplied mathematics and flag unresolved inconsistencies.
+
+Pass 2 — Argument.
+Trace problem → obstruction → idea → evidence → consequence → boundary. Repair missing links before polishing individual sentences. Remove claims that the available evidence cannot support.
+
+Pass 3 — Notation.
+Check object types, domains, dimensions, normalization, units, indices, modifier meanings, operator conventions, and macro definitions. Resolve real collisions. Verify that state, channel, observable, and outcome remain distinct.
+
+Pass 4 — Paragraph work.
+Assign a primary engine to each paragraph. Move details to the point where they answer the reader's question. Split independent tasks and combine fragments that form one argument.
+
+Pass 5 — Prose and mathematics.
+Check that displays are prepared and interpreted, that decisive proof steps are explained, and that the physical or computational consequence remains visible. Remove prose that merely duplicates transparent algebra.
+
+Pass 6 — Calibration and defense.
+Audit strong verbs, approximations, bounds, cited statements, numerical generalizations, and forecasts. Address the natural objection at the relevant assumption. Keep limitations specific rather than ceremonial.
+
+Pass 7 — Register and originality.
+Use the supported overview or technical register as appropriate. Remove copied phrasing, borrowed biography, forced questions, decorative enthusiasm, and imitation of template details. The finished text should explain new work clearly without pretending to be a historical source.
+
+Pass 8 — Final read.
+Read paragraph openings and closings in sequence, then the principal equations and claims. The task, mechanism, support, and limits should remain intelligible through both readings. Finish only when stylistic revision has preserved the science.
