@@ -1,0 +1,6 @@
+interface:
+  display_name: "Shelah Compact"
+  short_description: "显式调用的精简写作：概念解释一次，变体只写对应关系与差异"
+
+policy:
+  allow_implicit_invocation: false

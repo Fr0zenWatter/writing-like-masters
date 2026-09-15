@@ -1,0 +1,6 @@
+interface:
+  display_name: "Shelah Compact (English)"
+  short_description: "Explicit-only concise explanations and rewrites"
+
+policy:
+  allow_implicit_invocation: false

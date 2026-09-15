@@ -10,7 +10,33 @@
 
 你只需要告诉 agent 作者是谁。它会先确认找对了人，再收集公开的论文源文件，观察作者怎样组织文字、公式和论证，最后把结果保存成一个简单的 TXT 文件。
 
-## 最简单的用法
+## 两种使用方式
+
+### 1. 用 `$skill` 临时解释概念
+
+先让 Codex 安装 [skill-creation/](skill-creation/README.md) 中的技能：
+
+```text
+请将 skill-creation/ 中的两个 skill 安装到我的个人技能目录。
+```
+
+安装后，在输入框输入 `$`，选择 `shelah-compact`，再粘贴需要解释的概念或原文：
+
+```text
+$shelah-compact 请解释下面这段内容：……
+```
+
+它会合并重复概念，变体只写差异，优先使用公式，除非文字更简洁。英文规则版用 `$shelah-compact-en`。仅本次显式调用生效，后续需要时再次调用。
+
+### 2. 用 style 润色论文
+
+从 [styles/](styles/) 选择学者风格，将对应 TXT 和论文内容交给 agent：
+
+```text
+请按 styles/saharon-shelah.txt 润色以下论文段落，保留数学含义、假设和符号：……
+```
+
+## 想要其他大师风格？
 
 在这个文件夹里对 agent 说：
 

@@ -10,7 +10,33 @@ The project is inspired by autoregressive language modeling: $`p(x_{n+1} \mid x_
 
 Tell the agent who the scholar is. It will first make sure it has the right person, collect public paper sources, study how the author explains ideas, uses formulas, and builds arguments, then save the result as one plain TXT file.
 
-## Easiest way to use it
+## Two ways to use it
+
+### 1. Use `$skill` to explain concepts for one request
+
+First, ask Codex to install the skills in [skill-creation/](skill-creation/README.md):
+
+```text
+Install both skills from skill-creation/ into my personal skills directory.
+```
+
+Once installed, type `$` in the prompt box, select `shelah-compact-en`, and paste the concept or passage:
+
+```text
+$shelah-compact-en Explain the following passage: …
+```
+
+It merges repeated concepts, states only variant differences, and prefers formulas unless prose is more concise. Use `$shelah-compact` for the version with Chinese instructions. The skill applies only to the explicit request; invoke it again when needed.
+
+### 2. Use a style to polish a paper
+
+Choose a scholar's style from [styles/](styles/) and give the agent the corresponding TXT file and your paper text:
+
+```text
+Polish the following paper excerpt using styles/saharon-shelah.txt. Preserve the mathematical meaning, assumptions, and notation: …
+```
+
+## Want another master's style?
 
 Ask an agent from this folder:
 
